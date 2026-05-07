@@ -442,3 +442,137 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	setInterval(startSlider, 4000); // 4 seconds delay
 });
+
+(function () {
+
+    /* ============================================================
+       STEP 1: Apni theme ka fixed header yahan measure karo
+       Console mein run karo: document.querySelector('#menu-container').offsetHeight
+       Woh number yahan daalo
+    ============================================================ */
+    var HEADER_H = 80; /* <-- apni header height px mein */
+    var MOBILE_BREAKPOINT = 768; /* sidebar is yahan se neeche hide hoti hai */
+
+    var tocBox = document.getElementById('tocBox');
+    var mainContent = document.getElementById('mainContent');
+    var tocLinks = document.querySelectorAll('.toc-link');
+    var sections = document.querySelectorAll('.scroll-section');
+    var sidebarCol = tocBox ? tocBox.parentElement : null;
+
+    if (!tocBox || !mainContent || !sidebarCol) return;
+
+    /* sidebarCol ko relative karo taake absolute position kaam kare */
+    sidebarCol.style.position = 'relative';
+
+    /* ── Helper: desktop hai ya nahi ── */
+    function isDesktop() {
+        return window.innerWidth > MOBILE_BREAKPOINT;
+    }
+
+    /* ── tocBox ke inline styles reset karo (mobile ke liye) ── */
+    function resetTocStyles() {
+        tocBox.style.position = '';
+        tocBox.style.top = '';
+        tocBox.style.width = '';
+    }
+
+    /* ── 1. JS STICKY — fixed/absolute switching (sirf desktop par) ── */
+    function onScroll() {
+
+        /* Mobile par sticky bilkul nahi chalana */
+        if (!isDesktop()) {
+            resetTocStyles();
+            return;
+        }
+
+        var scrollY = window.pageYOffset;
+        var tocH = tocBox.offsetHeight;
+        var colW = sidebarCol.offsetWidth;
+
+        /* mainContent ka page par actual position */
+        var wrapTop = mainContent.getBoundingClientRect().top + scrollY;
+        var wrapBottom = wrapTop + mainContent.offsetHeight;
+
+        var fixedStart = wrapTop - HEADER_H;
+        var fixedEnd = wrapBottom - tocH - HEADER_H;
+
+        if (scrollY < fixedStart) {
+            /* Section abhi screen se upar nahi aaya — normal flow */
+            tocBox.style.position = 'relative';
+            tocBox.style.top = 'auto';
+            tocBox.style.width = '';
+
+        } else if (scrollY >= fixedEnd) {
+            /* Content khatam — sidebar bottom par rok do */
+            tocBox.style.position = 'absolute';
+            tocBox.style.top = (mainContent.offsetHeight - tocH) + 'px';
+            tocBox.style.width = colW + 'px';
+
+        } else {
+            /* Content scroll ho raha hai — sidebar fixed rakho */
+            tocBox.style.position = 'fixed';
+            tocBox.style.top = HEADER_H + 'px';
+            tocBox.style.width = colW + 'px';
+        }
+
+        /* ── 2. SCROLLSPY — active link update ── */
+        updateActive(scrollY);
+    }
+
+    /* ── Active link: jo section viewport mein ho uska link highlight karo ── */
+    function updateActive(scrollY) {
+        var current = '';
+        sections.forEach(function (sec) {
+            /* section ka top viewport ke andar aa gaya — active karo */
+            if (scrollY + HEADER_H + 20 >= sec.offsetTop) {
+                current = sec.getAttribute('id');
+            }
+        });
+        tocLinks.forEach(function (link) {
+            var isActive = link.getAttribute('href') === '#' + current;
+            link.classList.toggle('active', isActive);
+        });
+    }
+
+    /* ── 3. TOC CLICK — FIX: heading header ke neeche chhupta tha ── */
+    tocLinks.forEach(function (link) {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            var target = document.querySelector(this.getAttribute('href'));
+            if (!target) return;
+
+            /* getBoundingClientRect current viewport position deta hai
+               pageYOffset current scroll add karo = page par absolute position
+               HEADER_H + 20 = header height + thoda breathing room */
+            var targetTop = target.getBoundingClientRect().top +
+                window.pageYOffset -
+                HEADER_H -
+                20;
+
+            window.scrollTo({
+                top: targetTop,
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    /* ── 4. RESIZE: mobile par aao toh styles reset karo ── */
+    var resizeTimer;
+    window.addEventListener('resize', function () {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(function () {
+            if (!isDesktop()) {
+                resetTocStyles();
+            } else {
+                onScroll(); /* desktop wapas aaya — recalculate */
+            }
+        }, 100); /* debounce resize */
+    }, { passive: true });
+
+    /* Scroll event */
+    window.addEventListener('scroll', onScroll, { passive: true });
+
+    /* Page load par ek baar run karo */
+    onScroll();
+
+})();

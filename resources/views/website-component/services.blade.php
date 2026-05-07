@@ -1,6 +1,7 @@
 <div class="services-grid">
     <div class="container">
 
+    @if(isset($services))
     @foreach($services as $service)
         <div class="dt-sc-one-fourth column">
             
@@ -13,6 +14,7 @@
 
         </div>
     @endforeach
+    @endif
 
     </div>
 

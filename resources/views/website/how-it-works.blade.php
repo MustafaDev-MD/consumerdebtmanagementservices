@@ -250,7 +250,7 @@
         <div class="container aligncenter flex flex-direction-column">
             <div class="column dt-sc-one-half first">
 
-                <h2 class="dt-sc-hr-icon-title"> <img src="{{ asset('assets/images/question.png') }}" alt="Question" class="question"> Faq's </h2>
+                <h2 class="dt-sc-hr-icon-title"> <img src="{{ asset('assets/images/help.png') }}" alt="Question" class="question"> Faq's </h2>
                 <!--dt-sc-toggle-frame-set starts-->
                 <div class="dt-sc-toggle-frame-set faq alignLeft">
                     <h5 class="dt-sc-toggle-accordion"><a href="#"> How will your program influence my credit rating? </a></h5>

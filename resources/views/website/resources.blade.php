@@ -78,7 +78,7 @@
     <div class="container aligncenter flex flex-direction-column">
         <div class="column dt-sc-two-third first">
 
-            <h2 class="dt-sc-hr-icon-title mb-2"> <img src="{{ asset('assets/images/question.png') }}" alt="Question" class="question"> Common Inquiries </h2>
+            <h2 class="dt-sc-hr-icon-title mb-2"> <img src="{{ asset('assets/images/help.png') }}" alt="Question" class="question"> Common Inquiries </h2>
             <p class="aligncenter">All the information required regarding debt resolution</p>
             <!--dt-sc-toggle-frame-set starts-->
             <div class="dt-sc-toggle-frame-set faq alignLeft">
