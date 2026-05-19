@@ -192,6 +192,14 @@ class FrontendController extends Controller
         ]);
     }
 
+    public function debtReliefOptionsAndBenefits()
+    {
+        return view('website.resources.debt-relief-settlement.debt-relief-options-and-benefits', [
+            'title' => 'Debt Relief Options and Benefits',
+            'services' => $this->getServices()
+        ]);
+    }
+
     public function ourFirm()
     {
         return view('website.our-firm', [

@@ -45,6 +45,9 @@ Route::prefix('resources/debt-relief-settlement')
         Route::get('/national-debt-relief-top-faqs', 'nationalDebtReliefTopFaqs')
             ->name('national-debt-relief-top-faqs');
 
+        Route::get('/debt-relief-options-and-benefits', 'debtReliefOptionsAndBenefits')
+            ->name('debt-relief-options-and-benefits');
+
     });
 
 Route::get('/our-firm', [FrontendController::class, 'ourFirm'])->name('our-firm');
