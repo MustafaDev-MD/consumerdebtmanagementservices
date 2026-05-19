@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="container">
+<div class="container md-mt-26">
 
     <div class="column dt-sc-one-third first m-0">
         <h4 class="aligncenter p-20 border-1"><a href="{{ route('debt-relief-settlement') }}">Debt Settlement and Relief</a></h4>

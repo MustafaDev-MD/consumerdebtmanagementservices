@@ -50,12 +50,12 @@ class FrontendController extends Controller
                 'description' => "Merge various accounts into a solo obligation to economize.",
                 'link' => '#'
             ],
-            [
-                'icon' => 'assets/images/resources/business-debt-relief.svg',
-                'title' => 'Business Debt Relief',
-                'description' => "Avoid operating or launching your venture on a deficit.",
-                'link' => '#'
-            ],
+            // [
+            //     'icon' => 'assets/images/resources/business-debt-relief.svg',
+            //     'title' => 'Business Debt Relief',
+            //     'description' => "Avoid operating or launching your venture on a deficit.",
+            //     'link' => '#'
+            // ],
 
             [
                 'icon' => 'assets/images/resources/debt-relief-settlement.svg',
@@ -66,81 +66,81 @@ class FrontendController extends Controller
 
             // --- Second Four ---
 
-            [
-                'icon' => 'assets/images/resources/bankruptcy.png',
-                'title' => 'Bankruptcy',
-                'description' => "Understand the process and if it suits your circumstances.",
-                'link' => '#'
-            ],
+            // [
+            //     'icon' => 'assets/images/resources/bankruptcy.png',
+            //     'title' => 'Bankruptcy',
+            //     'description' => "Understand the process and if it suits your circumstances.",
+            //     'link' => '#'
+            // ],
 
-            [
-                'icon' => 'assets/images/resources/unemployment-debt-relief.svg',
-                'title' => 'Unemployment Debt Relief',
-                'description' => "Utilize these solutions to manage and satisfy your monthly costs.",
-                'link' => '#'
-            ],
-            [
-                'icon' => 'assets/images/resources/retirement-debt-relief.svg',
-                'title' => 'Retirement Debt Relief',
-                'description' => "We assist in making your senior years more prosperous.",
-                'link' => '#'
-            ],
-            [
-                'icon' => 'assets/images/resources/veteran-debt-relief.svg',
-                'title' => 'Veteran Debt Relief',
-                'description' => "It is a privilege to help former service members start fresh.",
-                'link' => '#'
-            ],
+            // [
+            //     'icon' => 'assets/images/resources/unemployment-debt-relief.svg',
+            //     'title' => 'Unemployment Debt Relief',
+            //     'description' => "Utilize these solutions to manage and satisfy your monthly costs.",
+            //     'link' => '#'
+            // ],
+            // [
+            //     'icon' => 'assets/images/resources/retirement-debt-relief.svg',
+            //     'title' => 'Retirement Debt Relief',
+            //     'description' => "We assist in making your senior years more prosperous.",
+            //     'link' => '#'
+            // ],
+            // [
+            //     'icon' => 'assets/images/resources/veteran-debt-relief.svg',
+            //     'title' => 'Veteran Debt Relief',
+            //     'description' => "It is a privilege to help former service members start fresh.",
+            //     'link' => '#'
+            // ],
 
             // --- Third Four ---
 
-            [
-                'icon' => 'assets/images/resources/personal-loan-debt-relief.svg',
-                'title' => 'Personal Loan Debt Relief',
-                'description' => "Our team assists in steering through difficult monetary periods.",
-                'link' => '#'
-            ],
+            // [
+            //     'icon' => 'assets/images/resources/personal-loan-debt-relief.svg',
+            //     'title' => 'Personal Loan Debt Relief',
+            //     'description' => "Our team assists in steering through difficult monetary periods.",
+            //     'link' => '#'
+            // ],
 
 
 
-            [
-                'icon' => 'assets/images/resources/medical-debt-relief.svg',
-                'title' => 'Medical Debt Relief',
-                'description' => "Achieve peace of mind by resolving your healthcare invoices.",
-                'link' => '#'
-            ],
+            // [
+            //     'icon' => 'assets/images/resources/medical-debt-relief.svg',
+            //     'title' => 'Medical Debt Relief',
+            //     'description' => "Achieve peace of mind by resolving your healthcare invoices.",
+            //     'link' => '#'
+            // ],
             [
                 'icon' => 'assets/images/resources/credit-counseling.png',
                 'title' => 'Credit Counseling',
                 'description' => "Discover if a professional guidance strategy is your best path.",
                 'link' => '#'
             ],
-            [
-                'icon' => 'assets/images/resources/private-student-debt-relief.svg',
-                'title' => 'Private Student Debt Relief',
-                'description' => "Gain knowledge on resolving non-federal educational loans for less.",
-                'link' => '#'
-            ],
+            // [
+            //     'icon' => 'assets/images/resources/private-student-debt-relief.svg',
+            //     'title' => 'Private Student Debt Relief',
+            //     'description' => "Gain knowledge on resolving non-federal educational loans for less.",
+            //     'link' => '#'
+            // ],
 
             // --- Fourth Three ---
-            [
-                'icon' => 'assets/images/resources/marital-debt-relief.svg',
-                'title' => 'Marital Debt Relief',
-                'description' => "Find out how to manage costs related to major life changes and reclaim your stability.",
-                'link' => '#'
-            ],
-            [
-                'icon' => 'assets/images/resources/personal-finance-debt-relief.svg',
-                'title' => 'Personal Finance Debt Relief',
-                'description' => "Prevent individual financial burdens from disrupting your private life and goals.",
-                'link' => '#'
-            ],
-            [
-                'icon' => 'assets/images/resources/debt-relief-by-state.png',
-                'title' => 'Debt Relief by State',
-                'description' => "Review the specific programs and solutions available in your local area.",
-                'link' => '#'
-            ],
+            // [
+            //     'icon' => 'assets/images/resources/marital-debt-relief.svg',
+            //     'title' => 'Marital Debt Relief',
+            //     'description' => "Find out how to manage costs related to major life changes and reclaim your stability.",
+            //     'link' => '#'
+            // ],
+            // [
+            //     'icon' => 'assets/images/resources/personal-finance-debt-relief.svg',
+            //     'title' => 'Personal Finance Debt Relief',
+            //     'description' => "Prevent individual financial burdens from disrupting your private life and goals.",
+            //     'link' => '#'
+            // ],
+            // [
+            //     'icon' => 'assets/images/resources/debt-relief-by-state.png',
+            //     'title' => 'Debt Relief by State',
+            //     'description' => "Review the specific programs and solutions available in your local area.",
+            //     'link' => '#'
+            // ],
         ];
     }
 

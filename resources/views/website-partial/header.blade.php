@@ -43,108 +43,20 @@
                     <li class="menu-item-megamenu-parent megamenu-4-columns-group menu-item-depth-0 {{ request()->routeIs('our-people') ? 'current_page_item' : '' }}"> <a href="{{ route('our-people') }}"> Our People </a>
                         <div class="megamenu-child-container">
                             <ul class="sub-menu">
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-depth-1 menu-item-with-widget-area fill-two-columns">
-                                    <a href="#"> About </a>
-                                    <!--menu-item-widget-area-container starts-->
-                                    <div class="menu-item-widget-area-container">
-                                        <ul>
-                                            <li class="widget widget_text">
-                                                <div class="textwidget">
-                                                    <div class="image">
-                                                        <img src="{{ asset('assets/images/attorney1.jpg') }}" alt="" title="">
-                                                    </div>
-                                                    <div class="alignleft">
-                                                        <span class="alignleft dt-sc-highlight"> We provide effective and reliable solutions. Looking for legal help?</span>
-                                                        <div class="dt-sc-hr-image"></div>
-                                                        <div class="dt-sc-hr-invisible-very-small"></div>
-                                                        <span class="alignleft dt-sc-highlight"> We let you know the right way. </span>
-                                                        <a class="dt-sc-bordered-button first" href="#"> <span class="fa fa-thumbs-o-up"></span> By Direct </a>
-                                                        <a class="dt-sc-bordered-button" href="#"> <span class="fa fa-phone"></span> By Phone </a>
-                                                    </div>
-                                                    <div class="dt-sc-clear"></div>
-                                                    <p> At vero eos et accusamus et iusto odio dignissimos duci blandits quite praesentium voluptatum deleniti atque corrupti dolores et quas molestias excepturi sint occaecati cupiditate non provident. </p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <!--menu-item-widget-area-container ends-->
-                                </li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-depth-1 menu-item-with-widget-area">
-                                    <a href="#"> Latest Blog </a>
-                                    <!--menu-item-widget-area-container starts-->
-                                    <div class="menu-item-widget-area-container">
-                                        <ul>
-                                            <li class="widget widget_recent_entries">
-                                                <ul>
-                                                    <li>
-                                                        <div class="entry-meta">
-                                                            <p class="date"> <span class="fa fa-calendar-o"></span> 20 June 2014 </p>
-                                                            <a href="#" class="comments"> <span class="fa fa-comment"></span> 16 </a>
-                                                        </div>
-                                                        <div class="entry-title">
-                                                            <h6><a href="news-detail.html"> Free consultation makes you decide to pursue the case </a></h6>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="entry-meta">
-                                                            <p class="date"> <span class="fa fa-calendar-o"></span> 20 June 2014 </p>
-                                                            <a href="#" class="comments"> <span class="fa fa-comment"></span> 16 </a>
-                                                        </div>
-                                                        <div class="entry-title">
-                                                            <h6><a href="news-detail.html"> Estimating your Budget in the consultations </a></h6>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="entry-meta">
-                                                            <p class="date"> <span class="fa fa-calendar-o"></span> 20 June 2014 </p>
-                                                            <a href="#" class="comments"> <span class="fa fa-comment"></span> 16 </a>
-                                                        </div>
-                                                        <div class="entry-title">
-                                                            <h6><a href="news-detail.html"> Accident cases taken under crime divsions </a></h6>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-
-                                    </div>
-                                    <!--menu-item-widget-area-container ends-->
-                                </li>
-
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-depth-1 menu-item-with-widget-area">
-                                    <a href="#"> Testimonials </a>
-                                    <!--menu-item-widget-area-container starts-->
-                                    <div class="menu-item-widget-area-container">
-                                        <ul>
-                                            <li class="widget widget_text">
-                                                <div class="textwidget">
-                                                    <div class="dt-sc-testimonial">
-                                                        <blockquote><q> But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces little more line to make this complete </q></blockquote>
-                                                        <div class="author-meta">
-                                                            <p> Jason Shane </p>
-                                                            <span> Business Consultant / <strong> Magick Wall </strong> </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-
-                                    </div>
-                                    <!--menu-item-widget-area-container ends-->
-                                </li>
                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-depth-1 menu-item-with-widget-area fill-four-columns">
-                                    <a href="#"> Our Practices </a>
                                     <ul class="sub-menu">
                                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-depth-2">
                                             <span class="nolink-menu"></span>
                                             <div class="dt-megamenu-custom-content">
                                                 <div class="dt-sc-one-fourth column first">
-                                                    <div class="dt-sc-ico-content type1">
+                                                    <div class="dt-sc-ico-content type1 flex">
                                                         <div class="icon">
                                                             <img src="{{ asset('assets/images/practice_icon1.png') }}" alt="" title="">
                                                         </div>
-                                                        <h5><a href=""> Employment Law </a></h5>
-                                                        <span> Anything Related to Employment </span>
+                                                        <div>
+                                                            <h5><a href=""> Employment Law </a></h5>
+                                                            <span> Anything Related to Employment </span>
+                                                        </div>
                                                     </div>
                                                 </div>
 

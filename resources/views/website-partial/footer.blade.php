@@ -22,7 +22,7 @@
                 <aside class="widget widget_text">
                     <div class="widget_text_logo">
                         <img src="images/footer_text_widget_logo.png" alt="" title="">
-                        <h4> State Attorney, LLC </h4>
+                        <h4> Consumer Debt<br> Management Services </h4>
                         <span><i>It's all about Justice </i></span>
                         <div class="dt-sc-hr-invisible-very-small"></div>
                         <p> State Attorney is an law/justice theme that suits any law/legal business. If you are about to start a business or deciding on improving your business State Attorney has all the features you need. </p>
@@ -37,7 +37,7 @@
                     <div class="textwidget">
                         <p class="dt-sc-contact-info"><span><i class="fa fa-phone"></i> Phone: </span> +22 004 324 1124 </p>
                         <p class="dt-sc-contact-info"><span><i class="fa fa-print"></i> Fax: </span> +22 004 324 1124 </p>
-                        <p class="dt-sc-contact-info"><span><i class="fa fa-envelope"></i> Email: </span><a href="mailto:yourname@somemail.com"> statelaw@gmail.com </a></p>
+                        <p class="dt-sc-contact-info"><span><i class="fa fa-envelope"></i> Email: </span><a href="mailto:yourname@somemail.com"> info@consumerdebtservices.com </a></p>
                         <p class="dt-sc-contact-info"><i class="fa fa-location-arrow"></i>58, Thomson Street, Edison Avenue, Baltimore, USA</p>
                     </div>
                 </aside>
@@ -72,14 +72,14 @@
     <!--footer-widgets-wrapper ends-->
     <div class="copyright">
         <div class="container">
-            <div class="copyright-info">State Attorney © 2005 - 2014 <a href="http://wedesignthemes.com/" target="_blank"> wedesignthemes.com </a> All Rights Reserved. </div>
+            <div class="copyright-info">Consumer Debt Management Services © 2026 </a> All Rights Reserved. </div>
             <ul class="footer-links">
-                <li><a href="#"> Sitemap </a></li>
+                <!-- <li><a href="#"> Sitemap </a></li> -->
                 <li><a href="#"> Privacy Policy </a></li>
                 <li><a href="#"> Terms &amp; Conditions </a></li>
-                <li><a href="#"> Disclaimer </a></li>
+                <!-- <li><a href="#"> Disclaimer </a></li> -->
             </ul>
-            <p> Design by <a href="http://themeforest.net/user/buddhathemes" target="_blank" title="">Buddha Themes</a> </p>
+            <!-- <p> Design by <a href="http://themeforest.net/user/buddhathemes" target="_blank" title="">Buddha Themes</a> </p> -->
         </div>
     </div>
 </footer>
