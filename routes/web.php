@@ -22,6 +22,12 @@ Route::prefix('resources')
 
         Route::get('/debt-relief-settlement', 'debtReliefSettlement')
             ->name('debt-relief-settlement');
+
+        Route::get('/debt-consolidation-relief', 'debtConsolidationRelief')
+            ->name('debt-consolidation-relief');
+
+        Route::get('/credit-counseling', 'creditCounseling')
+            ->name('credit-counseling');
     });
 
 Route::prefix('resources/credit-card-debt-relief')
@@ -47,6 +53,34 @@ Route::prefix('resources/debt-relief-settlement')
 
         Route::get('/debt-relief-options-and-benefits', 'debtReliefOptionsAndBenefits')
             ->name('debt-relief-options-and-benefits');
+
+        Route::get('/debt-relief-qualifications', 'debtReliefQualifications')
+            ->name('debt-relief-qualifications');
+
+    });
+
+Route::prefix('resources/debt-consolidation-relief')
+    // ->name('resources.')
+    ->controller(FrontendController::class)
+    ->group(function () {
+
+        Route::get('/debt-consolidation-programs', 'debtConsolidationPrograms')
+            ->name('debt-consolidation-programs');
+
+        Route::get('/how-to-choose-debt-consolidation-program', 'howToChooseDebtConsolidationProgram')
+            ->name('how-to-choose-debt-consolidation-program');
+
+    });
+
+Route::prefix('resources/credit-counseling')
+    ->controller(FrontendController::class)
+    ->group(function () {
+
+        Route::get('/finding-a-credit-counselor', 'findingACreditCounselor')
+            ->name('finding-a-credit-counselor');
+
+        Route::get('/debt-management-plans', 'debtManagementPlans')
+            ->name('debt-management-plans');
 
     });
 

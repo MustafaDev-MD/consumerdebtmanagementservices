@@ -271,7 +271,7 @@
             </div>
 
             <div id="frequent-inquiries-credit-card-debt" class="content-block scroll-section">
-                <h2 class="highlight-box"></h2>
+                <h2 class="highlight-box">Frequent Inquiries (Credit Card debt)</h2>
                 <h3>What total reductions are possible via credit card debt resolution?</h3>
                 <p>Credit card <b>debt</b> resolution involves offering one solitary transfer regarding the bulk of those obligations. Conversely, the firm holding the <b>debt</b> clears portions of unsettled totals plus specific costs and interest levies.</p>
                 <p>Such a pathway proves valuable whenever battling heavy quantities of <b>debt</b>. It might preserve funds through possibly shrinking the base total recorded within personal files, thus enabling one to liquidate everything at decreased figures.</p>

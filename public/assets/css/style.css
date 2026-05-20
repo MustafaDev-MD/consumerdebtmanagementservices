@@ -384,6 +384,14 @@ iframe {
 	justify-content: start;
 }
 
+.align-items-start {
+	align-items: start;
+}
+
+.text-align-left{
+	text-align: left;
+}
+
 .flex-direction-column {
 	flex-direction: column;
 }
@@ -410,6 +418,10 @@ iframe {
 
 .p-20 {
 	padding: 20px !important;
+}
+
+.p-10-20{
+	padding: 10px 0px 0px 20px !important;
 }
 
 .mt-1 {
@@ -439,6 +451,10 @@ iframe {
 .border-1 {
 	border: 1px solid #cccccc !important;
 }
+
+.border-left-1 {
+	border-left: 1px solid #cccccc !important;
+}	
 
 .alignleft p,
 p.alignleft {
@@ -471,6 +487,14 @@ h5.alignleft {
 blockquote q {
 	font-style: italic;
 }
+
+/* span a{
+	color: #ffffff;
+}
+
+span a:hover{
+	color: #ffffff !important;
+} */
 
 input[type=text],
 input[type=email] {
@@ -1933,13 +1957,13 @@ header ul.dt-sc-social-icons li:first-child a {
 
 .megamenu-child-container>ul.sub-menu>li {
 	width: 230px;
-	padding: 15px;
+	/* padding: 15px; */
 	float: left;
 	display: inline;
 }
 
 .megamenu-child-container>ul.sub-menu>li:first-child {
-	padding-left: 15px;
+	/* padding-left: 15px; */
 }
 
 .megamenu-child-container>ul.sub-menu>li:nth-child(3) {
@@ -2003,6 +2027,7 @@ header ul.dt-sc-social-icons li:first-child a {
 
 .megamenu-child-container ul.sub-menu>li>ul li {
 	display: block;
+	line-height: normal;
 }
 
 .megamenu-child-container ul.sub-menu>li>ul li:last-child a {
@@ -2096,7 +2121,7 @@ header ul.dt-sc-social-icons li:first-child a {
 
 .megamenu-child-container>ul.sub-menu>li.fill-four-columns {
 	width: 986px;
-	padding: 0px 14px 15px;
+	/* padding: 0px 14px 15px; */
 	clear: both;
 }
 
@@ -2290,6 +2315,7 @@ header ul.dt-sc-social-icons li:first-child a {
 .megamenu-child-container .dt-sc-ico-content.type1 .icon img {
 	display: block;
 	margin: 0 auto;
+	width: 65px;
 }
 
 .megamenu-child-container .dt-sc-ico-content.type1 h5 {
@@ -2486,6 +2512,15 @@ header ul.dt-sc-social-icons li:first-child a {
 #main-menu ul li.menu-item-simple-parent:last-child ul li ul {
 	right: 220px;
 	left: inherit;
+}
+
+#main-menu ul li.menu-item h5, #main-menu ul li.menu-item span {
+	line-height: normal;
+	margin-bottom: 10px;
+}
+
+#main-menu ul li.menu-item img {
+	width: 40px;
 }
 
 /* hide the link until viewport size is reached */

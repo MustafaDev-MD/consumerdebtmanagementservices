@@ -48,7 +48,7 @@ class FrontendController extends Controller
                 'icon' => 'assets/images/resources/debt-consolidation.svg',
                 'title' => 'Debt Consolidation',
                 'description' => "Merge various accounts into a solo obligation to economize.",
-                'link' => '#'
+                'link' => route('debt-consolidation-relief')
             ],
             // [
             //     'icon' => 'assets/images/resources/business-debt-relief.svg',
@@ -61,7 +61,7 @@ class FrontendController extends Controller
                 'icon' => 'assets/images/resources/debt-relief-settlement.svg',
                 'title' => 'Debt Relief Settlement',
                 'description' => "Settle what you owe faster while maximizing your keepings.",
-                'link' => '#'
+                'link' => route('debt-relief-settlement')
             ],
 
             // --- Second Four ---
@@ -113,7 +113,7 @@ class FrontendController extends Controller
                 'icon' => 'assets/images/resources/credit-counseling.png',
                 'title' => 'Credit Counseling',
                 'description' => "Discover if a professional guidance strategy is your best path.",
-                'link' => '#'
+                'link' => route('credit-counseling')
             ],
             // [
             //     'icon' => 'assets/images/resources/private-student-debt-relief.svg',
@@ -196,6 +196,62 @@ class FrontendController extends Controller
     {
         return view('website.resources.debt-relief-settlement.debt-relief-options-and-benefits', [
             'title' => 'Debt Relief Options and Benefits',
+            'services' => $this->getServices()
+        ]);
+    }
+
+    public function debtReliefQualifications()
+    {
+        return view('website.resources.debt-relief-settlement.debt-relief-qualifications', [
+            'title' => 'Debt Relief Qualifications',
+            'services' => $this->getServices()
+        ]);
+    }
+
+    public function debtConsolidationRelief()
+    {
+        return view('website.resources.debt-consolidation-relief', [
+            'title' => 'Debt Consolidation Relief',
+            'services' => $this->getServices()
+        ]);
+    }
+
+    public function debtConsolidationPrograms()
+    {
+        return view('website.resources.debt-consolidation-relief.debt-consolidation-programs', [
+            'title' => 'Debt Consolidation Programs',
+            'services' => $this->getServices()
+        ]);
+    }
+
+    public function howToChooseDebtConsolidationProgram()
+    {
+        return view('website.resources.debt-consolidation-relief.how-to-choose-debt-consolidation-program', [
+            'title' => 'How to Choose a Debt Consolidation Program',
+            'services' => $this->getServices()
+        ]);
+    }
+
+    public function creditCounseling()
+    {
+        return view('website.resources.credit-counseling', [
+            'title' => 'Credit Counseling',
+            'services' => $this->getServices()
+        ]);
+    }
+
+    public function findingACreditCounselor()
+    {
+        return view('website.resources.credit-counseling.finding-a-credit-counselor', [
+            'title' => 'Finding a Credit Counselor',
+            'services' => $this->getServices()
+        ]);
+    }
+
+    public function debtManagementPlans()
+    {
+        return view('website.resources.credit-counseling.debt-management-plans', [
+            'title' => 'Debt Management Plans',
             'services' => $this->getServices()
         ]);
     }

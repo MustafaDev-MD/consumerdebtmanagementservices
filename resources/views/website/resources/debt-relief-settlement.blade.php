@@ -4,16 +4,20 @@
 
 <div class="container md-mt-26">
 
-    <div class="column dt-sc-one-third first m-0">
-        <h4 class="aligncenter p-20 border-1"><a href="{{ route('debt-relief-settlement') }}">Debt Settlement and Relief</a></h4>
+    <div class="column dt-sc-one-fourth first m-0">
+        <h4 class="aligncenter p-20 border-1"><a href="{{ route('debt-relief-settlement') }}">Debt Settlement Relief</a></h4>
     </div>
     
-    <div class="column dt-sc-one-third m-0">
-        <h4 class="aligncenter p-20 border-1"><a href="{{ route('national-debt-relief-top-faqs') }}">FAQs</a></h4>
+    <div class="column dt-sc-one-fourth m-0">
+        <h4 class="aligncenter p-20 border-1"><a href="{{ route('national-debt-relief-top-faqs') }}">Debt Relief FAQs</a></h4>
     </div>
     
-    <div class="column dt-sc-one-third m-0">
-        <h4 class="aligncenter p-20 border-1"><a href="{{ route('how-to-eliminate-credit-card-debt') }}">How to Eliminate Credit Card Debt</a></h4>
+    <div class="column dt-sc-one-fourth m-0">
+        <h4 class="aligncenter p-20 border-1"><a href="{{ route('debt-relief-options-and-benefits') }}">Debt Relief Options</a></h4>
+    </div>
+
+    <div class="column dt-sc-one-fourth m-0">
+        <h4 class="aligncenter p-20 border-1"><a href="{{ route('debt-relief-qualifications') }}">Qualifications</a></h4>
     </div>
 
 </div>
