@@ -6,7 +6,7 @@
     <div class="container">
         <h1> News </h1>
         <div class="breadcrumb">
-            <a href="index.html"> Home </a>
+            <a href="{{ route('home') }}"> Home </a>
             <span class="current"> News </span>
         </div>
     </div>

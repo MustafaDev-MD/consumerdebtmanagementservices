@@ -84,9 +84,17 @@ Route::prefix('resources/credit-counseling')
 
     });
 
+Route::get('/client-stories', [FrontendController::class, 'clientStories'])->name('client-stories');
+
+Route::get('/client-stories/{slug}', [FrontendController::class, 'clientStoriesDetail'])
+    ->name('client-stories-detail');
+
+// Route::get('/client-stories-detail', function () {
+//     return view('website.client-stories-detail');
+// })->name('client-stories-detail');
+
 Route::get('/our-firm', [FrontendController::class, 'ourFirm'])->name('our-firm');
 Route::get('/our-practices', [FrontendController::class, 'ourPractices'])->name('our-practices');
-Route::get('/client-stories', [FrontendController::class, 'clientStories'])->name('client-stories');
 Route::get('/news-events', [FrontendController::class, 'newsEvents'])->name('news-events');
 
 Route::middleware(['auth', 'verified'])->group(function () {

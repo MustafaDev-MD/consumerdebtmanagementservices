@@ -456,6 +456,26 @@ iframe {
 	border-left: 1px solid #cccccc !important;
 }	
 
+.dt-sc-bar.color-red {
+    background: #8d1812;
+}
+
+.dt-sc-bar.color-yellow {
+    background: #ffd200;
+}
+
+.dt-sc-bar.color-green {
+    background: #76a84b;
+}
+
+.dt-sc-bar.color-orange {
+    background: #f65339;
+}
+
+.dt-sc-bar.default {
+    background: #000;
+}
+
 .alignleft p,
 p.alignleft {
 	line-height: 28px;
@@ -1123,6 +1143,10 @@ textarea {
 	color: #022444;
 	margin-bottom: 10px;
 	font-weight: 600;
+}
+
+.service-card h2 {
+	color: #022444;
 }
 
 /* DESCRIPTION */

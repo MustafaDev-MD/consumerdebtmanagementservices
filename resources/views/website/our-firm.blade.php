@@ -7,7 +7,7 @@
     <div class="container">
         <h1> Our Firm </h1>
         <div class="breadcrumb">
-            <a href="index.html"> Home </a>
+            <a href="{{ route('home') }}"> Home </a>
             <span class="current"> Our Firm </span>
         </div>
     </div>

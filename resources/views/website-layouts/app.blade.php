@@ -250,6 +250,7 @@
     <script type="text/javascript" src="{{ asset('assets/js/jquery.nicescroll.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('assets/js/jquery.tabs.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('assets/js/jquery.viewport.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/js/jquery.carouFredSel-6.2.0-packed.js') }}"></script>
     <script type="text/javascript" src="{{ asset('assets/js/jquery.parallax-1.1.3.js') }}"></script>
     <script type="text/javascript" src="{{ asset('assets/js/jquery.smartresize.js') }}"></script>
     <script type="text/javascript" src="{{ asset('assets/js/shortcodes.js') }}"></script>

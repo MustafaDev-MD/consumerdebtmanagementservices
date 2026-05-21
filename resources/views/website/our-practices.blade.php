@@ -8,7 +8,7 @@
     <div class="container">
         <h1> Our Practices </h1>
         <div class="breadcrumb">
-            <a href="index.html"> Home </a>
+            <a href="{{ route('home') }}"> Home </a>
             <span class="current"> Our Practices </span>
         </div>
     </div>

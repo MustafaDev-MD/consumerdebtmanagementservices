@@ -6,7 +6,7 @@
     <div class="container">
         <h1> Our People </h1>
         <div class="breadcrumb">
-            <a href="index.html"> Home </a>
+            <a href="{{ route('home') }}"> Home </a>
             <span class="current"> Our People </span>
         </div>
     </div>
@@ -20,167 +20,71 @@
 
     <section>
 
-        <h2 class="dt-sc-hr-title mb-2"> Empowering Over 1.5 Million Individuals to Reach Financial Freedom. </h2>
-        <p class="aligncenter mb-3">“The goal of Consumer Debt Management Service is to return your autonomy, allowing you to live life on your own terms. Alongside our professional team, we work relentlessly to provide impactful and permanent solutions for your debt resolution journey.”</p>
+        <h2 class="dt-sc-hr-title mb-2"> Their Journeys Conclude Happily </h2>
+        <p class="aligncenter mb-3">“Connect with Consumer Debt Management Service to discover our debt-relief pathways. Armed with the proper resources and industry knowledge, we stand prepared to assist you in reaching your milestones immediately.”</p>
         <div class="flex gap-20 mb-2">
             <div class="author">
                 <img src="{{ asset('assets/images/testimonial1.jpg') }}" alt="" title="">
             </div>
             <div class="author-meta">
-                <p> Julian M. </p>
+                <p> Marcus T. </p>
             </div>
         </div>
 
     </section>
 
-    <section id="primary" class="">
+    <section id="primary" class="content-full-width">
 
-        <!--attorney_list starts-->
+        <!-- Attorney List -->
         <div class="attorney_list">
 
-            <div class="attorney_content local_asset_management">
-                <div class="image">
-                    <a href="our-people-detail.html"><img src="{{ asset('assets/images/attorney1.jpg') }}" alt="" title=""></a>
-                </div>
-                <div class="attorney_details">
-                    <div class="attorney_details_info">
-                        <div class="alignleft">
-                            <h6> <a href="our-people-detail.html"> Robert James </a> </h6>
-                            <span> Associate / Crime </span>
-                        </div>
-                        <div class="alignright">
-                            <p class="phone-no"> <span class="fa fa-phone"></span> (552) 226 3314 </p>
-                        </div>
-                    </div>
-                    <p> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi vel samar this ki last man. </p>
-                    <a href="our-people-detail.html" class="dt-sc-button alignright"> <span class="fa fa-user"></span> View Bio </a>
-                </div>
-            </div>
+            @foreach ($clients as $client)
 
             <div class="attorney_content local_asset_management">
+
                 <div class="image">
-                    <a href="our-people-detail.html"><img src="{{ asset('assets/images/attorney1.jpg') }}" alt="" title=""></a>
+                    <a href="{{ route('client-stories-detail', $client['slug']) }}">
+                        <img src="{{ asset($client['image']) }}" alt="{{ $client['name'] }}">
+                    </a>
                 </div>
+
                 <div class="attorney_details">
+
                     <div class="attorney_details_info">
                         <div class="alignleft">
-                            <h6> <a href="our-people-detail.html"> Craig Thompson </a> </h6>
-                            <span> Associate / Estate Planning </span>
-                        </div>
-                        <div class="alignright">
-                            <p class="phone-no"> <span class="fa fa-phone"></span> (552) 226 3314 </p>
+                            <h6>
+                                <a href="{{ route('client-stories-detail', $client['slug']) }}">
+                                    {{ $client['name'] }}
+                                </a>
+                            </h6>
                         </div>
                     </div>
-                    <p> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi vel samar this ki last man. </p>
-                    <a href="our-people-detail.html" class="dt-sc-button alignright"> <span class="fa fa-user"></span> View Bio </a>
+
+                    <p>{{ $client['description'] }}</p>
+
+                    <a href="{{ route('client-stories-detail', $client['slug']) }}"
+                        class="dt-sc-button alignright">
+                        <span class="fa fa-user"></span>
+                        Read Biography
+                    </a>
+
                 </div>
+
             </div>
 
-            <div class="attorney_content local_asset_management health_insurance">
-                <div class="image">
-                    <a href="our-people-detail.html"><img src="{{ asset('assets/images/attorney1.jpg') }}" alt="" title=""></a>
-                </div>
-                <div class="attorney_details">
-                    <div class="attorney_details_info">
-                        <div class="alignleft">
-                            <h6> <a href="our-people-detail.html"> Jeniffer Lohan </a> </h6>
-                            <span> Women Harrasment </span>
-                        </div>
-                        <div class="alignright">
-                            <p class="phone-no"> <span class="fa fa-phone"></span> (552) 226 3314 </p>
-                        </div>
-                    </div>
-                    <p> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi vel samar this ki last man. </p>
-                    <a href="our-people-detail.html" class="dt-sc-button alignright"> <span class="fa fa-user"></span> View Bio </a>
-                </div>
-            </div>
-
-            <div class="attorney_content local_asset_management">
-                <div class="image">
-                    <a href="our-people-detail.html"><img src="{{ asset('assets/images/attorney1.jpg') }}" alt="" title=""></a>
-                </div>
-                <div class="attorney_details">
-                    <div class="attorney_details_info">
-                        <div class="alignleft">
-                            <h6> <a href="our-people-detail.html"> Carl Danny </a> </h6>
-                            <span> Accident and Insurance </span>
-                        </div>
-                        <div class="alignright">
-                            <p class="phone-no"> <span class="fa fa-phone"></span> (552) 226 3314 </p>
-                        </div>
-                    </div>
-                    <p> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi vel samar this ki last man. </p>
-                    <a href="our-people-detail.html" class="dt-sc-button alignright"> <span class="fa fa-user"></span> View Bio </a>
-                </div>
-            </div>
-
-            <div class="attorney_content local_asset_management pregnancy divorce_cases business_law">
-                <div class="image">
-                    <a href="our-people-detail.html"><img src="{{ asset('assets/images/attorney1.jpg') }}" alt="" title=""></a>
-                </div>
-                <div class="attorney_details">
-                    <div class="attorney_details_info">
-                        <div class="alignleft">
-                            <h6> <a href="our-people-detail.html"> Daniel Craig </a> </h6>
-                            <span> Associate / Estate Planning </span>
-                        </div>
-                        <div class="alignright">
-                            <p class="phone-no"> <span class="fa fa-phone"></span> (552) 226 3314 </p>
-                        </div>
-                    </div>
-                    <p> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi vel samar this ki last man. </p>
-                    <a href="our-people-detail.html" class="dt-sc-button alignright"> <span class="fa fa-user"></span> View Bio </a>
-                </div>
-            </div>
-
-            <div class="attorney_content local_asset_management estate_planning business_law">
-                <div class="image">
-                    <a href="our-people-detail.html"><img src="{{ asset('assets/images/attorney1.jpg') }}" alt="" title=""></a>
-                </div>
-                <div class="attorney_details">
-                    <div class="attorney_details_info">
-                        <div class="alignleft">
-                            <h6> <a href="our-people-detail.html"> Peter Jackson </a> </h6>
-                            <span> Business Law </span>
-                        </div>
-                        <div class="alignright">
-                            <p class="phone-no"> <span class="fa fa-phone"></span> (552) 226 3314 </p>
-                        </div>
-                    </div>
-                    <p> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi vel samar this ki last man. </p>
-                    <a href="our-people-detail.html" class="dt-sc-button alignright"> <span class="fa fa-user"></span> View Bio </a>
-                </div>
-            </div>
-
-            <div class="attorney_content local_asset_management health_insurance estate_planning business_law">
-                <div class="image">
-                    <a href="our-people-detail.html"><img src="{{ asset('assets/images/attorney1.jpg') }}" alt="" title=""></a>
-                </div>
-                <div class="attorney_details">
-                    <div class="attorney_details_info">
-                        <div class="alignleft">
-                            <h6> <a href="our-people-detail.html"> Daniel Craig </a> </h6>
-                            <span> Associate / Estate Planning </span>
-                        </div>
-                        <div class="alignright">
-                            <p class="phone-no"> <span class="fa fa-phone"></span> (552) 226 3314 </p>
-                        </div>
-                    </div>
-                    <p> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi vel samar this ki last man. </p>
-                    <a href="our-people-detail.html" class="dt-sc-button alignright"> <span class="fa fa-user"></span> View Bio </a>
-                </div>
-            </div>
+            @endforeach
 
         </div>
-        <!--attorney_list ends-->
+        <!-- Attorney List Ends -->
 
     </section>
+
     <!--primary ends-->
     <div class="dt-sc-hr-invisible-large"></div>
 
     <!-- Reviews -->
 
-    <section class="nx-reviews-sec">
+    <section class="nx-reviews-sec content-full-width">
         <div class="nx-reviews-wrap">
             <h2 class="nx-reviews-title">
                 Elite Ratings from Our Success Stories
@@ -245,8 +149,8 @@
 
             <div class="dt-sc-one-half column first">
                 <div class="dt-sc-hr-invisible-large"></div>
-                <h1 class="dt-sc-simple-hr-title"> Determine if you qualify for debt relief! </h1>
-                <p>Find out if you're eligible for debt relief and take the first step towards financial freedom.</p>
+                <h1 class="dt-sc-simple-hr-title"> A Remarkable Transformation Occurs Following Your Initial Strategy Session With Consumer Debt Management Service. </h1>
+                <p>Clients immediately experience the confidence that comes with regaining complete authority over both their individual and career trajectories.</p>
                 <div class="alignleft">
                     <a class="dt-sc-bordered-button" href="tel:(855) 420-1988"> Get Started </a>
                 </div>

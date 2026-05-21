@@ -256,6 +256,519 @@ class FrontendController extends Controller
         ]);
     }
 
+    private function getClients()
+    {
+        return [
+            [
+                'name' => 'Marcus T.',
+                'slug' => 'marcus-t',
+                'image' => 'assets/images/attorney1.jpg',
+                'description' => 'Canine rescuer, motorcycle collector',
+                'tabs' => [
+                    [
+                        'title' => 'Overview',
+                        'heading' => 'Ronald reduced his obligations by 42%',
+                        'cards' => [
+                            [
+                                'image' => 'assets/images/money-coin-cash.svg',
+                                'label' => 'Total Debt',
+                                'amount' => '$44,750',
+                            ],
+                            [
+                                'image' => 'assets/images/wealth-time-money.svg',
+                                'label' => 'Monthly Payment',
+                                'amount' => '$785',
+                            ],
+                            [
+                                'image' => 'assets/images/calendar-clock.svg',
+                                'label' => 'Program Length',
+                                'amount' => '32 Months',
+                            ],
+                            [
+                                'image' => 'assets/images/saving-piggy-coins.svg',
+                                'label' => 'Total Savings',
+                                'amount' => '$18,795',
+                            ],
+                        ],
+                    ],
+                    [
+                        'title' => 'Awards',
+                        'images' => [
+                            'assets/images/Open-Quote.svg',
+                            'assets/images/Close-Quote.svg',
+                        ],
+                        'text' => 'When the initial agreement was finalized, it seemed completely surreal.',
+                    ],
+                    [
+                        'title' => 'Seminars',
+                        'content' => [
+                            'heading' => 'Marcus managed to wipe out his liabilities for a small percentage of his original balance, crossing the finish line much faster than if he had stuck to standard monthly minimums.',
+                            'name' => 'Marcus T., Canine rescuer, motorcycle collector',
+                            'image' => 'assets/images/attorney1.jpg',
+                            'starting_debt_label' => 'Initial Liabilities:',
+                            'starting_debt' => '$44,750',
+                            'savings_label' => 'Reduced by:',
+                            'savings' => '42%',
+                            'programs' => [
+                                [
+                                    'name' => 'Consumer Debt Management Service Solution:',
+                                    'value' => '$25,955',
+                                    'percent' => 12,
+                                    'color_key' => 'red'
+                                ],
+                                [
+                                    'name' => 'Debt Consolidation Options:',
+                                    'value' => '$52,430',
+                                    'percent' => 25,
+                                    'color_key' => 'yellow'
+                                ],
+                                [
+                                    'name' => 'Credit Counseling Paths:',
+                                    'value' => '$53,820',
+                                    'percent' => 25,
+                                    'color_key' => 'green'
+                                ],
+                                [
+                                    'name' => 'Standard Minimum Credit Card Payments:',
+                                    'value' => '$148,940',
+                                    'percent' => 90,
+                                    'color_key' => 'orange'
+                                ],
+                            ]
+                        ]
+                    ]
+                ],
+            ],
+            [
+                'name' => 'Julian K.',
+                'slug' => 'julian-k',
+                'image' => 'assets/images/attorney1.jpg',
+                'description' => 'Logistics analyst, avid hiker',
+                'tabs' => [
+                    [
+                        'title' => 'Overview',
+                        'heading' => 'Julian reduced his obligations by 44%',
+                        'cards' => [
+                            [
+                                'image' => 'assets/images/money-coin-cash.svg',
+                                'label' => 'Total Debt',
+                                'amount' => '$58,320',
+                            ],
+                            [
+                                'image' => 'assets/images/wealth-time-money.svg',
+                                'label' => 'Monthly Payment',
+                                'amount' => '$890',
+                            ],
+                            [
+                                'image' => 'assets/images/calendar-clock.svg',
+                                'label' => 'Program Length',
+                                'amount' => '41 Months',
+                            ],
+                            [
+                                'image' => 'assets/images/saving-piggy-coins.svg',
+                                'label' => 'Total Savings',
+                                'amount' => '$25,660',
+                            ],
+                        ],
+                    ],
+                    [
+                        'title' => 'Awards',
+                        'images' => [
+                            'assets/images/Open-Quote.svg',
+                            'assets/images/Close-Quote.svg',
+                        ],
+                        'text' => 'With my finances restored, planning family milestones is no longer a strain. I can finally invest in personal upgrades.',
+                    ],
+                    [
+                        'title' => 'Seminars',
+                        'content' => [
+                            'heading' => 'Julian managed to wipe out his liabilities for a small percentage of his original balance, crossing the finish line much faster than if he had stuck to standard monthly minimums.',
+                            'name' => 'Julian K., Logistics analyst, avid hiker',
+                            'image' => 'assets/images/attorney1.jpg',
+                            'starting_debt_label' => 'Initial Liabilities:',
+                            'starting_debt' => '$58,320',
+                            'savings_label' => 'Reduced by:',
+                            'savings' => '44%',
+                            'programs' => [
+                                [
+                                    'name' => 'Consumer Debt Management Service Solution:',
+                                    'value' => '$32,660',
+                                    'percent' => 12,
+                                    'color_key' => 'red'
+                                ],
+                                [
+                                    'name' => 'Debt Consolidation Options:',
+                                    'value' => '$69,450',
+                                    'percent' => 25,
+                                    'color_key' => 'yellow'
+                                ],
+                                [
+                                    'name' => 'Credit Counseling Paths:',
+                                    'value' => '$71,280',
+                                    'percent' => 25,
+                                    'color_key' => 'green'
+                                ],
+                                [
+                                    'name' => 'Standard Minimum Credit Card Payments:',
+                                    'value' => '$194,370',
+                                    'percent' => 90,
+                                    'color_key' => 'orange'
+                                ],
+                            ]
+                        ]
+                    ]
+                ],
+            ],
+            [
+                'name' => 'Raymond V.',
+                'slug' => 'raymond-v',
+                'image' => 'assets/images/attorney1.jpg',
+                'description' => 'Rideshare operator, dedicated father',
+                'tabs' => [
+                    [
+                        'title' => 'Overview',
+                        'heading' => 'Raymond reduced his obligations by 34%',
+                        'cards' => [
+                            [
+                                'image' => 'assets/images/money-coin-cash.svg',
+                                'label' => 'Total Debt',
+                                'amount' => '$31,650',
+                            ],
+                            [
+                                'image' => 'assets/images/wealth-time-money.svg',
+                                'label' => 'Monthly Payment',
+                                'amount' => '$1,340',
+                            ],
+                            [
+                                'image' => 'assets/images/calendar-clock.svg',
+                                'label' => 'Program Length',
+                                'amount' => '19 Months',
+                            ],
+                            [
+                                'image' => 'assets/images/saving-piggy-coins.svg',
+                                'label' => 'Total Savings',
+                                'amount' => '$10,760',
+                            ],
+                        ],
+                    ],
+                    [
+                        'title' => 'Awards',
+                        'images' => [
+                            'assets/images/Open-Quote.svg',
+                            'assets/images/Close-Quote.svg',
+                        ],
+                        'text' => 'Discovering Consumer Debt Management Service completely turned my situation around. My monetary outlook and that crushing sense of anxiety both got drastically better.',
+                    ],
+                    [
+                        'title' => 'Seminars',
+                        'content' => [
+                            'heading' => 'Raymond managed to wipe out his liabilities for a small percentage of his original balance, crossing the finish line much faster than if he had stuck to standard monthly minimums.',
+                            'name' => 'Raymond V., Rideshare operator, dedicated father',
+                            'image' => 'assets/images/attorney1.jpg',
+                            'starting_debt_label' => 'Initial Liabilities:',
+                            'starting_debt' => '$31,650',
+                            'savings_label' => 'Reduced by:',
+                            'savings' => '34%',
+                            'programs' => [
+                                [
+                                    'name' => 'Consumer Debt Management Service Solution:',
+                                    'value' => '$20,890',
+                                    'percent' => 12,
+                                    'color_key' => 'red'
+                                ],
+                                [
+                                    'name' => 'Debt Consolidation Options:',
+                                    'value' => '$36,920',
+                                    'percent' => 25,
+                                    'color_key' => 'yellow'
+                                ],
+                                [
+                                    'name' => 'Credit Counseling Paths:',
+                                    'value' => '$52,180',
+                                    'percent' => 25,
+                                    'color_key' => 'green'
+                                ],
+                                [
+                                    'name' => 'Standard Minimum Credit Card Payments:',
+                                    'value' => '$162,450',
+                                    'percent' => 90,
+                                    'color_key' => 'orange'
+                                ],
+                            ]
+                        ]
+                    ]
+                ],
+            ],
+            [
+                'name' => 'Valerie G.',
+                'slug' => 'valerie-g',
+                'image' => 'assets/images/attorney1.jpg',
+                'description' => 'High school counselor',
+                'tabs' => [
+                    [
+                        'title' => 'Overview',
+                        'heading' => 'Valerie reduced her obligations by 35%',
+                        'cards' => [
+                            [
+                                'image' => 'assets/images/money-coin-cash.svg',
+                                'label' => 'Total Debt',
+                                'amount' => '$64,250',
+                            ],
+                            [
+                                'image' => 'assets/images/wealth-time-money.svg',
+                                'label' => 'Monthly Payment',
+                                'amount' => '$795',
+                            ],
+                            [
+                                'image' => 'assets/images/calendar-clock.svg',
+                                'label' => 'Program Length',
+                                'amount' => '45 Months',
+                            ],
+                            [
+                                'image' => 'assets/images/saving-piggy-coins.svg',
+                                'label' => 'Total Savings',
+                                'amount' => '$22,485',
+                            ],
+                        ],
+                    ],
+                    [
+                        'title' => 'Awards',
+                        'images' => [
+                            'assets/images/Open-Quote.svg',
+                            'assets/images/Close-Quote.svg',
+                        ],
+                        'text' => 'It genuinely unlocked a completely fresh chapter for us. That was the precise instance where I felt the heavy weight lift.',
+                    ],
+                    [
+                        'title' => 'Seminars',
+                        'content' => [
+                            'heading' => 'Valerie managed to wipe out his liabilities for a small percentage of his original balance, crossing the finish line much faster than if he had stuck to standard monthly minimums.',
+                            'name' => 'Valerie G., High school counselor, parent of 2 energetic boys',
+                            'image' => 'assets/images/attorney1.jpg',
+                            'starting_debt_label' => 'Initial Liabilities:',
+                            'starting_debt' => '$64,250',
+                            'savings_label' => 'Reduced by:',
+                            'savings' => '35%',
+                            'programs' => [
+                                [
+                                    'name' => 'Consumer Debt Management Service Solution:',
+                                    'value' => '$41,765',
+                                    'percent' => 12,
+                                    'color_key' => 'red'
+                                ],
+                                [
+                                    'name' => 'Debt Consolidation Options:',
+                                    'value' => '$74,890',
+                                    'percent' => 25,
+                                    'color_key' => 'yellow'
+                                ],
+                                [
+                                    'name' => 'Credit Counseling Paths:',
+                                    'value' => '$76,320',
+                                    'percent' => 25,
+                                    'color_key' => 'green'
+                                ],
+                                [
+                                    'name' => 'Standard Minimum Credit Card Payments:',
+                                    'value' => '$212,640',
+                                    'percent' => 90,
+                                    'color_key' => 'orange'
+                                ],
+                            ]
+                        ]
+                    ]
+                ],
+            ],
+            [
+                'name' => 'Elena M.',
+                'slug' => 'elena-m',
+                'image' => 'assets/images/attorney1.jpg',
+                'description' => 'Financial consultant',
+                'tabs' => [
+                    [
+                        'title' => 'Overview',
+                        'heading' => 'Elena reduced her obligations by 18%',
+                        'cards' => [
+                            [
+                                'image' => 'assets/images/money-coin-cash.svg',
+                                'label' => 'Total Debt',
+                                'amount' => '$24,500',
+                            ],
+                            [
+                                'image' => 'assets/images/wealth-time-money.svg',
+                                'label' => 'Monthly Payment',
+                                'amount' => '$510',
+                            ],
+                            [
+                                'image' => 'assets/images/calendar-clock.svg',
+                                'label' => 'Program Length',
+                                'amount' => '28 Months',
+                            ],
+                            [
+                                'image' => 'assets/images/saving-piggy-coins.svg',
+                                'label' => 'Total Savings',
+                                'amount' => '$4,410',
+                            ],
+                        ],
+                    ],
+                    [
+                        'title' => 'Awards',
+                        'images' => [
+                            'assets/images/Open-Quote.svg',
+                            'assets/images/Close-Quote.svg',
+                        ],
+                        'text' => 'I was completely stunned when they explained that I could resolve my liabilities while still retaining enough funds to appreciate life alongside my household.',
+                    ],
+                    [
+                        'title' => 'Seminars',
+                        'content' => [
+                            'heading' => 'Elena managed to wipe out her liabilities for a small percentage of her original balance, crossing the finish line much faster than if she had stuck to standard monthly minimums.',
+                            'name' => 'Elena M., Financial consultant, gardener, and baking enthusiast',
+                            'image' => 'assets/images/attorney1.jpg',
+                            'starting_debt_label' => 'Initial Liabilities:',
+                            'starting_debt' => '$24,500',
+                            'savings_label' => 'Reduced by:',
+                            'savings' => '18%',
+                            'programs' => [
+                                [
+                                    'name' => 'Consumer Debt Management Service Solution:',
+                                    'value' => '$20,090',
+                                    'percent' => 12,
+                                    'color_key' => 'red'
+                                ],
+                                [
+                                    'name' => 'Debt Consolidation Options:',
+                                    'value' => '$27,850',
+                                    'percent' => 25,
+                                    'color_key' => 'yellow'
+                                ],
+                                [
+                                    'name' => 'Credit Counseling Paths:',
+                                    'value' => '$31,440',
+                                    'percent' => 25,
+                                    'color_key' => 'green'
+                                ],
+                                [
+                                    'name' => 'Standard Minimum Credit Card Payments:',
+                                    'value' => '$78,350',
+                                    'percent' => 90,
+                                    'color_key' => 'orange'
+                                ],
+                            ]
+                        ]
+                    ]
+                ],
+            ],
+            [
+                'name' => 'Derek S.',
+                'slug' => 'derek-s',
+                'image' => 'assets/images/attorney1.jpg',
+                'description' => 'Commercial skipper',
+                'tabs' => [
+                    [
+                        'title' => 'Overview',
+                        'heading' => 'Derek reduced his obligations by 36%',
+                        'cards' => [
+                            [
+                                'image' => 'assets/images/money-coin-cash.svg',
+                                'label' => 'Total Debt',
+                                'amount' => '$42,850',
+                            ],
+                            [
+                                'image' => 'assets/images/wealth-time-money.svg',
+                                'label' => 'Monthly Payment',
+                                'amount' => '$635',
+                            ],
+                            [
+                                'image' => 'assets/images/calendar-clock.svg',
+                                'label' => 'Program Length',
+                                'amount' => '38 Months',
+                            ],
+                            [
+                                'image' => 'assets/images/saving-piggy-coins.svg',
+                                'label' => 'Total Savings',
+                                'amount' => '$15,426',
+                            ],
+                        ],
+                    ],
+                    [
+                        'title' => 'Awards',
+                        'images' => [
+                            'assets/images/Open-Quote.svg',
+                            'assets/images/Close-Quote.svg',
+                        ],
+                        'text' => 'When you strip away that crushing weight, every aspect of life becomes more manageable.',
+                    ],
+                    [
+                        'title' => 'Seminars',
+                        'content' => [
+                            'heading' => 'Derek managed to wipe out his liabilities for a small percentage of his original balance, crossing the finish line much faster than if he had stuck to standard monthly minimums.',
+                            'name' => 'Derek S., Commercial skipper, loving partner',
+                            'image' => 'assets/images/attorney1.jpg',
+                            'starting_debt_label' => 'Initial Liabilities:',
+                            'starting_debt' => '$42,850',
+                            'savings_label' => 'Reduced by:',
+                            'savings' => '36%',
+                            'programs' => [
+                                [
+                                    'name' => 'Consumer Debt Management Service Solution:',
+                                    'value' => '$27,424',
+                                    'percent' => 12,
+                                    'color_key' => 'red'
+                                ],
+                                [
+                                    'name' => 'Debt Consolidation Options:',
+                                    'value' => '$49,820',
+                                    'percent' => 25,
+                                    'color_key' => 'yellow'
+                                ],
+                                [
+                                    'name' => 'Credit Counseling Paths:',
+                                    'value' => '$51,160',
+                                    'percent' => 25,
+                                    'color_key' => 'green'
+                                ],
+                                [
+                                    'name' => 'Standard Minimum Credit Card Payments:',
+                                    'value' => '$144,930',
+                                    'percent' => 90,
+                                    'color_key' => 'orange'
+                                ],
+                            ]
+                        ]
+                    ]
+                ],
+            ],
+        ];
+    }
+
+    public function clientStories()
+    {
+        $clients = $this->getClients();
+
+        return view('website.client-stories', compact('clients'));
+    }
+
+    public function clientStoriesDetail($slug)
+    {
+        $clients = $this->getClients();
+
+        $client = collect($clients)->firstWhere('slug', $slug);
+
+        if (!$client) {
+            abort(404);
+        }
+
+        $related = collect($clients)
+            ->where('slug', '!=', $slug)
+            ->values();
+
+        return view('website.client-stories-detail', compact('client', 'related'));
+    }
+
+
+
+
     public function ourFirm()
     {
         return view('website.our-firm', [
@@ -267,13 +780,6 @@ class FrontendController extends Controller
     {
         return view('website.our-practices', [
             'title' => 'Our Practices'
-        ]);
-    }
-
-    public function clientStories()
-    {
-        return view('website.client-stories', [
-            'title' => 'Client Stories'
         ]);
     }
 
