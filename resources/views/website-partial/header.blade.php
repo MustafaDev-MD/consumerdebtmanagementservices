@@ -153,6 +153,8 @@
                         <a class="dt-menu-expand">+</a>
                     </li>
 
+                    <li class="{{ request()->routeIs('client-stories') ? 'current_page_item' : '' }}"> <a href="{{ route('client-stories') }}"> Client Stories </a> </li>
+
                     <!-- <li class="{{ request()->routeIs('news-events') ? 'current_page_item' : '' }}"> <a href="{{ route('news-events') }}" title=""> News &amp; Events </a> </li>
                     <li class="menu-item-simple-parent menu-item-depth-0"> <a href="shortcodes.html"> Shortcodes </a>
                         <ul class="sub-menu">

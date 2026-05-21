@@ -86,7 +86,7 @@ Route::prefix('resources/credit-counseling')
 
 Route::get('/our-firm', [FrontendController::class, 'ourFirm'])->name('our-firm');
 Route::get('/our-practices', [FrontendController::class, 'ourPractices'])->name('our-practices');
-Route::get('/our-people', [FrontendController::class, 'ourPeople'])->name('our-people');
+Route::get('/client-stories', [FrontendController::class, 'clientStories'])->name('client-stories');
 Route::get('/news-events', [FrontendController::class, 'newsEvents'])->name('news-events');
 
 Route::middleware(['auth', 'verified'])->group(function () {

@@ -270,10 +270,10 @@ class FrontendController extends Controller
         ]);
     }
 
-    public function ourPeople()
+    public function clientStories()
     {
-        return view('website.our-people', [
-            'title' => 'Our People'
+        return view('website.client-stories', [
+            'title' => 'Client Stories'
         ]);
     }
 
