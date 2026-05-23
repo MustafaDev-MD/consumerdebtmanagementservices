@@ -160,8 +160,8 @@
                                 <img src="{{ asset('assets/images/testimonial1.jpg') }}" alt="" title="">
                             </div>
                             <div class="author-meta">
-                                <p> Mike Patton </p>
-                                <span>Leo T. Coffee enthusiast, <b>graphic designer</b> </span>
+                                <p> Leo T. </p>
+                                <span> Coffee enthusiast, <b>graphic designer</b> </span>
                             </div>
                         </div>
                     </div>
@@ -194,8 +194,8 @@
                                 <img src="{{ asset('assets/images/testimonial2.jpg') }}" alt="" title="">
                             </div>
                             <div class="author-meta">
-                                <p> Kurt Russel </p>
-                                <span>Robert S. Outdoor adventurer, <b>family man</b> </span>
+                                <p> Robert S. </p>
+                                <span> Outdoor adventurer, <b>family man</b> </span>
                             </div>
                         </div>
                     </div>

@@ -83,14 +83,14 @@
             <div id="what-will-your-service-cost-me" class="content-block scroll-section">
 
                 <h2 class="highlight-box">What will your service cost me?</h2>
-                <p>At <b>Consumer Debt Management Service</b>, we maintain a strict performance-based policy: no payment is earned until we deliver measurable results. Specifically, three milestones must be met before a service fee applies. First, we must secure a formal settlement proposal from your lender. Second, you must review and grant your explicit approval of that offer. Finally, at least one installment toward that settlement must be processed. Only after this sequence is our fee activated and billed to your secure account. Once your liabilities are cleared, participants typically pay a success fee of roughly 22% of the original enrolled balance. Until these three conditions are satisfied, our expertise is provided at zero cost.</p>
+                <p>At Consumer Debt Management Service, we maintain a strict performance-based policy: no payment is earned until we deliver measurable results. Specifically, three milestones must be met before a service fee applies. First, we must secure a formal settlement proposal from your lender. Second, you must review and grant your explicit approval of that offer. Finally, at least one installment toward that settlement must be processed. Only after this sequence is our fee activated and billed to your secure account. Once your liabilities are cleared, participants typically pay a success fee of roughly 22% of the original enrolled balance. Until these three conditions are satisfied, our expertise is provided at zero cost.</p>
 
             </div>
 
             <div id="will-your-program-impact-my-credit-score" class="content-block scroll-section">
 
                 <h2 class="highlight-box">Will your program impact my credit score?</h2>
-                <p>Your individual financial history and current standing with lenders play a significant role; however, <b>debt settlement programs</b> generally result in a temporary reduction of your credit rating. Because this is a specialized financial mediation service, we do not function as a credit repair firm or provide specific counseling on technical credit building.</p>
+                <p>Your individual financial history and current standing with lenders play a significant role; however, debt settlement programs generally result in a temporary reduction of your credit rating. Because this is a specialized financial mediation service, we do not function as a credit repair firm or provide specific counseling on technical credit building.</p>
 
             </div>
 
@@ -104,7 +104,7 @@
             <div id="can-i-negotiate-with-my-creditors-on-my-own" class="content-block scroll-section">
 
                 <h2 class="highlight-box">Can I Negotiate With My Creditors On My Own?</h2>
-                <p>While a "do-it-yourself" mindset works well for home improvements or creative pursuits, your financial future is too vital to risk with guesswork. Economic instability has a profound, long-term effect on your quality of life and mental well-being. At <b>Consumer Debt Management Service</b>, we manage every intricacy of the bargaining process, removing the massive obstacles that block your path to solvency. We have cultivated professional ties with over 12,000 lending entities and maintain a median negotiation rate of 42%—meaning our clients frequently pay less than half of what they owed. Our advocates possess the specific expertise to navigate lender requirements and maximize your savings. We remain dedicated to the task until the most advantageous agreement is finalized.</p>
+                <p>While a "do-it-yourself" mindset works well for home improvements or creative pursuits, your financial future is too vital to risk with guesswork. Economic instability has a profound, long-term effect on your quality of life and mental well-being. At Consumer Debt Management Service, we manage every intricacy of the bargaining process, removing the massive obstacles that block your path to solvency. We have cultivated professional ties with over 12,000 lending entities and maintain a median negotiation rate of 42%—meaning our clients frequently pay less than half of what they owed. Our advocates possess the specific expertise to navigate lender requirements and maximize your savings. We remain dedicated to the task until the most advantageous agreement is finalized.</p>
 
             </div>
 
@@ -139,7 +139,7 @@
             <div id="what-is-your-track-record" class="content-block scroll-section">
 
                 <h2 class="highlight-box">What is your track record?</h2>
-                <p>Since 2011, <b>Consumer Debt Management Service</b> has successfully guided over 450,000 individuals toward a life free from liability. We rank as one of the most prominent national organizations in the sector, backed by prestigious credentials including:</p>
+                <p>Since 2011, Consumer Debt Management Service has successfully guided over 450,000 individuals toward a life free from liability. We rank as one of the most prominent national organizations in the sector, backed by prestigious credentials including:</p>
                 <ul class="dt-sc-fancy-list chocolate check-circle">
                     <li>An elite A+ status with the Better Business Bureau (BBB)</li>
                     <li>More than 82,000 five-star client testimonials across leading independent review platforms</li>
@@ -158,14 +158,14 @@
             <div id="what-makes-me-a-good-candidate-for-debt-relief" class="content-block scroll-section">
 
                 <h2 class="highlight-box">What Makes Me a Good Candidate for Debt Relief?</h2>
-                <p>The <b>Consumer Debt Management Service</b> initiative is an ideal fit for individuals carrying significant unsecured balances who are facing genuine economic strain, such as a reduction in household income or unexpected life changes. If your monthly contributions are barely covering interest costs while your total balances continue to climb, our strategy can provide the intervention you need. Why continue a cycle of mounting debt when a professional recovery plan is available?</p>
+                <p>The Consumer Debt Management Service initiative is an ideal fit for individuals carrying significant unsecured balances who are facing genuine economic strain, such as a reduction in household income or unexpected life changes. If your monthly contributions are barely covering interest costs while your total balances continue to climb, our strategy can provide the intervention you need. Why continue a cycle of mounting debt when a professional recovery plan is available?</p>
 
             </div>
 
             <div id="how-is-debt-relief-different-from-bankruptcy" class="content-block scroll-section">
 
                 <h2 class="highlight-box">How Is Debt Relief Different From Bankruptcy?</h2>
-                <p>While <b>bankruptcy</b> is widely viewed as a last resort due to severe consequences, such as impacting a credit score for up to 10 years, it can also lead to the denial of employment, state licenses, insurance, or apartment occupancy. Furthermore, there is a risk that major assets could be seized during bankruptcy proceedings. In contrast, <b>debt relief</b> is a negotiation process that uses debt forgiveness and reasonable payment plans to help individuals become debt-free in as little as 30 to 60 months. While debt relief may also negatively impact your credit score, bankruptcies are legally reported for a significantly longer duration.</p>
+                <p>While bankruptcy is widely viewed as a last resort due to severe consequences, such as impacting a credit score for up to 10 years, it can also lead to the denial of employment, state licenses, insurance, or apartment occupancy. Furthermore, there is a risk that major assets could be seized during bankruptcy proceedings. In contrast, debt relief is a negotiation process that uses debt forgiveness and reasonable payment plans to help individuals become debt-free in as little as 30 to 60 months. While debt relief may also negatively impact your credit score, bankruptcies are legally reported for a significantly longer duration.</p>
 
             </div>
 
@@ -186,7 +186,7 @@
             <div id="how-much-will-i-save" class="content-block scroll-section">
 
                 <h2 class="highlight-box">How Much Will I Save?</h2>
-                <p>Programs through <b>Consumer Debt Management Service</b> can save you thousands of dollars by stopping the accumulation of interest and fees on your credit cards and other debts. This financial freedom can release hundreds or even thousands of dollars for other essential expenses, such as buying a home or preparing for retirement. Clients who complete the program and settle all of their enrolled debts typically realize approximate savings of 42%.</p>
+                <p>Programs through Consumer Debt Management Service can save you thousands of dollars by stopping the accumulation of interest and fees on your credit cards and other debts. This financial freedom can release hundreds or even thousands of dollars for other essential expenses, such as buying a home or preparing for retirement. Clients who complete the program and settle all of their enrolled debts typically realize approximate savings of 42%.</p>
 
             </div>
 

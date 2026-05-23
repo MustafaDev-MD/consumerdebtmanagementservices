@@ -23,7 +23,21 @@ class FrontendController extends Controller
     public function aboutUs()
     {
         return view('website.about-us', [
-            'title' => 'How It Works'
+            'title' => 'About Us'
+        ]);
+    }
+
+    public function privacyPolicy()
+    {
+        return view('website.privacy-policy', [
+            'title' => 'Privacy Policy'
+        ]);
+    }
+
+    public function termsOfUse()
+    {
+        return view('website.terms-of-use', [
+            'title' => 'Terms of Use'
         ]);
     }
 
@@ -266,8 +280,8 @@ class FrontendController extends Controller
                 'description' => 'Canine rescuer, motorcycle collector',
                 'tabs' => [
                     [
-                        'title' => 'Overview',
-                        'heading' => 'Ronald reduced his obligations by 42%',
+                        'title' => 'Savings',
+                        'heading' => 'Marcus reduced his obligations by 42%',
                         'cards' => [
                             [
                                 'image' => 'assets/images/money-coin-cash.svg',
@@ -292,7 +306,7 @@ class FrontendController extends Controller
                         ],
                     ],
                     [
-                        'title' => 'Awards',
+                        'title' => 'Testimonial',
                         'images' => [
                             'assets/images/Open-Quote.svg',
                             'assets/images/Close-Quote.svg',
@@ -300,7 +314,7 @@ class FrontendController extends Controller
                         'text' => 'When the initial agreement was finalized, it seemed completely surreal.',
                     ],
                     [
-                        'title' => 'Seminars',
+                        'title' => 'Comparison',
                         'content' => [
                             'heading' => 'Marcus managed to wipe out his liabilities for a small percentage of his original balance, crossing the finish line much faster than if he had stuck to standard monthly minimums.',
                             'name' => 'Marcus T., Canine rescuer, motorcycle collector',
@@ -346,7 +360,7 @@ class FrontendController extends Controller
                 'description' => 'Logistics analyst, avid hiker',
                 'tabs' => [
                     [
-                        'title' => 'Overview',
+                        'title' => 'Savings',
                         'heading' => 'Julian reduced his obligations by 44%',
                         'cards' => [
                             [
@@ -372,7 +386,7 @@ class FrontendController extends Controller
                         ],
                     ],
                     [
-                        'title' => 'Awards',
+                        'title' => 'Testimonial',
                         'images' => [
                             'assets/images/Open-Quote.svg',
                             'assets/images/Close-Quote.svg',
@@ -380,7 +394,7 @@ class FrontendController extends Controller
                         'text' => 'With my finances restored, planning family milestones is no longer a strain. I can finally invest in personal upgrades.',
                     ],
                     [
-                        'title' => 'Seminars',
+                        'title' => 'Comparison',
                         'content' => [
                             'heading' => 'Julian managed to wipe out his liabilities for a small percentage of his original balance, crossing the finish line much faster than if he had stuck to standard monthly minimums.',
                             'name' => 'Julian K., Logistics analyst, avid hiker',
@@ -426,7 +440,7 @@ class FrontendController extends Controller
                 'description' => 'Rideshare operator, dedicated father',
                 'tabs' => [
                     [
-                        'title' => 'Overview',
+                        'title' => 'Savings',
                         'heading' => 'Raymond reduced his obligations by 34%',
                         'cards' => [
                             [
@@ -452,7 +466,7 @@ class FrontendController extends Controller
                         ],
                     ],
                     [
-                        'title' => 'Awards',
+                        'title' => 'Testimonial',
                         'images' => [
                             'assets/images/Open-Quote.svg',
                             'assets/images/Close-Quote.svg',
@@ -460,7 +474,7 @@ class FrontendController extends Controller
                         'text' => 'Discovering Consumer Debt Management Service completely turned my situation around. My monetary outlook and that crushing sense of anxiety both got drastically better.',
                     ],
                     [
-                        'title' => 'Seminars',
+                        'title' => 'Comparison',
                         'content' => [
                             'heading' => 'Raymond managed to wipe out his liabilities for a small percentage of his original balance, crossing the finish line much faster than if he had stuck to standard monthly minimums.',
                             'name' => 'Raymond V., Rideshare operator, dedicated father',
@@ -506,7 +520,7 @@ class FrontendController extends Controller
                 'description' => 'High school counselor',
                 'tabs' => [
                     [
-                        'title' => 'Overview',
+                        'title' => 'Savings',
                         'heading' => 'Valerie reduced her obligations by 35%',
                         'cards' => [
                             [
@@ -532,7 +546,7 @@ class FrontendController extends Controller
                         ],
                     ],
                     [
-                        'title' => 'Awards',
+                        'title' => 'Testimonial',
                         'images' => [
                             'assets/images/Open-Quote.svg',
                             'assets/images/Close-Quote.svg',
@@ -540,7 +554,7 @@ class FrontendController extends Controller
                         'text' => 'It genuinely unlocked a completely fresh chapter for us. That was the precise instance where I felt the heavy weight lift.',
                     ],
                     [
-                        'title' => 'Seminars',
+                        'title' => 'Comparison',
                         'content' => [
                             'heading' => 'Valerie managed to wipe out his liabilities for a small percentage of his original balance, crossing the finish line much faster than if he had stuck to standard monthly minimums.',
                             'name' => 'Valerie G., High school counselor, parent of 2 energetic boys',
@@ -586,7 +600,7 @@ class FrontendController extends Controller
                 'description' => 'Financial consultant',
                 'tabs' => [
                     [
-                        'title' => 'Overview',
+                        'title' => 'Savings',
                         'heading' => 'Elena reduced her obligations by 18%',
                         'cards' => [
                             [
@@ -612,7 +626,7 @@ class FrontendController extends Controller
                         ],
                     ],
                     [
-                        'title' => 'Awards',
+                        'title' => 'Testimonial',
                         'images' => [
                             'assets/images/Open-Quote.svg',
                             'assets/images/Close-Quote.svg',
@@ -620,7 +634,7 @@ class FrontendController extends Controller
                         'text' => 'I was completely stunned when they explained that I could resolve my liabilities while still retaining enough funds to appreciate life alongside my household.',
                     ],
                     [
-                        'title' => 'Seminars',
+                        'title' => 'Comparison',
                         'content' => [
                             'heading' => 'Elena managed to wipe out her liabilities for a small percentage of her original balance, crossing the finish line much faster than if she had stuck to standard monthly minimums.',
                             'name' => 'Elena M., Financial consultant, gardener, and baking enthusiast',
@@ -666,7 +680,7 @@ class FrontendController extends Controller
                 'description' => 'Commercial skipper',
                 'tabs' => [
                     [
-                        'title' => 'Overview',
+                        'title' => 'Savings',
                         'heading' => 'Derek reduced his obligations by 36%',
                         'cards' => [
                             [
@@ -692,7 +706,7 @@ class FrontendController extends Controller
                         ],
                     ],
                     [
-                        'title' => 'Awards',
+                        'title' => 'Testimonial',
                         'images' => [
                             'assets/images/Open-Quote.svg',
                             'assets/images/Close-Quote.svg',
@@ -700,7 +714,7 @@ class FrontendController extends Controller
                         'text' => 'When you strip away that crushing weight, every aspect of life becomes more manageable.',
                     ],
                     [
-                        'title' => 'Seminars',
+                        'title' => 'Comparison',
                         'content' => [
                             'heading' => 'Derek managed to wipe out his liabilities for a small percentage of his original balance, crossing the finish line much faster than if he had stuck to standard monthly minimums.',
                             'name' => 'Derek S., Commercial skipper, loving partner',

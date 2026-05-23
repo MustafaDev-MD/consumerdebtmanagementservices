@@ -65,7 +65,7 @@
                 @yield('content')
 
                 <!--office_locations starts-->
-                <div class="office_locations">
+                <!-- <div class="office_locations">
                     <div class="container">
                         <p> Our Offices: </p>
                         <ul class="dt-sc-locations">
@@ -167,7 +167,7 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
                 <!--office_locations ends-->
 
             </div>

@@ -41,40 +41,38 @@
             <h3 class="ls-l"
                 style="top:120px;left:560px;font-family:'Domine', serif;font-weight:bold;font-size:26px;color:#ffffff;"
                 data-ls="delayin:1200;skewxin:80;">
-                Marcus R.
+                Marcus T.
             </h3>
 
             <!-- Heading -->
             <h2 class="ls-l"
                 style="top:550px;left:560px;font-family:'Domine', serif;font-weight:bold;font-size:17px;color:#ffffff;text-transform:uppercase;line-height:48px;"
                 data-ls="offsetxin:-80;delayin:1400;skewxin:-80;">
-                Reduced His Total Debt By 36%
+                Marcus reduced his obligations by 42%
             </h2>
 
             <!-- Testimonial -->
             <p class="ls-l"
                 style="top:160px;left:560px;font-family:'Domine', serif;font-size:16px;color:#ffffff;line-height:26px;width:420px;"
                 data-ls="offsetxin:0;delayin:2000;scalexin:0.8;scaleyin:0.8;">
-                “Coming from a high-pressure background, I know the value of a reliable squad.
-                Consumer Debt Management Service stepped in and became that essential backbone for me.
-                Having a dedicated support structure gave me the leverage I needed to finally move forward.”
+                Marcus managed to wipe out his liabilities for a small percentage of his original balance, crossing the finish line much faster than if he had stuck to standard monthly minimums.
             </p>
 
             <div class="ls-l caption-list" style="top:325px;left:560px;font-family:'Domine', serif; font-size:16px; font-weight:normal; padding:10px 0px 10px 20px;white-space: nowrap;" data-ls="delayin:3000;rotateyin:180;transformoriginin:Left 50% 0;">
                 <i class="fa fa-picture-o" style="margin-right:10px;"></i>
-                Total Debt: <strong style="color:#f5c26b;">$38,420</strong>
+                Total Debt: <strong style="color:#f5c26b;">$44,750</strong>
             </div>
             <div class="ls-l caption-list" style="top:385px;left:560px;font-family:'Domine', serif; font-size:16px; font-weight:normal; padding:10px 0px 10px 20px;white-space: nowrap;" data-ls="delayin:3500;rotateyin:180;transformoriginin:Left 50% 0;">
                 <i class="fa fa-user" style="margin-right:10px;"></i>
-                Monthly Payment: <strong style="color:#f5c26b;">$595</strong>
+                Monthly Payment: <strong style="color:#f5c26b;">$785</strong>
             </div>
             <div class="ls-l caption-list" style="top:445px;left:560px;font-family:'Domine', serif; font-size:16px; font-weight:normal; padding:10px 0px 10px 20px;white-space: nowrap;" data-ls="delayin:4000;rotateyin:180;transformoriginin:Left 50% 0;">
                 <i class="fa fa-briefcase" style="margin-right:10px;"></i>
-                Program Length: <strong style="color:#f5c26b;">42 Months</strong>
+                Program Length: <strong style="color:#f5c26b;">32 Months</strong>
             </div>
             <div class="ls-l caption-list" style="top:505px;left:560px;font-family:'Domine', serif; font-size:16px; font-weight:normal; padding:10px 0px 10px 20px;white-space: nowrap;" data-ls="delayin:4500;rotateyin:180;transformoriginin:Left 50% 0;">
                 <i class="fa fa-align-justify" style="margin-right:10px;"></i>
-                Total Savings: <strong style="color:#f5c26b;">$13,830</strong>
+                Total Savings: <strong style="color:#f5c26b;">$18,795</strong>
             </div>
 
         </div>
@@ -94,22 +92,21 @@
             <h3 class="ls-l"
                 style="top:120px;left:560px;font-family:'Domine', serif;font-weight:bold;font-size:26px;color:#ffffff;"
                 data-ls="delayin:1200;skewxin:80;">
-                Elena G.
+                Elena M.
             </h3>
 
             <!-- Heading -->
             <h2 class="ls-l"
                 style="top:550px;left:560px;font-family:'Domine', serif;font-weight:bold;font-size:17px;color:#ffffff;text-transform:uppercase;line-height:48px;"
                 data-ls="offsetxin:-80;delayin:1400;skewxin:-80;">
-                Reduced Her Total Debt By 32%
+                Elena reduced her obligations by 18%
             </h2>
 
             <!-- Testimonial -->
             <p class="ls-l"
                 style="top:160px;left:560px;font-family:'Domine', serif;font-size:16px;color:#ffffff;line-height:26px;width:420px;"
                 data-ls="offsetxin:0;delayin:2000;scalexin:0.8;scaleyin:0.8;">
-                “Having a team I can fully rely on has freed me up to focus on the things that truly matter in my daily life.
-                Knowing their experts are handling the details gives me total peace of mind.”
+                Elena managed to wipe out her liabilities for a small percentage of her original balance, crossing the finish line much faster than if she had stuck to standard monthly minimums.
             </p>
 
             <!-- Stats -->
@@ -117,28 +114,91 @@
                 style="top:325px;left:560px;font-family:'Domine', serif;font-size:16px;padding:10px 0 10px 20px;"
                 data-ls="delayin:3000;">
                 <i class="fa fa-picture-o" style="margin-right:15px;"> </i>
-                Total Debt: <strong style="color:#f5c26b;">$42,850</strong>
+                Total Debt: <strong style="color:#f5c26b;">$24,500</strong>
             </div>
 
             <div class="ls-l caption-list"
                 style="top:385px;left:560px;font-family:'Domine', serif;font-size:16px;padding:10px 0 10px 20px;"
                 data-ls="delayin:3500;">
                 <i class="fa fa-user" style="margin-right:10px;"></i>
-                Monthly Payment: <strong style="color:#f5c26b;">$615</strong>
+                Monthly Payment: <strong style="color:#f5c26b;">$510</strong>
             </div>
 
             <div class="ls-l caption-list"
                 style="top:445px;left:560px;font-family:'Domine', serif;font-size:16px;padding:10px 0 10px 20px;"
                 data-ls="delayin:4000;">
                 <i class="fa fa-briefcase" style="margin-right:10px;"></i>
-                Program Length: <strong style="color:#f5c26b;">48 Months</strong>
+                Program Length: <strong style="color:#f5c26b;">28 Months</strong>
             </div>
 
             <div class="ls-l caption-list"
                 style="top:505px;left:560px;font-family:'Domine', serif;font-size:16px;padding:10px 0 10px 20px;"
                 data-ls="delayin:4500;">
                 <i class="fa fa-align-justify" style="margin-right:10px;"></i>
-                Total Savings: <strong style="color:#f5c26b;">$13,712</strong>
+                Total Savings: <strong style="color:#f5c26b;">$4,410</strong>
+            </div>
+
+        </div>
+
+        <div class="ls-slide" data-ls="slidedelay:8500; transition2d: all;">
+
+            <!-- Background -->
+            <img src="{{ asset('assets/images/layerslider-gallery/slider-bg3.jpg') }}" class="ls-bg" alt="Slide background" />
+
+            <!-- Left Image -->
+            <img class="ls-l"
+                style="top:22px;left:4px;"
+                data-ls="offsetxin:0;offsetyin:100;durationin:1800;delayin:500;scalexin:0.8;scaleyin:0.8;"
+                src="{{ asset('assets/images/layerslider-gallery/slider3-image.png') }}" alt="">
+
+            <!-- Name -->
+            <h3 class="ls-l"
+                style="top:120px;left:560px;font-family:'Domine', serif;font-weight:bold;font-size:26px;color:#ffffff;"
+                data-ls="delayin:1200;skewxin:80;">
+                Raymond V.
+            </h3>
+
+            <!-- Heading -->
+            <h2 class="ls-l"
+                style="top:550px;left:560px;font-family:'Domine', serif;font-weight:bold;font-size:17px;color:#ffffff;text-transform:uppercase;line-height:48px;"
+                data-ls="offsetxin:-80;delayin:1400;skewxin:-80;">
+                Raymond reduced his obligations by 34%
+            </h2>
+
+            <!-- Testimonial -->
+            <p class="ls-l"
+                style="top:160px;left:560px;font-family:'Domine', serif;font-size:16px;color:#ffffff;line-height:26px;width:420px;"
+                data-ls="offsetxin:0;delayin:2000;scalexin:0.8;scaleyin:0.8;">
+                Raymond managed to wipe out his liabilities for a small percentage of his original balance, crossing the finish line much faster than if he had stuck to standard monthly minimums.
+            </p>
+
+            <!-- Stats -->
+            <div class="ls-l caption-list"
+                style="top:325px;left:560px;font-family:'Domine', serif;font-size:16px;padding:10px 0 10px 20px;"
+                data-ls="delayin:3000;">
+                <i class="fa fa-picture-o" style="margin-right:15px;"> </i>
+                Total Debt: <strong style="color:#f5c26b;">$31,650</strong>
+            </div>
+
+            <div class="ls-l caption-list"
+                style="top:385px;left:560px;font-family:'Domine', serif;font-size:16px;padding:10px 0 10px 20px;"
+                data-ls="delayin:3500;">
+                <i class="fa fa-user" style="margin-right:10px;"></i>
+                Monthly Payment: <strong style="color:#f5c26b;">$1,340</strong>
+            </div>
+
+            <div class="ls-l caption-list"
+                style="top:445px;left:560px;font-family:'Domine', serif;font-size:16px;padding:10px 0 10px 20px;"
+                data-ls="delayin:4000;">
+                <i class="fa fa-briefcase" style="margin-right:10px;"></i>
+                Program Length: <strong style="color:#f5c26b;">19 Months</strong>
+            </div>
+
+            <div class="ls-l caption-list"
+                style="top:505px;left:560px;font-family:'Domine', serif;font-size:16px;padding:10px 0 10px 20px;"
+                data-ls="delayin:4500;">
+                <i class="fa fa-align-justify" style="margin-right:10px;"></i>
+                Total Savings: <strong style="color:#f5c26b;">$10,760</strong>
             </div>
 
         </div>
@@ -318,8 +378,8 @@
                                 <img src="{{ asset('assets/images/testimonial1.jpg') }}" alt="" title="">
                             </div>
                             <div class="author-meta">
-                                <p> Mike Patton </p>
-                                <span>Leo T. Coffee enthusiast, <b>graphic designer</b> </span>
+                                <p> Leo T. </p>
+                                <span> Coffee enthusiast, <b>graphic designer</b> </span>
                             </div>
                         </div>
                     </div>
@@ -352,8 +412,8 @@
                                 <img src="{{ asset('assets/images/testimonial2.jpg') }}" alt="" title="">
                             </div>
                             <div class="author-meta">
-                                <p> Kurt Russel </p>
-                                <span>Robert S. Outdoor adventurer, <b>family man</b> </span>
+                                <p> Robert S. </p>
+                                <span> Outdoor adventurer, <b>family man</b> </span>
                             </div>
                         </div>
                     </div>
@@ -391,7 +451,7 @@
             <p class="aligncenter">A sense of renewed hope often follows a client's very first consultation with us.<br> Regardless of your current financial landscape, Consumer Debt Management Service is here to provide the support you need.</p>
 
             <div class="aligncenter mt-3">
-                <a class="dt-sc-bordered-button" href="#"> Our Company Profile </a>
+                <a class="dt-sc-bordered-button dt-sc-bordered-button-secondary" href="#"> Our Company Profile </a>
             </div>
 
             <!-- <div class="dt-sc-hr-invisible-medium"></div>

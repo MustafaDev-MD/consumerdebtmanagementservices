@@ -175,7 +175,7 @@
                         <b>Identifying the Ideal Time for Debt Relief</b>
                     </li>
                 </ul>
-                <p>Financial recovery isn't a universal fix. Before exploring every avenue, confirm your eligibility for a <b>Consumer Debt Management Service</b> program to save valuable time.</p>
+                <p>Financial recovery isn't a universal fix. Before exploring every avenue, confirm your eligibility for a Consumer Debt Management Service program to save valuable time.</p>
                 <p>There is a strong probability you meet the criteria for debt relief if:</p>
                 <ul class="dt-sc-fancy-list chocolate check-circle">
                     <li>
@@ -194,7 +194,7 @@
 
                 <h3>Why Is Consumer Debt Management Service Your Best Choice?</h3>
                 <p>The foundation of our partnership with clients is a single vital element: reliability. We recognize that handing over your financial future requires immense confidence, and we honor that by prioritizing your welfare above all else. This approach allows us to pinpoint your objectives and hurdles before tailoring a cost-effective strategy designed for maximum savings.</p>
-                <p><b>Consumer Debt Management Service</b> stands as a premier negotiation firm, holding top-tier credentials from the Better Business Bureau, the International Association of Professional Debt Arbitrators, and the Financial Resolution Alliance. We take pride in being a rare industry provider to maintain high-level endorsements from these three influential regulatory bodies.</p>
+                <p>Consumer Debt Management Service stands as a premier negotiation firm, holding top-tier credentials from the Better Business Bureau, the International Association of Professional Debt Arbitrators, and the Financial Resolution Alliance. We take pride in being a rare industry provider to maintain high-level endorsements from these three influential regulatory bodies.</p>
                 <p>Our dedication to client advocacy is unmatched in the field. We consistently operate with your success in mind, a standard that is clearly evident in our performance metrics:</p>
                 <ul class="dt-sc-fancy-list chocolate check-circle">
                     <li>
@@ -229,7 +229,7 @@
                         Elite-tier customer testimonials
                     </li>
                 </ul>
-                <p>We commit to standing by you during every phase of your financial recovery, a promise we have fulfilled for more than 650,000 clients nationwide. If your unsecured liabilities exceed $8,500, you may be eligible for <b>Consumer Debt Management Service</b> to reclaim your future. However, you won’t confirm your status until you submit our zero-risk inquiry form or speak with us directly.</p>
+                <p>We commit to standing by you during every phase of your financial recovery, a promise we have fulfilled for more than 650,000 clients nationwide. If your unsecured liabilities exceed $8,500, you may be eligible for Consumer Debt Management Service to reclaim your future. However, you won’t confirm your status until you submit our zero-risk inquiry form or speak with us directly.</p>
             </div>
 
         </div>

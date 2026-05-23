@@ -470,7 +470,17 @@ ul.dt-sc-fancy-list.red li:before {
 }
 
 .dt-sc-bordered-button:hover {
-	opacity: 0.8;
+	background-color: #022444;
+	box-shadow: 0px 0px 0px 2px #022444;
+	-moz-box-shadow: 0px 0px 0px 2px #022444;
+	-webkit-box-shadow: 0px 0px 0px 2px #022444;
+}
+
+.dt-sc-bordered-button-secondary:hover {
+	background-color: #8D1813;
+	box-shadow: 0px 0px 0px 2px #8D1813;
+	-moz-box-shadow: 0px 0px 0px 2px #8D1813;
+	-webkit-box-shadow: 0px 0px 0px 2px #8D1813;
 }
 
 .dt-sc-button.brown,

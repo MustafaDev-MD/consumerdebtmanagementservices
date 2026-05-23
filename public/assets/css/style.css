@@ -2518,6 +2518,15 @@ header ul.dt-sc-social-icons li:first-child a {
 	top: 7px;
 }
 
+.megamenu-child-container span a{
+	color: #252525;
+}
+
+.megamenu-child-container h5 a[href*="debt-relief-settlement"],
+.megamenu-child-container h5 a[href*="debt-consolidation-relief"] {
+    color: #022444 !important;
+}
+
 #main-menu ul li.menu-item-simple-parent ul li:last-child>a {
 	border: none;
 }

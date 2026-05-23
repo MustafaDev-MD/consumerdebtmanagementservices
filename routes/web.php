@@ -89,6 +89,10 @@ Route::get('/client-stories', [FrontendController::class, 'clientStories'])->nam
 Route::get('/client-stories/{slug}', [FrontendController::class, 'clientStoriesDetail'])
     ->name('client-stories-detail');
 
+Route::get('/privacy-policy', [FrontendController::class, 'privacyPolicy'])->name('privacy-policy');
+
+Route::get('/terms-of-use', [FrontendController::class, 'termsOfUse'])->name('terms-of-use');
+
 // Route::get('/client-stories-detail', function () {
 //     return view('website.client-stories-detail');
 // })->name('client-stories-detail');

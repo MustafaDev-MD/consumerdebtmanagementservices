@@ -2,13 +2,13 @@
     <!--top-bar starts-->
     <div class="top-bar">
         <div class="container">
-            <ul class="dt-sc-social-icons">
+            <!-- <ul class="dt-sc-social-icons">
                 <li><a href="#" title="Facebook"><span class="fa fa-facebook"></span></a></li>
                 <li><a href="#" title="Google Plus"><span class="fa fa-google-plus"></span></a></li>
                 <li><a href="#" title="Twitter"><span class="fa fa-twitter"></span></a></li>
                 <li><a href="#" title="Youtube"><span class="fa fa-youtube"></span></a></li>
                 <li><a href="#" title="Linkedin"><span class="fa fa-linkedin"></span></a></li>
-            </ul>
+            </ul> -->
             <div class="dt-sc-contact-number">
                 <span class="fa fa-phone"> </span> Call us: (212) 742 1414
             </div>

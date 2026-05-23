@@ -9,13 +9,13 @@
                     <a href="#"> <img src="images/footer-logo.png" alt="" title=""> </a>
                     <a href="#"> Justice calls </a>
                 </p>
-                <ul class="dt-sc-social-icons">
+                <!-- <ul class="dt-sc-social-icons">
                     <li><a href="#" title="Facebook"><span class="fa fa-facebook"></span></a></li>
                     <li><a href="#" title="Google Plus"><span class="fa fa-google-plus"></span></a></li>
                     <li><a href="#" title="Twitter"><span class="fa fa-twitter"></span></a></li>
                     <li><a href="#" title="Youtube"><span class="fa fa-youtube"></span></a></li>
                     <li><a href="#" title="Linkedin"><span class="fa fa-linkedin"></span></a></li>
-                </ul>
+                </ul> -->
             </div>
 
             <div class="column dt-sc-two-sixth first">
@@ -26,7 +26,7 @@
                         <span><i>It's all about Justice </i></span>
                         <div class="dt-sc-hr-invisible-very-small"></div>
                         <p> State Attorney is an law/justice theme that suits any law/legal business. If you are about to start a business or deciding on improving your business State Attorney has all the features you need. </p>
-                        <a href="#"> <strong> Learn more about our Practices <span class="fa fa-angle-double-right"></span> </strong> </a>
+                        <!-- <a href="#"> <strong> Learn more about our Practices <span class="fa fa-angle-double-right"></span> </strong> </a> -->
                     </div>
                 </aside>
             </div>
@@ -75,8 +75,8 @@
             <div class="copyright-info">Consumer Debt Management Services © 2026 </a> All Rights Reserved. </div>
             <ul class="footer-links">
                 <!-- <li><a href="#"> Sitemap </a></li> -->
-                <li><a href="#"> Privacy Policy </a></li>
-                <li><a href="#"> Terms &amp; Conditions </a></li>
+                <li><a href="{{ route('privacy-policy') }}"> Privacy Policy </a></li>
+                <li><a href="{{ route('terms-of-use') }}"> Terms Of Use </a></li>
                 <!-- <li><a href="#"> Disclaimer </a></li> -->
             </ul>
             <!-- <p> Design by <a href="http://themeforest.net/user/buddhathemes" target="_blank" title="">Buddha Themes</a> </p> -->
