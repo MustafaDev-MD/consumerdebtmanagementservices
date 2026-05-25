@@ -403,7 +403,8 @@ ul.dt-sc-fancy-list.red li:before {
 
 .dt-sc-button:hover {
 	color: #FFFFFF;
-	opacity: 0.8;
+	background-color: #022444;
+	/* opacity: 0.8; */
 }
 
 .dt-sc-button.small,

@@ -23,9 +23,9 @@
                     <div class="widget_text_logo">
                         <img src="images/footer_text_widget_logo.png" alt="" title="">
                         <h4> Consumer Debt<br> Management Services </h4>
-                        <span><i>It's all about Justice </i></span>
+                        <span><i>It's all about Relief. </i></span>
                         <div class="dt-sc-hr-invisible-very-small"></div>
-                        <p> State Attorney is an law/justice theme that suits any law/legal business. If you are about to start a business or deciding on improving your business State Attorney has all the features you need. </p>
+                        <p> Consumer Debt Management Service is a premier financial optimization platform built to resolve personal financial hardships. Whether you are seeking to establish path toward financial clarity or intending to restructure your existing accounts, Consumer Debt Management Service delivers every strategic resource you necessitate. </p>
                         <!-- <a href="#"> <strong> Learn more about our Practices <span class="fa fa-angle-double-right"></span> </strong> </a> -->
                     </div>
                 </aside>

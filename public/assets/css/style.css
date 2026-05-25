@@ -4431,6 +4431,7 @@ ul.dt-sc-locations li .dt-sc-text-overlay a.dt-sc-button:hover {
 
 .fixed-help-form .help-form input[type=text],
 .fixed-help-form .help-form input[type=email],
+.fixed-help-form .help-form input[type=tel],
 .fixed-help-form .help-form select {
 	background-color: rgba(255, 255, 255, 0.11);
 	border: none;
@@ -4440,6 +4441,7 @@ ul.dt-sc-locations li .dt-sc-text-overlay a.dt-sc-button:hover {
 	-webkit-border-radius: 2px;
 	padding: 10px 15px;
 	margin: 0px;
+	width: 100%;
 }
 
 
@@ -4451,6 +4453,7 @@ ul.dt-sc-locations li .dt-sc-text-overlay a.dt-sc-button:hover {
 
 .fixed-help-form .help-form input[type=text]:focus,
 .fixed-help-form .help-form input[type=email]:focus,
+.fixed-help-form .help-form input[type=tel]:focus,
 .fixed-help-form .help-form input[type=submit] {
 	box-shadow: none;
 	-webkit-box-shadow: none;

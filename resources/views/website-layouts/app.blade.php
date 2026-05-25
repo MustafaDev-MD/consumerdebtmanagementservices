@@ -179,16 +179,14 @@
         </div>
     </div>
 
-    {{-- HELP FORM (converted to Laravel safe form) --}}
+    {{-- HELP FORM --}}
     <div class="fixed-help-form">
         <div class="fixed-help-form-icon">
             <img src="{{ asset('assets/images/fixed-help-form-icon.png') }}">
         </div>
 
-        <h4> Help Form </h4>
-        <p> This form helps you to get the search you need. In case if you feel like talking to us pls feel to contact
-            through. </p>
-        <p> <span> Office | +22 004 324 1124 </span> </p>
+        <h4> Request Debt Relief </h4>
+        
         <form name="helpform" method="post" class="help-form" action="php/helpform.php">
             <p>
                 <input type="text" placeholder="First Name" class="text_input" name="hf_first_name" required />
@@ -197,31 +195,38 @@
                 <input type="text" placeholder="Last Name" class="text_input" name="hf_last_name" required />
             </p>
             <p>
+                <input type="email" placeholder="Email Address" class="text_input" name="hf_email" required />
+            </p>
+            <p>
+                <input type="tel" placeholder="Phone Number" class="text_input" name="hf_phone" required />
+            </p>
+            <p>
                 <span class="select-sort">
-                    <select name="hf_consult_incident">
-                        <option value=""> - Practice Area - </option>
-                        <option value="Divorce Cases"> - Divorce Cases - </option>
-                        <option value="Local Asset Management"> - Local Asset Management - </option>
-                        <option value="Health Insurance"> - Health Insurance - </option>
-                        <option value="Business Law"> - Business Law - </option>
-                        <option value="Pregnancy"> - Pregnancy - </option>
-                        <option value="Estate Planning"> - Estate Planning - </option>
+                    <select name="hf_consult_incident" required>
+                        <option value=""> - Select Debt Type - </option>
+                        <option value="Credit Card Debt"> - Credit Card Debt - </option>
+                        <option value="Personal Loans"> - Personal Loans / Lines of Credit - </option>
+                        <option value="Medical Bills"> - Medical Bills - </option>
+                        <option value="Business Debt"> - Business Debt - </option>
+                        <option value="Collections"> - Collections & Repossessions - </option>
                     </select>
                 </span>
             </p>
             <p>
                 <span class="select-sort">
-                    <select name="hf_consult_incident_2">
-                        <option value=""> - Title - </option>
-                        <option value="Divorce Cases"> - Compensation Defense - </option>
-                        <option value="Local Asset Management"> - Subrogation - </option>
-                        <option value="Health Insurance"> - Arbitration - </option>
+                    <select name="hf_consult_incident_2" required>
+                        <option value=""> - Total Debt Amount - </option>
+                        <option value="Under $7,500"> - Under $7,500 - </option>
+                        <option value="$7,500 - $15,000"> - $7,500 - $15,000 - </option>
+                        <option value="$15,000 - $25,000"> - $15,000 - $25,000 - </option>
+                        <option value="$25,000 - $50,000"> - $25,000 - $50,000 - </option>
+                        <option value="$50,000+"> - $50,000+ - </option>
                     </select>
                 </span>
             </p>
             <div id="ajax_helpform_msg"> </div>
             <p>
-                <input type="submit" value="&#xf002; &nbsp; Search">
+                <input type="submit" value="&#xf1d9; &nbsp; Get My Free Evaluation">
             </p>
         </form>
     </div>
@@ -237,11 +242,11 @@
     <!-- <script src="{{ asset('assets/js/jquery-easing-1.3.js') }}"></script> -->
     <!-- <script src="{{ asset('assets/js/jquery.sticky.js') }}"></script> -->
     <!-- <script src="{{ asset('assets/js/jquery.nicescroll.min.js') }}"></script> -->
-    <script src="{{ asset('assets/js/jquery.jquery.tabs.min.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.jquery.viewport.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.jquery.parallax-1.1.3.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.smartresize.js') }}"></script>
-    <script src="{{ asset('assets/js/shortcodes.js') }}"></script>
+    <!-- <script src="{{ asset('assets/js/jquery.jquery.tabs.min.js') }}"></script> -->
+    <!-- <script src="{{ asset('assets/js/jquery.jquery.viewport.js') }}"></script> -->
+    <!-- <script src="{{ asset('assets/js/jquery.jquery.parallax-1.1.3.js') }}"></script> -->
+    <!-- <script src="{{ asset('assets/js/jquery.smartresize.js') }}"></script> -->
+    <!-- <script src="{{ asset('assets/js/shortcodes.js') }}"></script> -->
     <script type="text/javascript" src="{{ asset('assets/js/jquery.js') }}"></script>
     <script type="text/javascript" src="{{ asset('assets/js/jquery-migrate.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('assets/js/jquery.validate.min.js') }}"></script>

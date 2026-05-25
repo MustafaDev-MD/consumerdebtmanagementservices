@@ -33,14 +33,24 @@
             <nav id="main-menu">
                 <div class="dt-menu-toggle" id="dt-menu-toggle">Menu<span class="dt-menu-toggle-icon"></span></div>
                 <ul id="menu-main-menu" class="menu">
-                    <li class="{{ request()->routeIs('home') ? 'current_page_item' : '' }}"> <a href="{{ route('home') }}"> Home </a> </li>
-                    <li class="{{ request()->routeIs('how-it-works') ? 'current_page_item' : '' }}"> <a href="{{ route('how-it-works') }}"> How It Works </a> </li>
-                    <li class="{{ request()->routeIs('about-us') ? 'current_page_item' : '' }}"> <a href="{{ route('about-us') }}"> About Us </a> </li>
+                    <li class="{{ request()->routeIs('home') ? 'current_page_item' : '' }}">
+                        <a href="{{ route('home') }}"> Home </a> 
+                    </li>
+                    <li class="{{ request()->routeIs('how-it-works') ? 'current_page_item' : '' }}">
+                        <a href="{{ route('how-it-works') }}"> How It Works </a> 
+                    </li>
+                    <li class="{{ request()->routeIs('about-us') ? 'current_page_item' : '' }}"> 
+                        <a href="{{ route('about-us') }}"> About Us </a> 
+                    </li>
                     <!-- <li class="{{ request()->routeIs('resources') ? 'current_page_item' : '' }}"> <a href="{{ route('resources') }}"> Resources </a> </li>
                     <li class="{{ request()->routeIs('our-firm') ? 'current_page_item' : '' }}"> <a href="{{ route('our-firm') }}"> Our Firm </a> </li>
                     <li class="{{ request()->routeIs('our-practices') ? 'current_page_item' : '' }}"> <a href="{{ route('our-practices') }}"> Our Practices </a> </li> -->
 
-                    <li class="menu-item-megamenu-parent megamenu-4-columns-group menu-item-depth-0 {{ request()->routeIs('our-people') ? 'current_page_item' : '' }}"> <a href="{{ route('resources') }}"> Resources <i class="fa fa-chevron-down" aria-hidden="true"></i> </a>
+                    <li class="menu-item-megamenu-parent megamenu-4-columns-group menu-item-depth-0 {{ request()->routeIs('our-people') ? 'current_page_item' : '' }}"> 
+                        <a href="{{ route('resources') }}" > 
+                            Resources 
+                            <img src="{{ asset('assets/images/down-arrow.png') }}" alt="" title="">
+                        </a>
                         <div class="megamenu-child-container">
                             <ul class="sub-menu">
                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-depth-1 menu-item-with-widget-area fill-four-columns">
@@ -55,9 +65,21 @@
                                                             <img src="{{ asset('assets/images/resources/credit-card-debt-relief.svg') }}" alt="" title="">
                                                         </div>
                                                         <div class="flex flex-direction-column align-items-start">
-                                                            <h5 class="alignleft mb-1"><a href="{{ route('credit-card-debt-relief') }}">Credit Card Debt Relief</a></h5>
-                                                            <span class="text-align-left mb-1"><a href="{{ route('credit-card-debt-forgiveness') }}">Credit Card Forgiveness</a></span>
-                                                            <span class="text-align-left mb-1"><a href="{{ route('how-to-eliminate-credit-card-debt') }}">How to Eliminate Credit Card Debt</a></span>
+                                                            <h5 class="alignleft mb-1">
+                                                                <a href="{{ route('credit-card-debt-relief') }}">
+                                                                    Credit Card Debt Relief
+                                                                </a>
+                                                            </h5>
+                                                            <span class="text-align-left mb-1">
+                                                                <a href="{{ route('credit-card-debt-forgiveness') }}">
+                                                                    Credit Card Forgiveness
+                                                                </a>
+                                                            </span>
+                                                            <span class="text-align-left mb-1">
+                                                                <a href="{{ route('how-to-eliminate-credit-card-debt') }}">
+                                                                    How to Eliminate Credit Card Debt
+                                                                </a>
+                                                            </span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -68,10 +90,26 @@
                                                             <img src="{{ asset('assets/images/resources/debt-relief-settlement.svg') }}" alt="" title="">
                                                         </div>
                                                         <div class="flex flex-direction-column align-items-start">
-                                                            <h5 class="alignleft mb-1"><a href="{{ route('debt-relief-settlement') }}">Debt Relief Settlement</a></h5>
-                                                            <span class="text-align-left mb-1"><a href="{{ route('national-debt-relief-top-faqs') }}">Debt Relief FAQs</a></span>
-                                                            <span class="text-align-left mb-1"><a href="{{ route('debt-relief-options-and-benefits') }}">Debt Relief Options</a></span>
-                                                            <span class="text-align-left mb-1"><a href="{{ route('debt-relief-qualifications') }}">Qualifications</a></span>
+                                                            <h5 class="alignleft mb-1">
+                                                                <a href="{{ route('debt-relief-settlement') }}">
+                                                                    Debt Relief Settlement
+                                                                </a>
+                                                            </h5>
+                                                            <span class="text-align-left mb-1">
+                                                                <a href="{{ route('national-debt-relief-top-faqs') }}">
+                                                                    Debt Relief FAQs
+                                                                </a>
+                                                            </span>
+                                                            <span class="text-align-left mb-1">
+                                                                <a href="{{ route('debt-relief-options-and-benefits') }}">
+                                                                    Debt Relief Options
+                                                                </a>
+                                                            </span>
+                                                            <span class="text-align-left mb-1">
+                                                                <a href="{{ route('debt-relief-qualifications') }}">
+                                                                    Qualifications
+                                                                </a>
+                                                            </span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -82,9 +120,21 @@
                                                             <img src="{{ asset('assets/images/resources/debt-consolidation.svg') }}" alt="" title="">
                                                         </div>
                                                         <div class="flex flex-direction-column align-items-start">
-                                                            <h5 class="alignleft mb-1"><a href="{{ route('debt-consolidation-relief') }}">Debt Consolidation Relief</a></h5>
-                                                            <span class="text-align-left mb-1"><a href="{{ route('debt-consolidation-programs') }}">Programs</a></span>
-                                                            <span class="text-align-left mb-1"><a href="{{ route('how-to-choose-debt-consolidation-program') }}">How to Choose</a></span>
+                                                            <h5 class="alignleft mb-1">
+                                                                <a href="{{ route('debt-consolidation-relief') }}">
+                                                                    Debt Consolidation Relief
+                                                                </a>
+                                                            </h5>
+                                                            <span class="text-align-left mb-1">
+                                                                <a href="{{ route('debt-consolidation-programs') }}">
+                                                                    Programs
+                                                                </a>
+                                                            </span>
+                                                            <span class="text-align-left mb-1">
+                                                                <a href="{{ route('how-to-choose-debt-consolidation-program') }}">
+                                                                    How to Choose
+                                                                </a>
+                                                            </span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -95,9 +145,21 @@
                                                             <img src="{{ asset('assets/images/resources/credit-counseling.png') }}" alt="" title="">
                                                         </div>
                                                         <div class="flex flex-direction-column align-items-start">
-                                                            <h5 class="alignleft mb-1"><a href="{{ route('credit-counseling') }}">Credit Counseling</a></h5>
-                                                            <span class="text-align-left mb-1"><a href="{{ route('finding-a-credit-counselor') }}">Finding a Credit Counselor</a></span>
-                                                            <span class="text-align-left mb-1"><a href="{{ route('debt-management-plans') }}">Debt Management Plans</a></span>
+                                                            <h5 class="alignleft mb-1">
+                                                                <a href="{{ route('credit-counseling') }}">
+                                                                    Credit Counseling
+                                                                </a>
+                                                            </h5>
+                                                            <span class="text-align-left mb-1">
+                                                                <a href="{{ route('finding-a-credit-counselor') }}">
+                                                                    Finding a Credit Counselor
+                                                                </a>
+                                                            </span>
+                                                            <span class="text-align-left mb-1">
+                                                                <a href="{{ route('debt-management-plans') }}">
+                                                                    Debt Management Plans
+                                                                </a>
+                                                            </span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -153,7 +215,11 @@
                         <a class="dt-menu-expand">+</a>
                     </li>
 
-                    <li class="{{ request()->routeIs('client-stories') ? 'current_page_item' : '' }}"> <a href="{{ route('client-stories') }}"> Client Stories </a> </li>
+                    <li class="{{ request()->routeIs('client-stories') ? 'current_page_item' : '' }}"> 
+                        <a href="{{ route('client-stories') }}"> 
+                            Client Stories 
+                        </a> 
+                    </li>
 
                     <!-- <li class="{{ request()->routeIs('news-events') ? 'current_page_item' : '' }}"> <a href="{{ route('news-events') }}" title=""> News &amp; Events </a> </li>
                     <li class="menu-item-simple-parent menu-item-depth-0"> <a href="shortcodes.html"> Shortcodes </a>

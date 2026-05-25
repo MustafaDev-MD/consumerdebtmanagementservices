@@ -351,24 +351,37 @@ footer .widget_text_logo span i,
 .fixed-help-form p,
 .fixed-help-form .help-form input[type=text],
 .fixed-help-form .help-form input[type=email],
+.fixed-help-form .help-form input[type=tel],
 .fixed-help-form .help-form select,
 .help-form .success-msg {
     color: #4c7296;
 }
 
-.fixed-help-form .help-form input[type=text]::-webkit-input-placeholder {
+/* Chrome, Safari, Opera, and Modern Browsers Placeholders */
+.fixed-help-form .help-form input[type=text]::-webkit-input-placeholder,
+.fixed-help-form .help-form input[type=email]::-webkit-input-placeholder,
+.fixed-help-form .help-form input[type=tel]::-webkit-input-placeholder {
     color: #4c7296;
 }
 
-.fixed-help-form .help-form input[type=text]:-moz-placeholder {
+/* Firefox 4-18 */
+.fixed-help-form .help-form input[type=text]:-moz-placeholder,
+.fixed-help-form .help-form input[type=email]:-moz-placeholder,
+.fixed-help-form .help-form input[type=tel]:-moz-placeholder {
     color: #4c7296;
 }
 
-.fixed-help-form .help-form input[type=text]::-moz-placeholder {
+/* Firefox 19+ */
+.fixed-help-form .help-form input[type=text]::-moz-placeholder,
+.fixed-help-form .help-form input[type=email]::-moz-placeholder,
+.fixed-help-form .help-form input[type=tel]::-moz-placeholder {
     color: #4c7296;
 }
 
-.fixed-help-form .help-form input[type=text]:-ms-input-placeholder {
+/* Internet Explorer 10-11 */
+.fixed-help-form .help-form input[type=text]:-ms-input-placeholder,
+.fixed-help-form .help-form input[type=email]:-ms-input-placeholder,
+.fixed-help-form .help-form input[type=tel]:-ms-input-placeholder {
     color: #4c7296;
 }
 
