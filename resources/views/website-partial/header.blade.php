@@ -17,13 +17,13 @@
     <!--top-bar ends-->
     <div class="container">
         <div class="logo">
-            <a href="index.html" title="State Attorney, LLC">
-                <!-- <img src="{{ asset('assets/images/logo.png') }}" alt="State Attorney, LLC" title="State Attorney, LLC"> -->
-                <h2 style="margin:20px 0px;">Consumer Debt<br> Management Services </h2>
+            <a href="{{ route('home') }}" title="Consumer Debt Management Services">
+                <img src="{{ asset('assets/images/logo.png') }}" alt="Consumer Debt Management Services" title="Consumer Debt Management Services" style="margin:20px 0px;">
+                <!-- <h2 style="margin:20px 0px;">Consumer Debt<br> Management Services </h2> -->
             </a>
         </div>
         <div class="alignright">
-            <a class="dt-sc-bordered-button" href="#"> Free Consultation </a>
+            <a class="dt-sc-bordered-button dt-sc-bordered-button-secondary" href="#"> Free Consultation </a>
         </div>
     </div>
     <!--menu-container starts-->

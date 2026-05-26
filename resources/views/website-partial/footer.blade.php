@@ -6,7 +6,7 @@
             <div class="footer_top">
                 <p class="footer-logo">
                     <a href="#"> When Truth &amp; </a>
-                    <a href="#"> <img src="images/footer-logo.png" alt="" title=""> </a>
+                    <a href="#"> <img src="{{ asset('assets/images/favicon.png') }}" alt="" title=""> </a>
                     <a href="#"> Justice calls </a>
                 </p>
                 <!-- <ul class="dt-sc-social-icons">
@@ -21,13 +21,13 @@
             <div class="column dt-sc-two-sixth first">
                 <aside class="widget widget_text">
                     <div class="widget_text_logo">
-                        <img src="images/footer_text_widget_logo.png" alt="" title="">
-                        <h4> Consumer Debt<br> Management Services </h4>
-                        <span><i>It's all about Relief. </i></span>
-                        <div class="dt-sc-hr-invisible-very-small"></div>
-                        <p> Consumer Debt Management Service is a premier financial optimization platform built to resolve personal financial hardships. Whether you are seeking to establish path toward financial clarity or intending to restructure your existing accounts, Consumer Debt Management Service delivers every strategic resource you necessitate. </p>
-                        <!-- <a href="#"> <strong> Learn more about our Practices <span class="fa fa-angle-double-right"></span> </strong> </a> -->
+                        <img src="{{ asset('assets/images/logo-footer.png') }}" alt="Consumer Debt Management Services" title="Consumer Debt Management Services">
+                        <!-- <h4> Consumer Debt<br> Management Services </h4> -->
                     </div>
+                    <span><i>It's all about Relief. </i></span>
+                    <div class="dt-sc-hr-invisible-very-small"></div>
+                    <p> Consumer Debt Management Service is a premier financial optimization platform built to resolve personal financial hardships. Whether you are seeking to establish path toward financial clarity or intending to restructure your existing accounts, Consumer Debt Management Service delivers every strategic resource you necessitate. </p>
+                    <!-- <a href="#"> <strong> Learn more about our Practices <span class="fa fa-angle-double-right"></span> </strong> </a> -->
                 </aside>
             </div>
 

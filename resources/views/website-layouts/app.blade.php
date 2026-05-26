@@ -8,7 +8,7 @@
     <title>{{ $title ?? 'State Attorney LLC' }}</title>
 
     {{-- Favicon --}}
-    <link rel="icon" href="{{ asset('assets/images/favicon.ico') }}">
+    <link rel="icon" href="{{ asset('assets/images/favicon.png') }}">
     <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> -->
 
     {{-- CSS --}}
