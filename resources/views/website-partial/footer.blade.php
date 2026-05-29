@@ -5,9 +5,9 @@
         <div class="container">
             <div class="footer_top">
                 <p class="footer-logo">
-                    <a href="#"> When Truth &amp; </a>
-                    <a href="#"> <img src="{{ asset('assets/images/favicon.png') }}" alt="" title=""> </a>
-                    <a href="#"> Justice calls </a>
+                    <a href="{{ route('home') }}"> When Truth &amp; </a>
+                    <a href="{{ route('home') }}"> <img src="{{ asset('assets/images/logo-footer-center.png') }}" alt="" title=""> </a>
+                    <a href="{{ route('home') }}"> Justice calls </a>
                 </p>
                 <!-- <ul class="dt-sc-social-icons">
                     <li><a href="#" title="Facebook"><span class="fa fa-facebook"></span></a></li>
@@ -21,7 +21,9 @@
             <div class="column dt-sc-two-sixth first">
                 <aside class="widget widget_text">
                     <div class="widget_text_logo">
-                        <img src="{{ asset('assets/images/logo-footer.png') }}" alt="Consumer Debt Management Services" title="Consumer Debt Management Services">
+                        <a href="{{ route('home') }}">
+                            <img src="{{ asset('assets/images/logo-footer.png') }}" alt="Consumer Debt Management Services" title="Consumer Debt Management Services">
+                        </a>
                         <!-- <h4> Consumer Debt<br> Management Services </h4> -->
                     </div>
                     <span><i>It's all about Relief. </i></span>
@@ -45,12 +47,11 @@
 
             <div class="column dt-sc-one-sixth">
                 <aside class="widget widget_text">
-                    <h3 class="widgettitle"> Attorneys </h3>
+                    <h3 class="widgettitle"> Clients </h3>
                     <ul>
-                        <li> <a href=""> Robert James </a> </li>
-                        <li> <a href=""> Craig Thompson </a> </li>
-                        <li> <a href=""> Lewi Steve </a> </li>
-                        <li> <a href=""> Carl Danny </a> </li>
+                        @foreach(collect($clients ?? [])->take(4) as $client)
+                        <li> <a href="{{ route('client-stories-detail', $client['slug']) }}"> {{ $client['name'] }} </a> </li>
+                        @endforeach
                     </ul>
                 </aside>
             </div>
@@ -59,9 +60,10 @@
                 <aside class="widget widget_text">
                     <h3 class="widgettitle"> Overview </h3>
                     <ul>
-                        <li> <a href=""> About our Practice </a> </li>
-                        <li> <a href=""> Testimonials </a> </li>
-                        <li> <a href=""> Our Policies </a> </li>
+                        <li> <a href="{{ route('about-us') }}"> About Us </a> </li>
+                        <li> <a href="{{ route('how-it-works') }}"> How It Works </a> </li>
+                        <li> <a href="{{ route('resources') }}"> Resources </a> </li>
+                        <li> <a href="{{ route('client-stories') }}"> Client Stories </a> </li>
                     </ul>
                 </aside>
             </div>

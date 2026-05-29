@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\View;
 
 class FrontendController extends Controller
 {
@@ -754,6 +755,11 @@ class FrontendController extends Controller
                 ],
             ],
         ];
+    }
+
+    public function __construct()
+    {
+        View::share('clients', $this->getClients());
     }
 
     public function clientStories()

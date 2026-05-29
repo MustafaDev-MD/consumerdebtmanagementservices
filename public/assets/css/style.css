@@ -1806,6 +1806,7 @@ header {
 
 .logo img {
 	display: block;
+	width: 410px;
 }
 
 header .dt-sc-contact-number {
@@ -4521,7 +4522,12 @@ footer {
 	display: table-cell;
 	vertical-align: middle;
 	font-weight: bold;
-	width: 103px;
+	/* width: 103px; */
+	width: 180px;
+}
+
+.footer-logo a img{
+	width: 140px;
 }
 
 .footer-logo a:first-child {

@@ -70,8 +70,8 @@
             {{-- Tabs Content --}}
             @foreach($tabs as $tab)
 
-            {{-- TAB 1: OVERVIEW --}}
-            @if(($tab['title'] ?? '') === 'Overview')
+            {{-- TAB 1: Savings --}}
+            @if(($tab['title'] ?? '') === 'Savings')
             <div class="dt-sc-tabs-frame-content">
                 <h2>{{ $tab['heading'] ?? '' }}</h2>
 
@@ -89,8 +89,8 @@
             </div>
             @endif
 
-            {{-- TAB 2: AWARDS --}}
-            @if(($tab['title'] ?? '') === 'Awards')
+            {{-- TAB 2: Testimonial --}}
+            @if(($tab['title'] ?? '') === 'Testimonial')
             <div class="dt-sc-tabs-frame-content">
                 <div class="flex flex-direction-column gap-20">
 
@@ -113,8 +113,8 @@
             </div>
             @endif
 
-            {{-- TAB 3: SEMINARS --}}
-            @if(($tab['title'] ?? '') === 'Seminars')
+            {{-- TAB 3: Comparison --}}
+            @if(($tab['title'] ?? '') === 'Comparison')
             <div class="dt-sc-tabs-frame-content">
 
                 <div class="container">

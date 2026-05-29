@@ -820,7 +820,17 @@
 
 /*----*****---- << Mobile (Landscape) >> ----*****----*/
 
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+
+    .footer-logo a{
+        width: 106px;
+    }
+
+    .footer-logo a img{
+        width: 66px;
+    }
+
+}
 
 /*----*****---- << Mobile (Landscape) >> ----*****----*/
 
