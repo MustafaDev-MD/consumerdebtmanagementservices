@@ -630,6 +630,11 @@ body * .ls-container img,
 	padding: 0;
 }
 
+.ls-slide-left-image{
+	width: 390px !important;
+    height: 520px !important;
+}
+
 /*html * .ls-thumbnail a img,
 body * .ls-thumbnail a img,
 #ls-global * .ls-thumbnail a img {

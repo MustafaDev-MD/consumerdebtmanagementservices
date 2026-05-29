@@ -5,13 +5,14 @@
 <!--slider starts-->
 <div id="slider">
     <div id="layerslider_2" class="ls-wp-container" style="width:100%;height:660px;margin:0 auto;margin-bottom: 0px;">
-        <!-- <div class="ls-slide" data-ls=" transition2d: all;">
-            <img src="{{ asset('assets/images/layerslider-gallery/slider1-bg1.jpg') }}" class="ls-bg" alt="Slide background" />
+         <div class="ls-slide" data-ls=" transition2d: all;">
+            <img src="{{ asset('assets/images/layerslider-gallery/banner-main.webp') }}" class="ls-bg" alt="Slide background" />
+            <h1 class="ls-l caption-1" style="top:285px;left:7px; font-size:28px; padding:15px 30px 15px 25px;white-space: nowrap;" data-ls="offsetxin:-40;delayin:500;skewxin:-40;"> A Perfect Law / Attorney Theme </h1>
             <h2 class="ls-l caption-1" style="top:385px;left:7px; font-size:20px; padding:15px 30px 15px 25px;white-space: nowrap;" data-ls="offsetxin:-80;delayin:1000;skewxin:-80;"> A Perfect Law / Attorney Theme </h2>
             <p class="ls-l caption-1" style="top:452px;left:7px; font-weight:300; font-size:14px; padding:15px 50px 15px 25px; line-height:27px;white-space: nowrap;" data-ls="delayin:2000;skewxin:80;"> This theme has variety of Features like Attorneys, Practice Details, <br>
                 Quick Contact, Special News pages &amp; Unique Design </p>
         </div>
-        <div class="ls-slide" data-ls="slidedelay:8000; transition2d: all;">
+        <!--<div class="ls-slide" data-ls="slidedelay:8000; transition2d: all;">
             <img src="{{ asset('assets/images/layerslider-gallery/slider-bg2.jpg') }}" class="ls-bg" alt="Slide background" />
             <img class="ls-l" style="top:93px;left:286px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:-80;delayin:500;" src="{{ asset('assets/images/layerslider-gallery/slider2-mac.png') }}" alt="">
             <img class="ls-l" style="top:213px;left:689px;white-space: nowrap;" data-ls="offsetxin:200;delayin:1000;" src="{{ asset('assets/images/layerslider-gallery/slider2-ipad.png') }}" alt="">
@@ -26,32 +27,27 @@
             <h3 class="ls-l caption-2" style="top:560px;left:171px;font-family:'Domine', serif; font-size:30px; white-space: nowrap; text-transform: none; font-weight: 300;" data-ls="delayin:3500;rotateyin:90;skewxin:-60;"> We present you the best Law template </h3>
             <a href="#" class="ls-l dt-sc-bordered-button" style='top:558px;left:743px;font-family:"Source Sans Pro",sans-serif; font-size:15px; padding:10px 28px; border:1px solid #ffffff; color:#ffffff; display:inline-block; font-weight:600; padding:12px 26px; text-transform:uppercase; white-space: nowrap;' data-ls="delayin:4000;rotateyin:90;skewxin:60;"> Purchase Theme </a>
         </div> -->
-        <div class="ls-slide" data-ls="slidedelay:8500; transition2d: all;">
+        <!-- <div class="ls-slide" data-ls="slidedelay:8500; transition2d: all;">
 
-            <!-- Background -->
             <img src="{{ asset('assets/images/layerslider-gallery/slider-bg3.jpg') }}" class="ls-bg" alt="Slide background" />
 
-            <!-- Left Image -->
-            <img class="ls-l"
+            <img class="ls-l ls-slide-left-image"
                 style="top:22px;left:4px;"
                 data-ls="offsetxin:0;offsetyin:100;durationin:1800;delayin:500;scalexin:0.8;scaleyin:0.8;"
                 src="{{ asset('assets/images/layerslider-gallery/slider3-image.png') }}" alt="">
 
-            <!-- Name -->
             <h3 class="ls-l"
                 style="top:120px;left:560px;font-family:'Domine', serif;font-weight:bold;font-size:26px;color:#ffffff;"
                 data-ls="delayin:1200;skewxin:80;">
                 Marcus T.
             </h3>
 
-            <!-- Heading -->
             <h2 class="ls-l"
                 style="top:550px;left:560px;font-family:'Domine', serif;font-weight:bold;font-size:17px;color:#ffffff;text-transform:uppercase;line-height:48px;"
                 data-ls="offsetxin:-80;delayin:1400;skewxin:-80;">
                 Marcus reduced his obligations by 42%
             </h2>
 
-            <!-- Testimonial -->
             <p class="ls-l"
                 style="top:160px;left:560px;font-family:'Domine', serif;font-size:16px;color:#ffffff;line-height:26px;width:420px;"
                 data-ls="offsetxin:0;delayin:2000;scalexin:0.8;scaleyin:0.8;">
@@ -75,18 +71,18 @@
                 Total Savings: <strong style="color:#f5c26b;">$18,795</strong>
             </div>
 
-        </div>
+        </div> -->
 
         <div class="ls-slide" data-ls="slidedelay:8500; transition2d: all;">
 
             <!-- Background -->
-            <img src="{{ asset('assets/images/layerslider-gallery/slider-bg3.jpg') }}" class="ls-bg" alt="Slide background" />
+            <img src="{{ asset('assets/images/layerslider-gallery/banner-1.webp') }}" class="ls-bg" alt="Slide background" />
 
             <!-- Left Image -->
             <img class="ls-l"
-                style="top:22px;left:4px;"
+                style="top:140px;left:4px;width:390px !important;height:520px !important;"
                 data-ls="offsetxin:0;offsetyin:100;durationin:1800;delayin:500;scalexin:0.8;scaleyin:0.8;"
-                src="{{ asset('assets/images/layerslider-gallery/slider3-image.png') }}" alt="">
+                src="{{ asset('assets/images/layerslider-gallery/elena-m.webp') }}" alt="">
 
             <!-- Name -->
             <h3 class="ls-l"
@@ -143,13 +139,13 @@
         <div class="ls-slide" data-ls="slidedelay:8500; transition2d: all;">
 
             <!-- Background -->
-            <img src="{{ asset('assets/images/layerslider-gallery/slider-bg3.jpg') }}" class="ls-bg" alt="Slide background" />
+            <img src="{{ asset('assets/images/layerslider-gallery/banner-1.webp') }}" class="ls-bg" alt="Slide background" />
 
             <!-- Left Image -->
             <img class="ls-l"
-                style="top:22px;left:4px;"
+                style="top:140px;left:4px;width:390px !important;height:520px !important;"
                 data-ls="offsetxin:0;offsetyin:100;durationin:1800;delayin:500;scalexin:0.8;scaleyin:0.8;"
-                src="{{ asset('assets/images/layerslider-gallery/slider3-image.png') }}" alt="">
+                src="{{ asset('assets/images/layerslider-gallery/raymond-v.webp') }}" alt="">
 
             <!-- Name -->
             <h3 class="ls-l"

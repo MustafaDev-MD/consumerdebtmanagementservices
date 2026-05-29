@@ -5149,3 +5149,8 @@ ul.footer-links li:last-child:after {
 		grid-template-columns: 1fr;
 	}
 }
+
+.ls-slide-left-image{
+	width: 390px !important;
+    height: 520px !important;
+}
