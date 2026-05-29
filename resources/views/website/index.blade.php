@@ -7,7 +7,7 @@
     <div id="layerslider_2" class="ls-wp-container" style="width:100%;height:660px;margin:0 auto;margin-bottom: 0px;">
          <div class="ls-slide" data-ls=" transition2d: all;">
             <img src="{{ asset('assets/images/layerslider-gallery/banner-main.webp') }}" class="ls-bg" alt="Slide background" />
-            <h1 class="ls-l caption-1" style="top:285px;left:7px; font-size:28px; padding:15px 30px 15px 25px;white-space: nowrap;" data-ls="offsetxin:-40;delayin:500;skewxin:-40;"> A Perfect Law / Attorney Theme </h1>
+            <h1 class="ls-l" style="top:285px;left:7px; font-size:35px; padding:15px 30px 15px 25px;white-space: nowrap;" data-ls="offsetxin:-40;delayin:500;skewxin:-40;"> A Perfect Law / Attorney Theme </h1>
             <h2 class="ls-l caption-1" style="top:385px;left:7px; font-size:20px; padding:15px 30px 15px 25px;white-space: nowrap;" data-ls="offsetxin:-80;delayin:1000;skewxin:-80;"> A Perfect Law / Attorney Theme </h2>
             <p class="ls-l caption-1" style="top:452px;left:7px; font-weight:300; font-size:14px; padding:15px 50px 15px 25px; line-height:27px;white-space: nowrap;" data-ls="delayin:2000;skewxin:80;"> This theme has variety of Features like Attorneys, Practice Details, <br>
                 Quick Contact, Special News pages &amp; Unique Design </p>
