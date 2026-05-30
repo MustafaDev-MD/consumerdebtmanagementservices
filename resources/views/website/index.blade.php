@@ -337,7 +337,7 @@
             <p class="aligncenter mb-3">“The goal of Consumer Debt Management Service is to return your autonomy, allowing you to live life on your own terms. Alongside our professional team, we work relentlessly to provide impactful and permanent solutions for your debt resolution journey.”</p>
             <div class="flex gap-20 mb-2">
                 <div class="author">
-                    <img src="{{ asset('assets/images/testimonial1.jpg') }}" alt="" title="">
+                    <img src="{{ asset('assets/images/julian-m.webp') }}" alt="" title="">
                 </div>
                 <div class="author-meta">
                     <p> Julian M. </p>
@@ -371,7 +371,7 @@
                                 </div>
                             </div>
                             <div class="author">
-                                <img src="{{ asset('assets/images/testimonial1.jpg') }}" alt="" title="">
+                                <img src="{{ asset('assets/images/leo-t.webp') }}" alt="" title="">
                             </div>
                             <div class="author-meta">
                                 <p> Leo T. </p>
@@ -405,7 +405,7 @@
                                 </div>
                             </div>
                             <div class="author">
-                                <img src="{{ asset('assets/images/testimonial2.jpg') }}" alt="" title="">
+                                <img src="{{ asset('assets/images/robert-s.webp') }}" alt="" title="">
                             </div>
                             <div class="author-meta">
                                 <p> Robert S. </p>

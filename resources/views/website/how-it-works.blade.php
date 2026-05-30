@@ -19,7 +19,7 @@
         <section>
             <div class="flex">
                 <div class="dt-sc-one-half column first">
-                    <a href="#"><img src="{{ asset('assets/images/our_practices_image4.jpg') }}" alt="" title=""></a>
+                    <a href="#"><img src="{{ asset('assets/images/how-it-works.webp') }}" alt="" title=""></a>
                 </div>
 
                 <div class="dt-sc-one-half column">
@@ -157,7 +157,7 @@
                                 </div>
                             </div>
                             <div class="author">
-                                <img src="{{ asset('assets/images/testimonial1.jpg') }}" alt="" title="">
+                                <img src="{{ asset('assets/images/leo-t.webp') }}" alt="" title="">
                             </div>
                             <div class="author-meta">
                                 <p> Leo T. </p>
@@ -191,7 +191,7 @@
                                 </div>
                             </div>
                             <div class="author">
-                                <img src="{{ asset('assets/images/testimonial2.jpg') }}" alt="" title="">
+                                <img src="{{ asset('assets/images/robert-s.webp') }}" alt="" title="">
                             </div>
                             <div class="author-meta">
                                 <p> Robert S. </p>
@@ -226,7 +226,7 @@
                                 </div>
                             </div>
                             <div class="author">
-                                <img src="{{ asset('assets/images/testimonial2.jpg') }}" alt="" title="">
+                                <img src="{{ asset('assets/images/elena-v.webp') }}" alt="" title="">
                             </div>
                             <div class="author-meta">
                                 <p> Elena V </p>
