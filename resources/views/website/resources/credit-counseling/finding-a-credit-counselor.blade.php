@@ -63,14 +63,14 @@
 
         <div class="dt-sc-one-half column first">
             <div class="dt-sc-hr-invisible-large"></div>
-            <h1 class="dt-sc-simple-hr-title"> Determine if you qualify for debt relief! </h1>
+            <h1 class="dt-sc-simple-hr-title"> Find the Right Guidance to <br><br>Reclaim Financial Control </h1>
             <div class="alignleft">
-                <a class="dt-sc-bordered-button" href="tel:(855) 420-1988"> Get Started </a>
+                <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Get Started </a>
             </div>
         </div>
 
         <div class="dt-sc-one-half column">
-            <a href="#"><img src="{{ asset('assets/images/our_practices_image4.jpg') }}" alt="" title=""></a>
+            <img src="{{ asset('assets/images/find-the-right-guidance-to-reclaim-financial-control.webp') }}" alt="Find the Right Guidance to Reclaim Financial Control" title="Find the Right Guidance to Reclaim Financial Control">
         </div>
 
     </div>
@@ -79,7 +79,7 @@
 </section>
 <!--primary ends-->
 
-<div class="dt-sc-hr-invisible-large"></div>
+<!-- <div class="dt-sc-hr-invisible-large"></div> -->
 
 <!-- ============================================================
      STICKY FAQ SECTION 
@@ -195,7 +195,7 @@
                 </ul>
                 <div class="toc-divider"></div>
                 <div class="">
-                    <a class="dt-sc-bordered-button" href="tel:(800) 555-0199"> Get Started </a>
+                    <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Get Started </a>
                 </div>
             </div>
         </div>

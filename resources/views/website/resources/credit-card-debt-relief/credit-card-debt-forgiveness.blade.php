@@ -81,7 +81,7 @@
 </section>
 <!--primary ends-->
 
-<div class="dt-sc-hr-invisible-large"></div>
+<!-- <div class="dt-sc-hr-invisible-large"></div> -->
 
 <!-- ============================================================
      STICKY FAQ SECTION 
@@ -176,7 +176,7 @@
                 </ul>
                 <div class="toc-divider"></div>
                 <div class="">
-                    <a class="dt-sc-bordered-button" href="tel:(855) 420-1988"> Get Started </a>
+                    <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Get Started </a>
                 </div>
             </div>
         </div>

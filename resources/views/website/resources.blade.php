@@ -28,7 +28,7 @@
             </div>
 
             <div class="dt-sc-one-half column">
-                <a href="#"><img src="{{ asset('assets/images/our_practices_image4.jpg') }}" alt="" title=""></a>
+                <img src="{{ asset('assets/images/every-vital-detail.webp') }}" alt="Every Vital Detail" title="">
             </div>
 
         </section>
@@ -38,7 +38,7 @@
         <p class="aligncenter mb-3">"Don't hesitate to contact us, because the route toward financial independence<br> is merely a ring away. Armed with the required instruments and proficiency,<br> we stand prepared to aid your target attainment immediately."</p>
         <div class="flex gap-20 mb-2">
             <div class="author">
-                <img src="{{ asset('assets/images/testimonial1.jpg') }}" alt="" title="">
+                <img src="{{ asset('assets/images/julian-m.webp') }}" alt="" title="">
             </div>
             <div class="author-meta">
                 <p> Julian M. </p>

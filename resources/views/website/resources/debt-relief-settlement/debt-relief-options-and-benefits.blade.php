@@ -43,9 +43,9 @@
             <h1 class="dt-sc-simple-hr-title"> Debt Relief Choices and Advantages </h1>
             <p> <b>Summary of Points</b> </p>
             <ul class="dt-sc-fancy-list chocolate check-circle">
-                <li><b>Available Relief Strategies:</b> Solutions feature restructuring, mediation, and resolution to lower installments and ease economic pressure.</li>
+                <li><b>Available Relief Strategies:</b> Solutions feature restructuring, mediation, and<br> resolution to lower installments and ease economic pressure.</li>
                 <li><b>Professional Guidance:</b> Consumer Debt Management Service provides complimentary evaluations, emphasizing sustainable strategies to resolve liabilities within 30 to 60 months.</li>
-                <li><b>Impact on Wellness:</b> High interest and balances take a heavy toll on psychological and physical health; professional intervention offers a clear roadmap to fiscal stability.</li>
+                <li><b>Impact on Wellness:</b> High interest and balances take a heavy toll on psychological and physical<br> health; professional intervention offers a clear roadmap to fiscal stability.</li>
                 <li><b>Fraud Avoidance:</b> Selecting a verified firm ensures protection against predatory practices; prioritize organizations with high industry ratings and verified client history.</li>
                 <li><b>Personalized Advocacy:</b> Consumer Debt Management Service delivers custom support, budget management, and a consolidated monthly payment framework to eliminate your financial load effectively.</li>
             </ul>
@@ -63,7 +63,7 @@
 </section>
 <!--primary ends-->
 
-<div class="dt-sc-hr-invisible-large"></div>
+<!-- <div class="dt-sc-hr-invisible-large"></div> -->
 
 <!-- ============================================================
      STICKY FAQ SECTION 
@@ -219,7 +219,7 @@
                 </ul>
                 <div class="toc-divider"></div>
                 <div class="">
-                    <a class="dt-sc-bordered-button" href="tel:(855) 420-1988"> Get Started </a>
+                    <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Get Started </a>
                 </div>
             </div>
         </div>

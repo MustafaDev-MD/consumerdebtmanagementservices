@@ -36,14 +36,14 @@
     <div class="container">
 
         <div class="dt-sc-two-third column first">
-            <h1 class="dt-sc-simple-hr-title"> Strategies regarding Eradicating plus Clearing Credit Card debt Permanently </h1>
+            <h1 class="dt-sc-simple-hr-title"> Strategies regarding Eradicating plus Clearing<br><br> Credit Card debt Permanently </h1>
             <p> <b>Primary Insights</b> </p>
             <ul class="dt-sc-fancy-list chocolate check-circle">
                 <li>Credit card debt relief assists in bargaining a decreased liquidation sum, simplifying the process of satisfying debt within swifter windows using smaller recurring installments.</li>
                 <li>The Glacier Approach (minimal toward maximum debt) fosters encouragement, whereas the Tsunami Strategy (greatest APR initially) preserves additional funds regarding finance charges.</li>
-                <li>Disbursing beyond that base requirement, focusing on costly debt initially, and arranging obligations via importance might hasten debt conclusion.</li>
-                <li>Establishing economic targets, spending plans, plus determining that fundamental origin regarding debt represent vital actions toward enduring monetary health.</li>
-                <li>Contemplate debt relief support if basic installments prove taxing or if earlier personal efforts proved unsuccessful.</li>
+                <li>Disbursing beyond that base requirement, focusing on costly debt initially, and arranging<br> obligations via importance might hasten debt conclusion.</li>
+                <li>Establishing economic targets, spending plans, plus determining that fundamental origin regarding<br> debt represent vital actions toward enduring monetary health.</li>
+                <li>Contemplate debt relief support if basic installments prove taxing or <br>if earlier personal efforts proved unsuccessful.</li>
             </ul>
             <p>
                 During the final trimester regarding 2025, plastic ledger totals rose by $74 B-figures toward $1.04 T-figures, a peak metric per the Dallas Central Bank’s Seasonal Document on Residential debt.
@@ -66,14 +66,14 @@
 
         <div class="dt-sc-one-half column first">
             <div class="dt-sc-hr-invisible-large"></div>
-            <h1 class="dt-sc-simple-hr-title"> Begin Clearing Your Credit Card debt Right Away! </h1>
+            <h1 class="dt-sc-simple-hr-title"> Begin Clearing Your Credit<br><br> Card debt Right Away! </h1>
             <div class="alignleft">
-                <a class="dt-sc-bordered-button" href="tel:(855) 420-1988"> Get Started </a>
+                <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Get Started </a>
             </div>
         </div>
 
         <div class="dt-sc-one-half column">
-            <a href="#"><img src="{{ asset('assets/images/our_practices_image4.jpg') }}" alt="" title=""></a>
+            <img src="{{ asset('assets/images/begin-clearing-your-credit-card-debt-right-away.webp') }}" alt="Begin Clearing Your Credit Card debt Right Away!" title="Begin Clearing Your Credit Card debt Right Away!">
         </div>
 
     </div>
@@ -82,7 +82,7 @@
 </section>
 <!--primary ends-->
 
-<div class="dt-sc-hr-invisible-large"></div>
+<!-- <div class="dt-sc-hr-invisible-large"></div> -->
 
 <!-- ============================================================
      STICKY FAQ SECTION 
@@ -245,7 +245,7 @@
                 </ul>
                 <div class="toc-divider"></div>
                 <div class="">
-                    <a class="dt-sc-bordered-button" href="tel:(855) 420-1988"> Get Started </a>
+                    <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Get Started </a>
                 </div>
             </div>
         </div>

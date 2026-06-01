@@ -44,7 +44,7 @@
             <p> <b>Core Takeaways</b> </p>
             <ul class="dt-sc-fancy-list chocolate check-circle">
                 <li>Consumer Debt Management Service delivers an organized liability restructuring framework, beginning with a complimentary assessment, launching a federally protected account for client accumulations, and advocating directly with lenders to secure minimized balance agreements.</li>
-                <li>You incur zero administrative costs until an obligation is successfully finalized; upfront service fees are never collected.</li>
+                <li>You incur zero administrative costs until an obligation is successfully finalized;<br> upfront service fees are never collected.</li>
                 <li>Eligibility for a restructuring program generally demands a minimum of $8,500 in non-collateralized liabilities, demonstrable financial distress, and the capacity to fulfill recurring deposits into a designated reserve.</li>
                 <li>Consumer Debt Management Service has guided more than 450,000 individuals in resolving over $7 billion in unsecured liabilities and maintains premium rankings across consumer evaluation portals and client testimonial hubs.</li>
                 <li>Optimization systems for unmanageable balances have existed across the financial landscape for decades. Consumer Debt Management Service was established specifically to ensure individuals can navigate restructuring with an organization dedicated to human outcomes, rather than mere data points.</li>
@@ -63,7 +63,7 @@
 </section>
 <!--primary ends-->
 
-<div class="dt-sc-hr-invisible-large"></div>
+<!-- <div class="dt-sc-hr-invisible-large"></div> -->
 
 <!-- ============================================================
      STICKY FAQ SECTION 
@@ -201,7 +201,7 @@
                 </ul>
                 <div class="toc-divider"></div>
                 <div class="">
-                    <a class="dt-sc-bordered-button" href="tel:(855) 420-1988"> Get Started </a>
+                    <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Get Started </a>
                 </div>
             </div>
         </div>

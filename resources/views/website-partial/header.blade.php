@@ -23,7 +23,7 @@
             </a>
         </div>
         <div class="alignright">
-            <a class="dt-sc-bordered-button dt-sc-bordered-button-secondary" href="#"> Free Consultation </a>
+            <a class="dt-sc-bordered-button dt-sc-bordered-button-secondary" href="{{ route('contact-us') }}"> Free Consultation </a>
         </div>
     </div>
     <!--menu-container starts-->

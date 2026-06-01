@@ -62,14 +62,14 @@
 
         <div class="dt-sc-one-half column first">
             <div class="dt-sc-hr-invisible-large"></div>
-            <h1 class="dt-sc-simple-hr-title"> Discover if you meet the criteria for our specialized relief plans! </h1>
+            <h1 class="dt-sc-simple-hr-title"> Discover if you meet the criteria for<br><br> our specialized relief plans! </h1>
             <div class="alignleft">
-                <a class="dt-sc-bordered-button" href="tel:(855) 420-1988"> Get Started </a>
+                <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Get Started </a>
             </div>
         </div>
 
         <div class="dt-sc-one-half column">
-            <a href="#"><img src="{{ asset('assets/images/our_practices_image4.jpg') }}" alt="" title=""></a>
+            <img src="{{ asset('assets/images/discover-if-you-meet-the-criteria-for-our-specialized-relief-plans.webp') }}" alt="Discover if you meet the criteria for our specialized relief plans" title="Discover if you meet the criteria for our specialized relief plans">
         </div>
 
     </div>
@@ -78,7 +78,7 @@
 </section>
 <!--primary ends-->
 
-<div class="dt-sc-hr-invisible-large"></div>
+<!-- <div class="dt-sc-hr-invisible-large"></div> -->
 
 <!-- ============================================================
      STICKY FAQ SECTION 
@@ -172,7 +172,7 @@
                 </ul>
                 <div class="toc-divider"></div>
                 <div class="">
-                    <a class="dt-sc-bordered-button" href="tel:(800) 453-9124"> Get Started </a>
+                    <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Get Started </a>
                 </div>
             </div>
         </div>

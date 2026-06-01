@@ -19,7 +19,7 @@
         <section>
             <div class="flex">
                 <div class="dt-sc-one-half column first">
-                    <a href="#"><img src="{{ asset('assets/images/how-it-works.webp') }}" alt="" title=""></a>
+                    <img src="{{ asset('assets/images/how-it-works.webp') }}" alt="Settle Your Debt for Less" title="">
                 </div>
 
                 <div class="dt-sc-one-half column">
@@ -88,7 +88,7 @@
                 <div class="column dt-sc-one-fourth first">
                     <div class="dt-sc-team">
                         <div class="dt-sc-team-thumb">
-                            <img src="{{ asset('assets/images/attorney1.jpg') }}" alt="" title="">
+                            <img src="{{ asset('assets/images/james.webp') }}" alt="" title="">
                         </div>
                         <div class="dt-sc-team-content">
                             <h5> James </h5>

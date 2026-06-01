@@ -36,7 +36,7 @@
     </div>
 
     <div class="aligncenter mt-3">
-        <a class="dt-sc-bordered-button" href="#"> Discover More </a>
+        <a class="dt-sc-bordered-button" href="{{ route('about-us') }}"> Discover More </a>
     </div>
 
 </section>

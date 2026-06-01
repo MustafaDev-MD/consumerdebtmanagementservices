@@ -21,7 +21,7 @@
             <div class="column dt-sc-two-sixth first">
                 <aside class="widget widget_text">
                     <div class="widget_text_logo">
-                        <a href="{{ route('home') }}">
+                        <a href="{{ route('home') }}" class="m-0">
                             <img src="{{ asset('assets/images/logo-footer.png') }}" alt="Consumer Debt Management Services" title="Consumer Debt Management Services">
                         </a>
                         <!-- <h4> Consumer Debt<br> Management Services </h4> -->
@@ -33,40 +33,43 @@
                 </aside>
             </div>
 
-            <div class="column dt-sc-two-sixth">
+            <div>
+
+            </div>
+            <div class="column dt-sc-one-fourth float-right">
                 <aside class="widget widget_text">
                     <h3 class="widgettitle">Contact Details</h3>
                     <div class="textwidget">
                         <p class="dt-sc-contact-info"><span><i class="fa fa-phone"></i> Phone: </span> +22 004 324 1124 </p>
-                        <p class="dt-sc-contact-info"><span><i class="fa fa-print"></i> Fax: </span> +22 004 324 1124 </p>
                         <p class="dt-sc-contact-info"><span><i class="fa fa-envelope"></i> Email: </span><a href="mailto:yourname@somemail.com"> info@consumerdebtservices.com </a></p>
-                        <p class="dt-sc-contact-info"><i class="fa fa-location-arrow"></i>58, Thomson Street, Edison Avenue, Baltimore, USA</p>
+                        <p class="dt-sc-contact-info"><i class="fa fa-location-arrow"></i>58, Thomson Street, Edison Avenue, USA</p>
                     </div>
                 </aside>
             </div>
 
-            <div class="column dt-sc-one-sixth">
+            <!-- <div class="column dt-sc-one-sixth">
                 <aside class="widget widget_text">
                     <h3 class="widgettitle"> Clients </h3>
                     <ul>
-                        @foreach(collect($clients ?? [])->take(4) as $client)
+                        @foreach(collect($clients ?? [])->take(5) as $client)
                         <li> <a href="{{ route('client-stories-detail', $client['slug']) }}"> {{ $client['name'] }} </a> </li>
                         @endforeach
                     </ul>
                 </aside>
-            </div>
+            </div> -->
 
-            <div class="column dt-sc-one-sixth">
+            <div class="column dt-sc-one-sixth float-right">
                 <aside class="widget widget_text">
                     <h3 class="widgettitle"> Overview </h3>
                     <ul>
                         <li> <a href="{{ route('about-us') }}"> About Us </a> </li>
+                        <li> <a href="{{ route('contact-us') }}"> Contact Us </a> </li>
                         <li> <a href="{{ route('how-it-works') }}"> How It Works </a> </li>
-                        <li> <a href="{{ route('resources') }}"> Resources </a> </li>
                         <li> <a href="{{ route('client-stories') }}"> Client Stories </a> </li>
                     </ul>
                 </aside>
             </div>
+
 
         </div>
         <!--container ends-->

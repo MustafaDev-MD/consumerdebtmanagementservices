@@ -38,11 +38,11 @@
             <h1 class="dt-sc-simple-hr-title"> Structural Debt Management Blueprints </h1>
             <p> <b>Core Fundamentals</b> </p>
             <ul class="dt-sc-fancy-list chocolate check-circle">
-                <li>The Structured Framework: A Debt Management Plan (DMP) represents an organized, systematic protocol designed to liquidate outstanding obligations, typically administered via an accredited consumer guidance group.</li>
+                <li>The Structured Framework: A Debt Management Plan (DMP) represents an organized, systematic protocol designed to liquidate outstanding obligations, typically administered via an accredited<br> consumer guidance group.</li>
                 <li>Operational Mechanics: This strategy merges separate liabilities into a solitary recurring monthly remittance, locks in optimized interest percentages, and clarifies your path to total amortization.</li>
                 <li>Strategic Trade-offs: This approach offers significant relief from collection pressures and reduces systemic anxiety. Conversely, it can temporarily constrain your immediate borrowing eligibility and introduce modest administrative overhead.</li>
-                <li>Alternative Paradigms: Depending on your asset profile, consider mechanisms such as commercial liability consolidation, strategic account settlement, formal bankruptcy protection, or self-directed financial restructuring.</li>
-                <li>Leverage Expert Diagnostic Reviews: Partner with a qualified financial strategist to analyze your specific variables and isolate the most efficient recovery path.</li>
+                <li>Alternative Paradigms: Depending on your asset profile, consider mechanisms such as commercial liability consolidation, strategic account settlement, formal bankruptcy protection, or self-directed<br> financial restructuring.</li>
+                <li>Leverage Expert Diagnostic Reviews: Partner with a qualified financial strategist to analyze your <br>specific variables and isolate the most efficient recovery path.</li>
             </ul>
             <p>Are you experiencing intense pressure trying to manage multiple, fragmented debt obligations? A structured Debt Management Plan (DMP) could serve as your optimal resolution framework. By merging separate liabilities into a solitary, sustainable monthly remittance, you can make substantial forward progress toward long-term financial rehabilitation and secure a more stable economic future.</p>
         </div>
@@ -62,14 +62,14 @@
 
         <div class="dt-sc-one-half column first">
             <div class="dt-sc-hr-invisible-large"></div>
-            <h1 class="dt-sc-simple-hr-title"> Determine if you qualify for debt relief! </h1>
+            <h1 class="dt-sc-simple-hr-title"> Take the First Step Toward a <br><br>Structured, Debt-Free Future </h1>
             <div class="alignleft">
-                <a class="dt-sc-bordered-button" href="tel:(855) 420-1988"> Get Started </a>
+                <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Get Started </a>
             </div>
         </div>
 
         <div class="dt-sc-one-half column">
-            <a href="#"><img src="{{ asset('assets/images/our_practices_image4.jpg') }}" alt="" title=""></a>
+            <img src="{{ asset('assets/images/take-the-first-step-toward-a-structured,-debt-free-future.webp') }}" alt="Take the First Step Toward a Structured, Debt-Free Future" title="Take the First Step Toward a Structured, Debt-Free Future`">
         </div>
 
     </div>
@@ -78,7 +78,7 @@
 </section>
 <!--primary ends-->
 
-<div class="dt-sc-hr-invisible-large"></div>
+<!-- <div class="dt-sc-hr-invisible-large"></div> -->
 
 <!-- ============================================================
      STICKY FAQ SECTION 
@@ -214,7 +214,7 @@
                 </ul>
                 <div class="toc-divider"></div>
                 <div class="">
-                    <a class="dt-sc-bordered-button" href="tel:(800) 555-0199"> Get Started </a>
+                    <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Get Started </a>
                 </div>
             </div>
         </div>

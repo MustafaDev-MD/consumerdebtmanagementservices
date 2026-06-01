@@ -27,7 +27,7 @@
         <p class="alignleft"><span class="dt-sc-highlight skin-color"> We are dedicated to helping you reclaim your financial freedom. That involves a specialized debt consultant and support group working without pause to achieve your desired outcome—debt resolution. We will remain by your side from the first step to the last.</p>
     </div>
     <div class="aligncenter mt-3">
-        <a class="dt-sc-bordered-button" href="#"> Let’s Begin Now </a>
+        <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Let’s Begin Now </a>
     </div>
     <!--container ends-->
 
@@ -123,7 +123,7 @@
                             </div>
                         </div>
                         <div class="author">
-                            <img src="{{ asset('assets/images/testimonial1.jpg') }}" alt="" title="">
+                            <img src="{{ asset('assets/images/leo-t.webp') }}" alt="" title="">
                         </div>
                         <div class="author-meta">
                             <p> Leo T. </p>
@@ -157,7 +157,7 @@
                             </div>
                         </div>
                         <div class="author">
-                            <img src="{{ asset('assets/images/testimonial2.jpg') }}" alt="" title="">
+                            <img src="{{ asset('assets/images/robert-s.webp') }}" alt="" title="">
                         </div>
                         <div class="author-meta">
                             <p> Robert S. </p>
@@ -192,7 +192,7 @@
                             </div>
                         </div>
                         <div class="author">
-                            <img src="{{ asset('assets/images/testimonial2.jpg') }}" alt="" title="">
+                            <img src="{{ asset('assets/images/elena-v.webp') }}" alt="" title="">
                         </div>
                         <div class="author-meta">
                             <p> Elena V </p>
@@ -211,7 +211,7 @@
 
 </section>
 
-<section>
+<!-- <section>
 
     <div class="container">
 
@@ -243,7 +243,7 @@
 
     </div>
 
-</section>
+</section> -->
 
 <section class="core-values-section">
     <div class="container">
@@ -286,7 +286,7 @@
         </div>
 
         <div class="aligncenter mt-3">
-            <a class="dt-sc-bordered-button  dt-sc-bordered-button-secondary" href="#"> Enroll Today </a>
+            <a class="dt-sc-bordered-button  dt-sc-bordered-button-secondary" href="{{ route('contact-us') }}"> Enroll Today </a>
         </div>
 
     </div>
@@ -328,7 +328,7 @@
             </p>
 
             <div class="aligncenter mt-3">
-                <a class="dt-sc-bordered-button" href="#"> Discover More </a>
+                <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Discover More </a>
             </div>
         </div>
 

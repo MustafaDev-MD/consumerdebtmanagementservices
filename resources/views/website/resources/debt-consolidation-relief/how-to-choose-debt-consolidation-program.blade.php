@@ -5,11 +5,11 @@
 <div class="container md-mt-26">
 
     <div class="column dt-sc-one-third first m-0">
-        <h4 class="aligncenter p-20 border-1"><a href="{{ route('debt-consolidation-relief') }}">Debt Consolidation Relief</a></h4>
+        <h4 class="aligncenter p-20 border-1"><a href="{{ route('debt-consolidation-relief') }}">Debt Consolidation</a></h4>
     </div>
 
     <div class="column dt-sc-one-third m-0">
-        <h4 class="aligncenter p-20 border-1"><a href="{{ route('debt-consolidation-programs') }}">Debt Consolidation Programs</a></h4>
+        <h4 class="aligncenter p-20 border-1"><a href="{{ route('debt-consolidation-programs') }}">Programs</a></h4>
     </div>
 
     <div class="column dt-sc-one-third m-0">
@@ -38,11 +38,11 @@
             <h1 class="dt-sc-simple-hr-title"> Varieties of Balance Unification Financing </h1>
             <p> <b>Essential Insights</b> </p>
             <ul class="dt-sc-fancy-list chocolate check-circle">
-                <li>Financial alleviation reduces your outstanding balances via expert negotiation, whereas balance integration blends separate liabilities into one singular financing arrangement.</li>
+                <li>Financial alleviation reduces your outstanding balances via expert negotiation, whereas balance <br>integration blends separate liabilities into one singular financing arrangement.</li>
                 <li>Consumer Debt Management Service coordinates directly with service providers to suppress your obligations, assessing service premiums only following a finalized, successful resolution.</li>
                 <li>Engaging in balance mitigation can temporarily influence credit health ratings but frequently enables consumers to preserve far more capital than continuing with baseline installments.</li>
-                <li>Perfectly suited for consumers experiencing substantial unbacked liabilities or severe economic distress, regularly yielding reductions of roughly 25% to 55% on total obligations.</li>
-                <li>Supplies extensive reference materials, targeted liability resolution pathways, and a complimentary analysis with certified asset protection experts.</li>
+                <li>Perfectly suited for consumers experiencing substantial unbacked liabilities or severe economic<br> distress, regularly yielding reductions of roughly 25% to 55% on total obligations.</li>
+                <li>Supplies extensive reference materials, targeted liability resolution pathways, and<br> a complimentary analysis with certified asset protection experts.</li>
             </ul>
             <p>
                 Liability integration is available through multiple financial structures, each presenting unique benefits. You secure a new funding amount matching your aggregate obligations to wipe out those balances, leaving you with one centralized monthly remittance to your primary lender. If you are finding it difficult to maintain your standard monthly installments and want a mechanism to clear obligations that comprise under half of your annual earnings at an accelerated pace, a unified financing plan could be your ideal remedy.
@@ -64,14 +64,14 @@
 
         <div class="dt-sc-one-half column first">
             <div class="dt-sc-hr-invisible-large"></div>
-            <h1 class="dt-sc-simple-hr-title"> Initiate the Elimination of Your Outstanding Balances Immediately! </h1>
+            <h1 class="dt-sc-simple-hr-title"> Initiate the Elimination of Your<br><br> Outstanding Balances Immediately! </h1>
             <div class="alignleft">
-                <a class="dt-sc-bordered-button" href="tel:(855) 420-1988"> Get Started </a>
+                <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Get Started </a>
             </div>
         </div>
 
         <div class="dt-sc-one-half column">
-            <a href="#"><img src="{{ asset('assets/images/our_practices_image4.jpg') }}" alt="" title=""></a>
+            <img src="{{ asset('assets/images/initiate-the-elimination-of-your-outstanding-balances-immediately.webp') }}" alt="Initiate the Elimination of Your Outstanding Balances Immediately!" title="Initiate the Elimination of Your Outstanding Balances Immediately!">
         </div>
 
     </div>
@@ -80,7 +80,7 @@
 </section>
 <!--primary ends-->
 
-<div class="dt-sc-hr-invisible-large"></div>
+<!-- <div class="dt-sc-hr-invisible-large"></div> -->
 
 <!-- ============================================================
      STICKY FAQ SECTION 
@@ -217,7 +217,7 @@
                 </ul>
                 <div class="toc-divider"></div>
                 <div class="">
-                    <a class="dt-sc-bordered-button" href="tel:(800) 555-0199"> Get Started </a>
+                    <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Get Started </a>
                 </div>
             </div>
         </div>

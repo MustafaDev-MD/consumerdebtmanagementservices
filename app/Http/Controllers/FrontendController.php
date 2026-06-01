@@ -42,6 +42,13 @@ class FrontendController extends Controller
         ]);
     }
 
+    public function contactUs()
+    {
+        return view('website.contact-us', [
+            'title' => 'Contact Us'
+        ]);
+    }
+
     // public function resources()
     // {
     //     return view('website.resources', [

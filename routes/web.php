@@ -93,6 +93,8 @@ Route::get('/privacy-policy', [FrontendController::class, 'privacyPolicy'])->nam
 
 Route::get('/terms-of-use', [FrontendController::class, 'termsOfUse'])->name('terms-of-use');
 
+Route::get('/contact-us', [FrontendController::class, 'contactUs'])->name('contact-us');
+
 // Route::get('/client-stories-detail', function () {
 //     return view('website.client-stories-detail');
 // })->name('client-stories-detail');

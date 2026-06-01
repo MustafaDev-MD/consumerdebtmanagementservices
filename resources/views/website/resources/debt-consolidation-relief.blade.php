@@ -5,11 +5,11 @@
 <div class="container md-mt-26">
 
     <div class="column dt-sc-one-third first m-0">
-        <h4 class="aligncenter p-20 border-1"><a href="{{ route('debt-consolidation-relief') }}">Debt Consolidation Relief</a></h4>
+        <h4 class="aligncenter p-20 border-1"><a href="{{ route('debt-consolidation-relief') }}">Debt Consolidation</a></h4>
     </div>
 
     <div class="column dt-sc-one-third m-0">
-        <h4 class="aligncenter p-20 border-1"><a href="{{ route('debt-consolidation-programs') }}">Debt Consolidation Programs</a></h4>
+        <h4 class="aligncenter p-20 border-1"><a href="{{ route('debt-consolidation-programs') }}">Programs</a></h4>
     </div>
 
     <div class="column dt-sc-one-third m-0">
@@ -40,7 +40,7 @@
             <ul class="dt-sc-fancy-list chocolate check-circle">
                 <li>Credit consolidation financing merges distinct liabilities into a single account, frequently establishing a reduced percentage rate to streamline your monthly outlays.</li>
                 <li>Equity-backed options demand physical property as a safety net for the lender, whereas signature options require no collateral but typically carry elevated interest parameters.</li>
-                <li>Primary advantages encompass a unified payment structure, diminished financing costs, and a significantly compressed path to total resolution.</li>
+                <li>Primary advantages encompass a unified payment structure, diminished financing costs,<br> and a significantly compressed path to total resolution.</li>
                 <li>This strategy is counterproductive if it translates into steeper long-term financing fees, advance administrative costs, or if your borrowing rating falls below baseline requirements.</li>
                 <li>Consumer Debt Management Service provides personalized liability strategies engineered to guide participants to complete financial autonomy within 18 to 42 months.</li>
             </ul>
@@ -64,14 +64,14 @@
 
         <div class="dt-sc-one-half column first">
             <div class="dt-sc-hr-invisible-large"></div>
-            <h1 class="dt-sc-simple-hr-title"> Determine your eligibility for a credit consolidation program! </h1>
+            <h1 class="dt-sc-simple-hr-title"> Determine your eligibility for a<br><br> credit consolidation program! </h1>
             <div class="alignleft">
-                <a class="dt-sc-bordered-button" href="tel:(855) 420-1988"> Get Started </a>
+                <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Get Started </a>
             </div>
         </div>
 
         <div class="dt-sc-one-half column">
-            <a href="#"><img src="{{ asset('assets/images/our_practices_image4.jpg') }}" alt="" title=""></a>
+            <img src="{{ asset('assets/images/determine-your-eligibility-for-a-credit-consolidation-program.webp') }}" alt="Determine Your Eligibility for a Credit Consolidation Program!" title="Determine Your Eligibility for a Credit Consolidation Program!">
         </div>
 
     </div>
@@ -80,7 +80,7 @@
 </section>
 <!--primary ends-->
 
-<div class="dt-sc-hr-invisible-large"></div>
+<!-- <div class="dt-sc-hr-invisible-large"></div> -->
 
 <!-- ============================================================
      STICKY FAQ SECTION 
@@ -383,7 +383,7 @@
                 </ul>
                 <div class="toc-divider"></div>
                 <div class="">
-                    <a class="dt-sc-bordered-button" href="tel:(800) 555-0199"> Get Started </a>
+                    <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Get Started </a>
                 </div>
             </div>
         </div>

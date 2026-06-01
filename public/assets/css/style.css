@@ -384,6 +384,10 @@ iframe {
 	justify-content: start;
 }
 
+.justify-content-space-between {
+	justify-content: space-between;
+}
+
 .align-items-start {
 	align-items: start;
 }
@@ -448,6 +452,10 @@ iframe {
 	margin-bottom: 30px !important;
 }
 
+.ml-25 {
+	margin-left: 25px !important;
+}
+
 .border-1 {
 	border: 1px solid #cccccc !important;
 }
@@ -455,6 +463,18 @@ iframe {
 .border-left-1 {
 	border-left: 1px solid #cccccc !important;
 }	
+
+.bg-grey{
+	background: #F4F5F7 !important;
+}
+
+.bg-white{
+	background: #FFFFFF !important;
+}
+
+.width-100 {
+	width: 100% !important;
+}
 
 .dt-sc-bar.color-red {
     background: #8d1812;
@@ -497,7 +517,7 @@ h5.alignleft {
 }
 
 .float-right {
-	float: right;
+	float: right !important;
 }
 
 .float-left {
@@ -1029,7 +1049,7 @@ textarea {
 }
 
 .core-card {
-	background: #f5f5f5;
+	background: #F4F5F7;
 	padding: 30px 25px;
 	text-align: center;
 	transition: 0.3s;
@@ -1051,7 +1071,7 @@ textarea {
 --------------------------------------------------------------*/
 
 .philanthropy-section {
-	background: #f4f4f4;
+	background: #F4F5F7;
 	padding: 80px 0;
 	text-align: center;
 }
@@ -1077,7 +1097,7 @@ textarea {
 
 .services-section {
 	padding: 80px 0;
-	background: #f5f6f8;
+	background: #F4F5F7;
 }
 
 /* GRID FIX (theme compatible) */
@@ -1739,12 +1759,19 @@ h5.dt-sc-toggle:after,
 3.0 - Header Styles
 --------------------------------------------------------------*/
 
+header,
+header .logo img,
+#main-menu > ul.menu > li > a {
+    transition: all 0.3s ease;
+}
+
 .sticky-wrapper {
 	clear: both;
 	width: 100%;
 	z-index: 9999;
 	display: block;
 	height: auto !important;
+	min-height: 70px;
 }
 
 .is-sticky header {
@@ -2961,7 +2988,7 @@ ul.commentlist li .comment-reply-link:before {
 }
 
 .fullwidth-background.trust_section {
-	background-image: url(../images/full_width_parallax_image1.jpg);
+	background-image: url(../images/supporting-you-at-every-turn.webp);
 	text-align: center;
 	padding: 70px 0px 120px;
 }
@@ -4582,11 +4609,35 @@ footer ul.dt-sc-social-icons li:last-child {
 
 /**footer widget styles**/
 
-footer h3.widgettitle {
+/* footer h3.widgettitle {
 	padding-bottom: 15px;
 	color: #FFFFFF;
 	border-bottom: 3px double rgba(255, 255, 255, 0.1);
 	text-transform: uppercase;
+}
+
+footer h3.widgettitle {
+    display: inline-block;
+    padding-bottom: 15px;
+    color: #FFFFFF;
+    border-bottom: 3px double rgba(255, 255, 255, 0.1);
+    text-transform: uppercase;
+} */
+
+footer h3.widgettitle {
+    position: relative;
+    padding-bottom: 15px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+footer h3.widgettitle::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50%; /* border ki width */
+    border-bottom: 3px double rgba(255, 255, 255, 0.1);
 }
 
 h3.widgettitle {

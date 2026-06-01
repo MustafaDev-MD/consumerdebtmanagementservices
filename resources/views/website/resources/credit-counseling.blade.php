@@ -38,9 +38,14 @@
             <h1 class="dt-sc-simple-hr-title"> Credit Counseling </h1>
             <p> <b>Primary Insights</b> </p>
             <ul class="dt-sc-fancy-list chocolate check-circle">
-                <li>Credit counseling provides customized budgeting frameworks, debt management strategies, and structured financial literacy resources.</li>
-                <li>Streamlined Liability Clearance: Financial advisors can design customized Debt Management Plans (DMPs) to combine obligations and secure more favorable terms.</li>
-                <li>Analytical Selection Strategy: Evaluate the advantages and limitations of credit counseling, assessing the projected gains and operational challenges prior to finalizing your direction.</li>
+                <li>Credit counseling provides customized budgeting frameworks, debt management<br> strategies, and structured financial literacy resources.</li>
+                <li>Streamlined Liability Clearance: Financial advisors can design customized Debt Management<br> Plans (DMPs) to combine obligations and secure more favorable terms.</li>
+                <li>Analytical Selection Strategy: Evaluate the advantages and limitations of credit counseling, assessing<br> the projected gains and operational challenges prior to finalizing your direction.</li>
+                <li>Empowerment Through Mastery: Partnering with accredited advisors allows you to <br>regain absolute control and command over your household ledger.</li>
+                <li>Practical Expenditure Frameworks: Create highly effective budgeting structures designed<br> specifically to monitor incoming revenue and track outgoing costs.</li>
+                <li>Direct Creditor Negotiations: Advisory organizations interface directly with your account <br>issuers to actively lower interest rates and waive past delinquent fees.</li>
+                <li>Minimized Payment Obligations: Work alongside professionals to compress your recurring<br> monthly payments into much more realistic, manageable limits.</li>
+                <li>Psychological Pressure Relief: Leverage early professional intervention to significantly alleviate<br> financial anxiety while completely bypassing formal insolvency steps.</li>
             </ul>
         </div>
 
@@ -54,28 +59,26 @@
 
 <!--primary starts-->
 <section id="primary" class="content-full-width">
-    <!--container starts-->
     <div class="container">
 
         <div class="dt-sc-one-half column first">
             <div class="dt-sc-hr-invisible-large"></div>
-            <h1 class="dt-sc-simple-hr-title"> Determine if you qualify for debt relief! </h1>
+            <h1 class="dt-sc-simple-hr-title"> Evaluate Your Financial Options<br><br> with Expert Clarity </h1>
             <div class="alignleft">
-                <a class="dt-sc-bordered-button" href="tel:(855) 420-1988"> Get Started </a>
+                <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Get Started </a>
             </div>
         </div>
 
         <div class="dt-sc-one-half column">
-            <a href="#"><img src="{{ asset('assets/images/our_practices_image4.jpg') }}" alt="" title=""></a>
+            <img src="{{ asset('assets/images/determine-if-you-qualify-for-debt-relief.webp') }}" alt="Determine if you qualify for debt relief!" title="Determine if you qualify for debt relief!">
         </div>
 
     </div>
-    <!--container ends-->
 
 </section>
 <!--primary ends-->
 
-<div class="dt-sc-hr-invisible-large"></div>
+<!-- <div class="dt-sc-hr-invisible-large"></div> -->
 
 <!-- ============================================================
      STICKY FAQ SECTION 
@@ -276,7 +279,7 @@
                 </ul>
                 <div class="toc-divider"></div>
                 <div class="">
-                    <a class="dt-sc-bordered-button" href="tel:(800) 555-0199"> Get Started </a>
+                    <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Get Started </a>
                 </div>
             </div>
         </div>

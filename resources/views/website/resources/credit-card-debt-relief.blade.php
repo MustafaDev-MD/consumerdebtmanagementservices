@@ -36,31 +36,9 @@
 
         <div class="dt-sc-two-third column first">
             <h1 class="dt-sc-simple-hr-title"> Credit Card Debt Relief </h1>
-            <div class="flex">
-
-                <div class="flex justify-content-start gap-20 mb-2">
-                    <div class="author">
-                        <img src="{{ asset('assets/images/testimonial1.jpg') }}" alt="" title="">
-                    </div>
-                    <div class="author-meta">
-                        <p class="m-0"> Drafted by </p>
-                        <p class="m-0"> <b>Julian Sterling</b> </p>
-                    </div>
-                </div>
-                <div class="flex justify-content-start gap-20 mb-2">
-                    <div class="author">
-                        <img src="{{ asset('assets/images/testimonial1.jpg') }}" alt="" title="">
-                    </div>
-                    <div class="author-meta">
-                        <p class="m-0"> Appraised by </p>
-                        <p class="m-0"> <b>Victor Vance</b> </p>
-                    </div>
-                </div>
-
-            </div>
             <p> <b>Fundamental Points</b> </p>
             <ul class="dt-sc-fancy-list chocolate check-circle">
-                <li><b> Liability Mitigation Procedure: </b>Bargains for diminished installments with lenders, permitting swifter obligation clearing for a fragment of the total sum.</li>
+                <li><b> Liability Mitigation Procedure: </b>Bargains for diminished installments with lenders, permitting<br> swifter obligation clearing for a fragment of the total sum.</li>
                 <li><b> Financial Stressors: </b>Rising costs, setbacks, impulsive buying, healthcare invoices, absence of rainy-day capital, separation, and various factors frequently result in massive revolving balances.</li>
                 <li><b>Assistance Alternatives:</b>
                     <ul class="dt-sc-fancy-list ocean angle-double-right mt-1">
@@ -69,7 +47,7 @@
                         <li><b>Management: </b>Organizes uniform monthly payouts at competitive rates.</li>
                     </ul>
                 </li>
-                <li><b>Assistance Alternatives: </b>Provides tailored, cost-free preliminary evaluations to construct sustainable repayment strategies.</li>
+                <li><b>Assistance Alternatives: </b>Provides tailored, cost-free preliminary evaluations to<br> construct sustainable repayment strategies.</li>
             </ul>
             <h3> <b>Incentive for Credit Card Debt Relief?</b> </h3>
             <p class="mb-1">
@@ -95,14 +73,14 @@
 
         <div class="dt-sc-one-half column first">
             <div class="dt-sc-hr-invisible-large"></div>
-            <h1 class="dt-sc-simple-hr-title"> Start clearing off personal credit card debt today! </h1>
+            <h1 class="dt-sc-simple-hr-title"> Start clearing off personal<br><br> credit card debt today! </h1>
             <div class="alignleft">
-                <a class="dt-sc-bordered-button" href="tel:(855) 420-1988"> Get Started </a>
+                <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Get Started </a>
             </div>
         </div>
 
         <div class="dt-sc-one-half column">
-            <a href="#"><img src="{{ asset('assets/images/our_practices_image4.jpg') }}" alt="" title=""></a>
+            <img src="{{ asset('assets/images/start-clearing-off-personal-credit-card-debt-today.webp') }}" alt="Start clearing off personal credit card debt today!" title="Start clearing off personal credit card debt today!">
         </div>
 
     </div>
@@ -111,7 +89,7 @@
 </section>
 <!--primary ends-->
 
-<div class="dt-sc-hr-invisible-large"></div>
+<!-- <div class="dt-sc-hr-invisible-large"></div> -->
 
 <!-- ============================================================
      STICKY FAQ SECTION 
@@ -328,7 +306,7 @@
                 </ul>
                 <div class="toc-divider"></div>
                 <div class="">
-                    <a class="dt-sc-bordered-button" href="tel:(855) 420-1988"> Get Started </a>
+                    <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Get Started </a>
                 </div>
             </div>
         </div>

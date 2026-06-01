@@ -43,11 +43,11 @@
 
             <p> <b>Summary of Points</b> </p>
             <ul class="dt-sc-fancy-list chocolate check-circle">
-                <li>Available Debt Relief Paths: Features solutions like negotiation, restructuring, and financial guidance, each tailored with distinct advantages and criteria.</li>
+                <li>Available Debt Relief Paths: Features solutions like negotiation, restructuring, and financial<br> guidance, each tailored with distinct advantages and criteria.</li>
                 <li>Qualified Liabilities: These initiatives address unsecured obligations (such as credit cards or healthcare expenses) but generally exclude collateral-backed loans (like home mortgages).</li>
                 <li>Reliable Agencies: Consumer Debt Management Service and similar organizations provide structured strategies to diminish balances and monthly costs through ethical advocacy and bargaining.</li>
                 <li>Well-being Consequences: Financial strain often takes a toll on psychological and physical wellness, highlighting the necessity of professional intervention and support.</li>
-                <li>Fraud Prevention: Prioritize firms with high industry ratings, steer clear of advanced payment demands, and select partners with a verified history of positive client feedback.</li>
+                <li>Fraud Prevention: Prioritize firms with high industry ratings, steer clear of advanced payment demands,<br> and select partners with a verified history of positive client feedback.</li>
             </ul>
             <p class="mb-1">
                 Adhering to a financial plan is difficult enough without the added pressure of modern price surges and heavy interest burdens. Given that economic volatility remains a factor, currently is the most advantageous moment to eliminate your outstanding balances.
@@ -65,7 +65,7 @@
 </section>
 <!--primary ends-->
 
-<div class="dt-sc-hr-invisible-large"></div>
+<!-- <div class="dt-sc-hr-invisible-large"></div> -->
 
 <!-- ============================================================
      STICKY FAQ SECTION 
@@ -243,7 +243,7 @@
                 </ul>
                 <div class="toc-divider"></div>
                 <div class="">
-                    <a class="dt-sc-bordered-button" href="tel:(855) 420-1988"> Get Started </a>
+                    <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Get Started </a>
                 </div>
             </div>
         </div>
