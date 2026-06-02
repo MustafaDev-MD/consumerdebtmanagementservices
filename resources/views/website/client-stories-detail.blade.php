@@ -119,9 +119,9 @@
 
                 <div class="container">
 
-                    <h4 class="aligncenter no-transform">
-                        {{ $tab['content']['heading'] ?? '' }}
-                    </h4>
+                    <!-- <h4 class="aligncenter no-transform">
+                        {!! $tab['content']['heading'] ?? '' !!}
+                    </h4> -->
 
                     <div class="dt-sc-hr-invisible-very-small"></div>
 
@@ -198,7 +198,7 @@
 
         <section>
 
-    <h5>Related Attorneys</h5>
+    <h5>Related Clients</h5>
 
     <div class="dt-sc-hr-invisible-medium"></div>
 

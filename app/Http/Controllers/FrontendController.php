@@ -324,7 +324,7 @@ class FrontendController extends Controller
                     [
                         'title' => 'Comparison',
                         'content' => [
-                            'heading' => 'Marcus managed to wipe out his liabilities for a small percentage of his original balance, crossing the finish line much faster than if he had stuck to standard monthly minimums.',
+                            'heading' => 'Marcus managed to wipe out his liabilities for a small percentage of his original balance, crossing the<br> finish line much faster than if he had stuck to standard monthly minimums.',
                             'name' => 'Marcus T., Canine rescuer, motorcycle collector',
                             'image' => 'assets/images/marcus-t.webp',
                             'starting_debt_label' => 'Initial Liabilities:',

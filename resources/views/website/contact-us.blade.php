@@ -18,13 +18,12 @@
 
     <div class="container">
 
-        <h1 class="aligncenter no-transform"> Reach Out. We’re Ready to Assist. </h1>
+        <h1 class="aligncenter no-transform"> We Are Ready To Support You </h1>
         <div class="dt-sc-hr-invisible-very-small"></div>
-        <p class="aligncenter">A sense of renewed hope often follows a client's very first consultation with us.<br> Regardless of your current financial landscape, Consumer Debt Management Service is here to provide the support you need.</p>
-        <p class="aligncenter">Our Company Profile</p>
+        <p class="aligncenter">Overwhelmed by debt? Consumer Debt Management Service can help. We negotiate with lenders<br> to slash your liabilities. As a trusted agency with thousands of top reviews, we offer a free assessment<br> to show your savings and build a fast, insolvency-free path to financial freedom.</p>
 
         <div class="aligncenter mt-3">
-            <a class="dt-sc-bordered-button dt-sc-bordered-button-secondary" href="#"> (877) 796-7686 </a>
+            <a class="dt-sc-bordered-button dt-sc-bordered-button-secondary" href="#"> (800) 453-9120 </a>
         </div>
 
     </div>
@@ -39,11 +38,11 @@
 
     <div class="container">
 
-        <h2 class="dt-sc-hr-title mb-2">Schedule Your Complimentary Debt Relief Review</h2>
+        <h2 class="dt-sc-hr-title mb-2">Receive Your Complimentary, Risk-Free Financial Consultation</h2>
         <ul class="dt-sc-fancy-list chocolate check-circle flex flex-direction-column aligncenter">
-            <li><span>Receive a customized savings forecast</span></li>
-            <li><span>Review your timeline to financial freedom.</span></li>
-            <li class="ml-25"><span>Pay zero service costs until settlements are finalized.</span></li>
+            <li><span>Acquire A Custom Savings Projection Immediately</span></li>
+            <li><span>Discover Your Accelerated Path To Total Recovery</span></li>
+            <li><span>Zero Upfront Costs Until Resolution Is Reached</span></li>
         </ul>
 
         <div class="width-100">
@@ -88,68 +87,7 @@
 
 <!-- Reviews -->
 
-<section class="nx-reviews-sec">
-
-    <div class="container">
-
-        <div class="nx-reviews-wrap">
-            <h2 class="nx-reviews-title">
-                Elite Ratings from Our Success Stories
-            </h2>
-
-            <div class="nx-reviews-grid">
-
-                <div class="nx-review-card">
-                    <img src="{{ asset('assets/images/gooogle.png') }}" alt="Google Logo" class="nx-review-logo">
-                    <div class="nx-review-stars">
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <!-- ★★★★★ -->
-                    </div>
-                    <p class="nx-review-text">
-                        <b>4.8/5</b> — 14,500+ Verified Reviews
-                    </p>
-                </div>
-
-                <div class="nx-review-card">
-                    <img src="{{ asset('assets/images/consumer.png') }}" alt="ConsumerAffairs Logo" class="nx-review-logo">
-                    <div class="nx-review-stars">
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <!-- ★★★★★ -->
-                    </div>
-                    <p class="nx-review-text">
-                        <b>4.9/5</b> — 61,200+ Verified Reviews
-                    </p>
-                </div>
-
-                <div class="nx-review-card">
-                    <img src="{{ asset('assets/images/t-pilot.png') }}" alt="Trustpilot Logo" class="nx-review-logo">
-                    <div class="nx-review-stars">
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <!-- ★★★★★ -->
-                    </div>
-                    <p class="nx-review-text">
-                        <b>4.8/5</b> — 45,900+ Verified Reviews
-                    </p>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
-
-</section>
+@include('website-component.rating')
 
 <div class="dt-sc-hr-invisible-large"></div>
 
