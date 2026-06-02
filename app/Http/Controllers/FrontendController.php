@@ -10,7 +10,7 @@ class FrontendController extends Controller
     public function home()
     {
         return view('website.index', [
-            'title' => 'Home - State Attorney LLC'
+            'title' => 'Home - Consumer Debt Management Service'
         ]);
     }
 
