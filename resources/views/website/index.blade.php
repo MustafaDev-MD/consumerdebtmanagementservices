@@ -252,7 +252,7 @@
 
         <!-- Reviews -->
 
-        @include('website-component.how-it-works')
+        @include('website-component.rating')
 
         <div class="dt-sc-hr-invisible-large"></div>
 
