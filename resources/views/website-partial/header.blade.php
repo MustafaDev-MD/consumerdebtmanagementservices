@@ -46,7 +46,7 @@
                     <li class="{{ request()->routeIs('our-firm') ? 'current_page_item' : '' }}"> <a href="{{ route('our-firm') }}"> Our Firm </a> </li>
                     <li class="{{ request()->routeIs('our-practices') ? 'current_page_item' : '' }}"> <a href="{{ route('our-practices') }}"> Our Practices </a> </li> -->
 
-                    <li class="menu-item-megamenu-parent megamenu-4-columns-group menu-item-depth-0 {{ request()->routeIs('our-people') ? 'current_page_item' : '' }}"> 
+                    <li class="menu-item-megamenu-parent megamenu-4-columns-group menu-item-depth-0 {{ request()->is('resources*') ? 'current_page_item' : '' }}"> 
                         <a href="{{ route('resources') }}" > 
                             Resources 
                             <img src="{{ asset('assets/images/down-arrow.png') }}" alt="" title="">

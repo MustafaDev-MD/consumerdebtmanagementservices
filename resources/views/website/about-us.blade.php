@@ -24,7 +24,7 @@
     <div class="dt-sc-hr-invisible-medium"></div>
     <!--container starts-->
     <div class="container">
-        <p class="alignleft"><span class="dt-sc-highlight skin-color"> We are dedicated to helping you reclaim your financial freedom. That involves a specialized debt consultant and support group working without pause to achieve your desired outcome—debt resolution. We will remain by your side from the first step to the last.</p>
+        <p class="aligncenter"><span class="dt-sc-highlight skin-color"> We are dedicated to helping you reclaim your financial freedom. That involves a specialized debt consultant and support group working without pause to achieve your desired outcome—debt resolution. We will remain by your side from the first step to the last.</p>
     </div>
     <div class="aligncenter mt-3">
         <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Let’s Begin Now </a>
@@ -82,7 +82,7 @@
         </p>
 
         <p class="aligncenter trust-subtitle">
-            When executed correctly, debt resolution is a strategic move—not a final option. With our support, we believe you can<br> enjoy a positive journey while transforming your financial situation.
+            When executed correctly, debt resolution is a strategic move—not a final option. With our support,<br> we believe you can enjoy a positive journey while transforming your financial situation.
         </p>
 
     </div>

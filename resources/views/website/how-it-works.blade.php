@@ -43,7 +43,7 @@
             <div class="dt-sc-hr-invisible-large"></div>
 
             <h2 class="dt-sc-hr-title mb-1"> Debts We Are Equipped to Resolve </h2>
-            <p class="aligncenter"> We provide comprehensive coverage for the majority of unsecured debt. Our team actively negotiates with leading banks and credit card issuers on a daily basis to significantly lower outstanding balances. </p>
+            <p class="aligncenter"> We provide comprehensive coverage for the majority of unsecured debt. Our team actively negotiates with leading banks<br> and credit card issuers on a daily basis to significantly lower outstanding balances. </p>
             <div class="dt-sc-hr-invisible-small"></div>
             <div class="flex">
                 <div class="column dt-sc-one-fourth aligncenter text-alignleft">
