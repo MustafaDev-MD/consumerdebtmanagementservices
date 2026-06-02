@@ -91,7 +91,7 @@
                             <img src="{{ asset('assets/images/james.webp') }}" alt="" title="">
                         </div>
                         <div class="dt-sc-team-content">
-                            <h5> James </h5>
+                            <h5> James </h5> 
                             <span> <b>Starting Debt Balance:</b> $36,883 </span>
                             <!-- <p> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi vel samar this ki last man. </p> -->
                             <p class="dt-sc-team-phone-no"> <b>Total Savings:</b> 38% through the <b>Consumer Debt Management Service</b> program </p>
