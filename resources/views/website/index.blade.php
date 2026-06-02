@@ -388,7 +388,7 @@
 
             <h4 class="aligncenter no-transform"> Reach Out. We’re Ready to Assist. </h4>
             <div class="dt-sc-hr-invisible-very-small"></div>
-            <p class="aligncenter">A sense of renewed hope often follows a client's very first consultation with us.<br> Regardless of your current financial landscape, Consumer Debt Management Service is here to provide the support you need.</p>
+            <p class="aligncenter">A sense of renewed hope often follows a client's very first consultation with us. Regardless of your current financial landscape,<br> Consumer Debt Management Service is here to provide the support you need.</p>
 
             <div class="aligncenter mt-3">
                 <a class="dt-sc-bordered-button dt-sc-bordered-button-secondary" href="{{ route('contact-us') }}"> Contact Us </a>
