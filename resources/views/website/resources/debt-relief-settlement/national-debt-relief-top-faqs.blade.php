@@ -36,7 +36,7 @@
 
 <!--primary starts-->
 <section id="primary" class="content-full-width">
-    <!--container starts-->
+    <!--container starts--> 
     <div class="container">
 
         <div id="summary-of-points" class="dt-sc-two-third column first">
