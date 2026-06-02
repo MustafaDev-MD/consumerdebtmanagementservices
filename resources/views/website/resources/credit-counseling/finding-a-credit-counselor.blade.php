@@ -216,7 +216,7 @@
         <p class="aligncenter">We have compiled our most valuable educational materials into a single, comprehensive depository. Explore everything from specialized debt resolution frameworks to taking permanent command of your long-term wealth trajectory. Prefer a direct conversation? Our qualified specialists are fully prepared to assist. Connect with our advisory team at your earliest convenience for a complimentary, zero-pressure diagnostic review.</p>
 
         <div class="aligncenter mt-3">
-            <a class="dt-sc-bordered-button" href="#"> (800) 413-7925 </a>
+            <a class="dt-sc-bordered-button dt-sc-bordered-button-secondary" href="#"> (800) 413-7925 </a>
         </div>
 
     </div>

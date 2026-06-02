@@ -266,7 +266,7 @@
         <p class="aligncenter">This firm gathered every vital asset within this location. Items starting with debt conclusion through gaining authority over your monetary outlook . Desire vocal discussion? Our specialists remain available. Contact staff whenever regarding one gratis non-binding meeting.</p>
 
         <div class="aligncenter mt-3">
-            <a class="dt-sc-bordered-button" href="tel:(855) 342-9018"> (855) 342-9018 </a>
+            <a class="dt-sc-bordered-button dt-sc-bordered-button-secondary" href="tel:(855) 342-9018"> (855) 342-9018 </a>
         </div>
 
     </div>

@@ -238,7 +238,7 @@
         <p class="aligncenter">We have gathered our most critical materials into a unified center. Discover everything from debt resolution strategies to establishing command over your long-term financial path. Prefer a direct conversation? Our dedicated specialists are prepared to assist. Connect with us at your convenience for a complimentary, zero-pressure evaluation.</p>
 
         <div class="aligncenter mt-3">
-            <a class="dt-sc-bordered-button" href="#"> (800) 453-9124 </a>
+            <a class="dt-sc-bordered-button dt-sc-bordered-button-secondary" href="#"> (800) 453-9124 </a>
         </div>
 
     </div>

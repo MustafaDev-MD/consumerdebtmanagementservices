@@ -240,7 +240,7 @@
         <p class="aligncenter">We have consolidated our fundamental reference tools into one centralized location. Access everything from systematic debt resolution strategies to frameworks for taking full command of your long-term economic outlook. Require direct assistance? Our specialists are standing by to guide you. Contact us whenever you are ready for a complimentary, zero-pressure strategy session.</p>
 
         <div class="aligncenter mt-3">
-            <a class="dt-sc-bordered-button" href="#"> (800) 555-0197 </a>
+            <a class="dt-sc-bordered-button dt-sc-bordered-button-secondary" href="#"> (800) 555-0197 </a>
         </div>
 
     </div>

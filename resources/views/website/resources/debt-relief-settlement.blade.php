@@ -264,7 +264,7 @@
         <p class="aligncenter">We have consolidated our primary tools and guides into a single location. Access everything from debt resolution strategies to methods for regaining authority over your economic stability. Prefer a conversation? Our specialists are available to assist. Contact us at your convenience for a complimentary, zero-risk consultation.</p>
 
         <div class="aligncenter mt-3">
-            <a class="dt-sc-bordered-button" href="tel:(866) 402-9115"> (866) 402-9115 </a>
+            <a class="dt-sc-bordered-button dt-sc-bordered-button-secondary" href="tel:(866) 402-9115"> (866) 402-9115 </a>
         </div>
 
     </div>

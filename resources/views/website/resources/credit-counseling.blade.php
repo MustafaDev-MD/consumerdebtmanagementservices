@@ -300,7 +300,7 @@
         <p class="aligncenter">We have centralized all of our primary materials into a single, accessible destination. Explore everything from specialized debt resolution tactics to gaining total sovereignty over your long-term economic path. Prefer a direct conversation? Our qualified specialists are fully prepared to assist. Connect with our team at your convenience for a complimentary, zero-pressure evaluation.</p>
 
         <div class="aligncenter mt-3">
-            <a class="dt-sc-bordered-button" href="#"> (800) 394-4695 </a>
+            <a class="dt-sc-bordered-button dt-sc-bordered-button-secondary" href="#"> (800) 394-4695 </a>
         </div>
 
     </div>

@@ -193,7 +193,7 @@
         <p class="aligncenter">We have gathered all of our primary informational tools and guides into a single, accessible repository. Our collection covers everything from strategic balance resolution to mastering long-term personal asset management. Looking for personalized guidance? Our certified strategists are standing by to assist you. Reach out to our team whenever you are ready to receive a completely complimentary, zero-pressure file evaluation.</p>
 
         <div class="aligncenter mt-3">
-            <a class="dt-sc-bordered-button" href="#"> (800) 453-9124 </a>
+            <a class="dt-sc-bordered-button dt-sc-bordered-button-secondary" href="#"> (800) 453-9124 </a>
         </div>
 
     </div>

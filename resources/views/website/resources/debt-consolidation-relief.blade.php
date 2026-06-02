@@ -404,7 +404,7 @@
         <p class="aligncenter">We have consolidated our primary tools and guides into a single location. Access everything from debt resolution strategies to methods for mastering your long-term economic path. Prefer a direct conversation? Our professional advisory team is standing by to assist. Reach out whenever you are ready for a complimentary, zero-commitment evaluation.</p>
 
         <div class="aligncenter mt-3">
-            <a class="dt-sc-bordered-button" href="#"> (800) 555-0199 </a>
+            <a class="dt-sc-bordered-button dt-sc-bordered-button-secondary" href="#"> (800) 555-0199 </a>
         </div>
 
     </div>

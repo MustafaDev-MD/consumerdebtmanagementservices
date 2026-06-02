@@ -235,7 +235,7 @@
         <p class="aligncenter">We have gathered our core financial materials into a single location. This covers everything from debt resolution strategies to mastering your long-term monetary independence. Looking for personalized advice? Our professional strategists are ready to guide you. Reach out to Consumer Debt Management Service whenever you are ready for a complimentary, zero-pressure assessment.</p>
 
         <div class="aligncenter mt-3">
-            <a class="dt-sc-bordered-button" href="tel:(800) 555-0199"> (800) 555-0199 </a>
+            <a class="dt-sc-bordered-button dt-sc-bordered-button-secondary" href="tel:(800) 555-0199"> (800) 555-0199 </a>
         </div>
 
     </div>
