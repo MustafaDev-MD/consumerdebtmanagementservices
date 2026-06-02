@@ -151,7 +151,7 @@
                 <h1 class="dt-sc-simple-hr-title"> A Remarkable Transformation Occurs<br><br> Following Your Initial Strategy Session<br><br> With Consumer Debt Management<br><br> Service. </h1>
                 <p>Clients immediately experience the confidence that comes with regaining complete authority over both their individual and career trajectories.</p>
                 <div class="alignleft mt-2">
-                    <a class="dt-sc-bordered-button" href="tel:(855) 420-1988"> Get Started </a>
+                    <a class="dt-sc-bordered-button" href="{{ route('contact-us') }}"> Get Started </a>
                 </div>
             </div>
 
