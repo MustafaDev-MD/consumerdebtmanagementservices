@@ -71,7 +71,7 @@
      STICKY FAQ SECTION 
 ============================================================ -->
 
-<div class="dt-sc-hr-invisible-large"></div>
+<div class="dt-sc-hr-invisible-small"></div>
 
 <section class="faq-sticky-wrapper">
     <div class="container">

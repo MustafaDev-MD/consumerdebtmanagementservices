@@ -39,9 +39,10 @@
     <!--container starts-->
     <div class="container">
 
-        <div class="dt-sc-two-third column first">
-            <h1 class="dt-sc-simple-hr-title"> Consumer Debt Management Service Common Inquiries </h1>
-            <p> <b>Summary of Points</b> </p>
+        <div id="summary-of-points" class="dt-sc-two-third column first">
+            <!-- <h1 class="dt-sc-simple-hr-title"> Consumer Debt Management Service Common Inquiries </h1> -->
+            <h1 class="dt-sc-simple-hr-title"> Summary of Points </h1>
+            <!-- <p> <b>Summary of Points</b> </p> -->
             <ul class="dt-sc-fancy-list chocolate check-circle">
                 <li><b>Zero Initial Charges:</b> Consumer Debt Management Service only collects service payments once your debt is resolved, generally ranging up to 22% of the registered balance.</li>
                 <li><b>Credit Influence:</b> Engaging in debt settlement might result in a temporary decrease in your credit rating.</li>
@@ -80,7 +81,10 @@
         <!-- LEFT — scrolling content -->
         <div class="dt-sc-two-third column first" id="mainContent">
 
-            <div id="what-will-your-service-cost-me" class="content-block scroll-section">
+            <!-- <div id="what-will-your-service-cost-me" class="content-block scroll-section"> -->
+            <div id="faq" class="content-block scroll-section">
+
+                <h2 class="dt-sc-simple-hr-title"> Common Inquiries </h2>
 
                 <h2 class="highlight-box">What will your service cost me?</h2>
                 <p>At Consumer Debt Management Service, we maintain a strict performance-based policy: no payment is earned until we deliver measurable results. Specifically, three milestones must be met before a service fee applies. First, we must secure a formal settlement proposal from your lender. Second, you must review and grant your explicit approval of that offer. Finally, at least one installment toward that settlement must be processed. Only after this sequence is our fee activated and billed to your secure account. Once your liabilities are cleared, participants typically pay a success fee of roughly 22% of the original enrolled balance. Until these three conditions are satisfied, our expertise is provided at zero cost.</p>
@@ -220,12 +224,14 @@
         <!-- RIGHT — sticky sidebar -->
         <div class="dt-sc-one-third column faq-sidebar-col">
             <div class="toc-box" id="tocBox">
-                <h4><b>In This Guide</b></h4>
+                <!-- <h4><b>In This Guide</b></h4> -->
                 <ul class="toc">
 
-                    <li><a href="#what-will-your-service-cost-me" class="toc-link">What will your service cost me?</a></li>
+                    <li><a href="#summary-of-points" class="toc-link">Summary of Points</a></li>
 
-                    <li><a href="#will-your-program-impact-my-credit-score" class="toc-link">Will your program impact my credit score?</a></li>
+                    <li><a href="#faq" class="toc-link">Common Inquiries</a></li>
+
+                    <!-- <li><a href="#will-your-program-impact-my-credit-score" class="toc-link">Will your program impact my credit score?</a></li>
 
                     <li><a href="#what’s-the-difference-between-debt-relief-and-debt-consolidation" class="toc-link">What’s the difference between Debt Relief and Debt Consolidation?</a></li>
 
@@ -255,7 +261,7 @@
 
                     <li><a href="#is-debt-relief-really-worth-it" class="toc-link">Is Debt Relief Really Worth It?</a></li>
 
-                    <li><a href="#what-types-of-debt-does-consumer-debt-management-service-work-with" class="toc-link">What Types of Debt Does Consumer Debt Management Service Work With?</a></li>
+                    <li><a href="#what-types-of-debt-does-consumer-debt-management-service-work-with" class="toc-link">What Types of Debt Does Consumer Debt Management Service Work With?</a></li> -->
 
                 </ul>
                 <div class="toc-divider"></div>

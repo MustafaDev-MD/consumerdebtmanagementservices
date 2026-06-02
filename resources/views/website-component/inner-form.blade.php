@@ -26,7 +26,7 @@
             </div>
 
             <div class="form-row">
-                <button type="submit" class="dt-sc-button">Get Your Free Consultation Today</button>
+                <button type="submit" class="dt-sc-button">Apply For Free Consultation</button>
             </div>
         </form>
     </div>
