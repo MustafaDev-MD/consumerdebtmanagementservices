@@ -100,9 +100,9 @@
                     @endif
 
                     {{-- Text --}}
-                    <h2 class="mt-1 mb-1">
-                        {{ $tab['text'] ?? '' }}
-                    </h2>
+                    <h3 class="mt-1 mb-1 aligncenter">
+                        {!! $tab['text'] ?? '' !!}
+                    </h3>
 
                     {{-- Second Image --}}
                     @if(!empty($tab['images'][1]))

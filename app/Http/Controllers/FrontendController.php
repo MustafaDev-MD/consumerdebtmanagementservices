@@ -399,7 +399,7 @@ class FrontendController extends Controller
                             'assets/images/Open-Quote.svg',
                             'assets/images/Close-Quote.svg',
                         ],
-                        'text' => 'With my finances restored, planning family milestones is no longer a strain. I can finally invest in personal upgrades.',
+                        'text' => 'With my finances restored, planning family milestones is no longer a strain.<br> I can finally invest in personal upgrades.',
                     ],
                     [
                         'title' => 'Comparison',
@@ -479,7 +479,7 @@ class FrontendController extends Controller
                             'assets/images/Open-Quote.svg',
                             'assets/images/Close-Quote.svg',
                         ],
-                        'text' => 'Discovering Consumer Debt Management Service completely turned my situation around. My monetary outlook and that crushing sense of anxiety both got drastically better.',
+                        'text' => 'Discovering Consumer Debt Management Service completely turned my situation around.<br> My monetary outlook and that crushing sense of anxiety both got drastically better.',
                     ],
                     [
                         'title' => 'Comparison',
@@ -559,7 +559,7 @@ class FrontendController extends Controller
                             'assets/images/Open-Quote.svg',
                             'assets/images/Close-Quote.svg',
                         ],
-                        'text' => 'It genuinely unlocked a completely fresh chapter for us. That was the precise instance where I felt the heavy weight lift.',
+                        'text' => 'It genuinely unlocked a completely fresh chapter for us. That was the<br> precise instance where I felt the heavy weight lift.',
                     ],
                     [
                         'title' => 'Comparison',
@@ -639,7 +639,7 @@ class FrontendController extends Controller
                             'assets/images/Open-Quote.svg',
                             'assets/images/Close-Quote.svg',
                         ],
-                        'text' => 'I was completely stunned when they explained that I could resolve my liabilities while still retaining enough funds to appreciate life alongside my household.',
+                        'text' => 'I was completely stunned when they explained that I could resolve my liabilities while still <br>retaining enough funds to appreciate life alongside my household.',
                     ],
                     [
                         'title' => 'Comparison',
