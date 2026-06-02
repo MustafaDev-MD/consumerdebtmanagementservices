@@ -2,6 +2,48 @@
 
 use App\Http\Controllers\FrontendController;
 use Illuminate\Support\Facades\Route;
+use Spatie\Sitemap\Sitemap;
+use Spatie\Sitemap\Tags\Url;
+
+Route::get('/generate-sitemap', function () {
+
+    $sitemap = Sitemap::create()
+
+        ->add(Url::create('/'))
+        ->add(Url::create('/how-it-works'))
+        ->add(Url::create('/about-us'))
+        ->add(Url::create('/resources'))
+
+        ->add(Url::create('/resources/credit-card-debt-relief'))
+        ->add(Url::create('/resources/debt-relief-settlement'))
+        ->add(Url::create('/resources/debt-consolidation-relief'))
+        ->add(Url::create('/resources/credit-counseling'))
+
+        ->add(Url::create('/resources/credit-card-debt-relief/credit-card-debt-forgiveness'))
+        ->add(Url::create('/resources/credit-card-debt-relief/how-to-eliminate-credit-card-debt'))
+
+        ->add(Url::create('/resources/debt-relief-settlement/national-debt-relief-top-faqs'))
+        ->add(Url::create('/resources/debt-relief-settlement/debt-relief-options-and-benefits'))
+        ->add(Url::create('/resources/debt-relief-settlement/debt-relief-qualifications'))
+
+        ->add(Url::create('/resources/debt-consolidation-relief/debt-consolidation-programs'))
+        ->add(Url::create('/resources/debt-consolidation-relief/how-to-choose-debt-consolidation-program'))
+
+        ->add(Url::create('/resources/credit-counseling/finding-a-credit-counselor'))
+        ->add(Url::create('/resources/credit-counseling/debt-management-plans'))
+
+        ->add(Url::create('/client-stories'))
+        ->add(Url::create('/privacy-policy'))
+        ->add(Url::create('/terms-of-use'))
+        ->add(Url::create('/contact-us'))
+        ->add(Url::create('/our-firm'))
+        ->add(Url::create('/our-practices'))
+        ->add(Url::create('/news-events'));
+
+    $sitemap->writeToFile(public_path('sitemap.xml'));
+
+    return 'Sitemap generated successfully!';
+});
 
 
 // Frontend Routes
