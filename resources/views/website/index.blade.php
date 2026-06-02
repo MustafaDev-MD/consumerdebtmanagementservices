@@ -514,7 +514,7 @@
                     <h2 class="dt-sc-hr-icon-title"> <img src="{{ asset('assets/images/help.png') }}" alt="Question" class="question"> FAQs </h2>
                     <!--dt-sc-toggle-frame-set starts-->
                     <div class="dt-sc-toggle-frame-set faq alignLeft">
-                        <h5 class="dt-sc-toggle-accordion"><a href="#"> What defines Consumer Debt Management Service and why are we reliable? </a></h5>
+                        <h5 class="dt-sc-toggle-accordion"> What defines Consumer Debt Management Service and why are we reliable? </h5>
                         <div class="dt-sc-toggle-content">
                             <div class="dt-sc-block">
                                 Mutual trust is the foundation of every client partnership we build. We prioritize active listening to fully grasp your financial objectives and concerns, which allows us to engineer relief strategies specifically tailored to your unique circumstances.<br>
@@ -532,25 +532,25 @@
 
                             </div>
                         </div>
-                        <h5 class="dt-sc-toggle-accordion"><a href="#"> What specific solutions are available through your service? </a></h5>
+                        <h5 class="dt-sc-toggle-accordion"> What specific solutions are available through your service? </h5>
                         <div class="dt-sc-toggle-content">
                             <div class="dt-sc-block">
                                 Our clients benefit from an extensive network of professional partners. This includes diverse options such as debt consolidation financing, expert credit counseling, bankruptcy legal referrals, and more. The specialists at<b> Consumer Debt Management Service</b> evaluate your specific financial landscape to provide a strategy that aligns with your location, hardship, and long-term objectives.
                             </div>
                         </div>
-                        <h5 class="dt-sc-toggle-accordion"><a href="#"> What is the mechanism behind debt resolution? </a></h5>
+                        <h5 class="dt-sc-toggle-accordion"> What is the mechanism behind debt resolution? </h5>
                         <div class="dt-sc-toggle-content">
                             <div class="dt-sc-block">
                                 <b>Our process is straightforward and transparent.</b> Instead of sending funds to your creditors, you will contribute a set monthly amount into a personal, FDIC-insured savings account that remains under your total control. As your balance grows, we initiate negotiations with your creditors to settle for a fraction of what you owe. (Creditors are often incentivized to accept a lower lump sum rather than risking no payment at all.) Once a settlement is reached, you authorize us to use your saved funds to pay the negotiated amount. As each account is resolved, it is reported with a zero balance.
                             </div>
                         </div>
-                        <h5 class="dt-sc-toggle-accordion"><a href="#"> Is this program financially viable for me? </a></h5>
+                        <h5 class="dt-sc-toggle-accordion"> Is this program financially viable for me? </h5>
                         <div class="dt-sc-toggle-content">
                             <div class="dt-sc-block">
                                 <b>Consumer Debt Management Service</b> does more than just ensure our fees are manageable—we conduct a deep dive into your monthly budget. Our goal is to ensure the proposed strategy effectively alleviates your financial stress rather than adding to it. Furthermore, you have the flexibility to adjust your deposit frequency, keeping you in the driver's seat throughout your journey to recovery.
                             </div>
                         </div>
-                        <h5 class="dt-sc-toggle-accordion"><a href="#"> What is the investment for your services? </a></h5>
+                        <h5 class="dt-sc-toggle-accordion"> What is the investment for your services? </h5>
                         <div class="dt-sc-toggle-content">
                             <div class="dt-sc-block">
                                 <b>Consumer Debt Management Service</b> operates on a results-oriented fee structure. Unlike traditional programs, our model is strictly performance-based. We do not collect any service fees until we have successfully secured your settlements and you are satisfied with the realized savings.<br>

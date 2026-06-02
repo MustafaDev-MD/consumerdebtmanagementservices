@@ -63,7 +63,7 @@
             {{-- Tabs Header --}}
             <ul class="dt-sc-tabs-frame">
                 @foreach($tabs as $tab)
-                <li><a href="#">{{ $tab['title'] ?? '' }}</a></li>
+                <li><a href="javascript:void(0);">{{ $tab['title'] ?? '' }}</a></li>
                 @endforeach
             </ul>
 

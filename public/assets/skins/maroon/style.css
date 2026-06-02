@@ -107,6 +107,14 @@ ul.dt-sc-locations li .dt-sc-text-overlay a.dt-sc-button:hover,
     background-color: #8d1812;
 }
 
+.dt-sc-button-secondary {
+    background-color: #022444;
+}
+
+.dt-sc-button-secondary:hover {
+    background-color: #8d1812;
+}
+
 /**Slider Caption Color**/
 
 .ls-l.caption-1 {

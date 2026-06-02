@@ -82,31 +82,31 @@
             <p class="aligncenter">All the information required regarding debt resolution</p>
             <!--dt-sc-toggle-frame-set starts-->
             <div class="dt-sc-toggle-frame-set faq alignLeft">
-                <h5 class="dt-sc-toggle-accordion"><a href="#"> Could this initiative influence my credit rating? </a></h5>
+                <h5 class="dt-sc-toggle-accordion"> Could this initiative influence my credit rating? </h5>
                 <div class="dt-sc-toggle-content">
                     <div class="dt-sc-block">
                         Based on your individual circumstances and if you've previously bypassed installments to your lenders, resolution strategies might adversely affect your credit standing. Since this is an independently governed assistance, we refrain from performing credit restoration or suggesting methods for boosting your scores.
                     </div>
                 </div>
-                <h5 class="dt-sc-toggle-accordion"><a href="#"> How much are the fees for your assistance? </a></h5>
+                <h5 class="dt-sc-toggle-accordion"> How much are the fees for your assistance? </h5>
                 <div class="dt-sc-toggle-content">
                     <div class="dt-sc-block">
                         With Consumer Debt Management Service, we only receive payment upon achieving successful outcomes for you. Specifically, 4 milestones are required before a charge is applied. Primarily, a negotiation proposal must be secured from the lender, we require your formal consent for the deal, and lastly, a minimum of 2 resolution installments must be transferred to the lender. Just then is our commission finalized and deducted from your Reserve Fund. After accounts are cleared, typical participants generally provide a commission of around 20% of the aggregate enrolled balance. However, until these 4 criteria are met, no charges are applied for our work.
                     </div>
                 </div>
-                <h5 class="dt-sc-toggle-accordion"><a href="#"> In what ways do Debt Settlement and Debt Consolidation differ? </a></h5>
+                <h5 class="dt-sc-toggle-accordion"> In what ways do Debt Settlement and Debt Consolidation differ? </h5>
                 <div class="dt-sc-toggle-content">
                     <div class="dt-sc-block">
                         Debt settlement lowers the total principal. Your obligations are bargained lower, allowing you to satisfy accounts for a fraction of the original amount. The lender pardons the leftover sum through a formal agreement. Debt consolidation merges every liability into a solitary financing plan with one recurring bill, frequently featuring a diminished percentage for borrowing. This usually demands a superior rating to qualify.
                     </div>
                 </div>
-                <h5 class="dt-sc-toggle-accordion"><a href="#"> Which path is the ideal fit for my situation? </a></h5>
+                <h5 class="dt-sc-toggle-accordion"> Which path is the ideal fit for my situation? </h5>
                 <div class="dt-sc-toggle-content">
                     <div class="dt-sc-block">
                         A helpful, assigned financial consultant shall present every available choice along with the pros and cons of each—enabling you to determine the most suitable course of action.
                     </div>
                 </div>
-                <h5 class="dt-sc-toggle-accordion"><a href="#"> How is your history of performance? </a></h5>
+                <h5 class="dt-sc-toggle-accordion"> How is your history of performance? </h5>
                 <div class="dt-sc-toggle-content">
                     <div class="dt-sc-block">
                         Starting in 2008, we have effectively assisted numerous individuals in reaching a more stable economic outlook. We stand as a premier provider in the industry and find value in our credentials, such as:<br>

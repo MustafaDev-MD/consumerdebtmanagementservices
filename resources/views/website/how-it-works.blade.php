@@ -253,13 +253,13 @@
                 <h2 class="dt-sc-hr-icon-title"> <img src="{{ asset('assets/images/help.png') }}" alt="Question" class="question"> Faq's </h2>
                 <!--dt-sc-toggle-frame-set starts-->
                 <div class="dt-sc-toggle-frame-set faq alignLeft">
-                    <h5 class="dt-sc-toggle-accordion"><a href="#"> How will your program influence my credit rating? </a></h5>
+                    <h5 class="dt-sc-toggle-accordion"> How will your program influence my credit rating? </h5>
                     <div class="dt-sc-toggle-content">
                         <div class="dt-sc-block">
                             The effect on your credit profile depends on your individual history and whether you have already fallen behind on payments to your creditors. While debt resolution strategies can lead to a temporary decrease in credit scores, we focus on the long-term goal of total debt elimination. Please note that <b>Consumer Debt Management Service</b> is a debt negotiation entity and does not provide credit repair or legal advice on credit improvement.
                         </div>
                     </div>
-                    <h5 class="dt-sc-toggle-accordion"><a href="#"> What is the specific criteria for your service fees? </a></h5>
+                    <h5 class="dt-sc-toggle-accordion"> What is the specific criteria for your service fees? </h5>
                     <div class="dt-sc-toggle-content">
                         <div class="dt-sc-block">
                             Our commitment to transparency means we only earn our fee once three specific milestones are achieved:
@@ -271,7 +271,7 @@
                             Only after these requirements are met is our performance fee—typically averaging up to 25% of the enrolled debt—applied to your account. If we don't deliver a settlement you approve, you owe us nothing.
                         </div>
                     </div>
-                    <h5 class="dt-sc-toggle-accordion"><a href="#"> How does Debt Resolution differ from Debt Consolidation? </a></h5>
+                    <h5 class="dt-sc-toggle-accordion"> How does Debt Resolution differ from Debt Consolidation? </h5>
                     <div class="dt-sc-toggle-content">
                         <div class="dt-sc-block">
                             While both aim to manage debt, they function very differently:
@@ -281,13 +281,13 @@
                             </ul>
                         </div>
                     </div>
-                    <h5 class="dt-sc-toggle-accordion"><a href="#"> How will I know which strategy is right for me? </a></h5>
+                    <h5 class="dt-sc-toggle-accordion"> How will I know which strategy is right for me? </h5>
                     <div class="dt-sc-toggle-content">
                         <div class="dt-sc-block">
                             A friendly, dedicated debt specialist will walk you through all available paths. They will clearly explain the advantages and disadvantages of each option, helping you decide on the most effective route for your unique financial situation.
                         </div>
                     </div>
-                    <h5 class="dt-sc-toggle-accordion"><a href="#"> What is your track record? </a></h5>
+                    <h5 class="dt-sc-toggle-accordion"> What is your track record? </h5>
                     <div class="dt-sc-toggle-content">
                         <div class="dt-sc-block">
                             Since our establishment in 2009, we have successfully guided hundreds of thousands of individuals toward a debt-free life. We are recognized as one of the nation's premier debt relief organizations and take immense pride in our professional credentials, which include:

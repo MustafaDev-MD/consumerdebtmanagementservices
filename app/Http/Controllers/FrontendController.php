@@ -284,7 +284,7 @@ class FrontendController extends Controller
             [
                 'name' => 'Marcus T.',
                 'slug' => 'marcus-t',
-                'image' => 'assets/images/attorney1.jpg',
+                'image' => 'assets/images/marcus-t.webp',
                 'description' => 'Canine rescuer, motorcycle collector',
                 'tabs' => [
                     [
@@ -326,7 +326,7 @@ class FrontendController extends Controller
                         'content' => [
                             'heading' => 'Marcus managed to wipe out his liabilities for a small percentage of his original balance, crossing the finish line much faster than if he had stuck to standard monthly minimums.',
                             'name' => 'Marcus T., Canine rescuer, motorcycle collector',
-                            'image' => 'assets/images/attorney1.jpg',
+                            'image' => 'assets/images/marcus-t.webp',
                             'starting_debt_label' => 'Initial Liabilities:',
                             'starting_debt' => '$44,750',
                             'savings_label' => 'Reduced by:',
@@ -364,7 +364,7 @@ class FrontendController extends Controller
             [
                 'name' => 'Julian K.',
                 'slug' => 'julian-k',
-                'image' => 'assets/images/attorney1.jpg',
+                'image' => 'assets/images/julian-k.webp',
                 'description' => 'Logistics analyst, avid hiker',
                 'tabs' => [
                     [
@@ -406,7 +406,7 @@ class FrontendController extends Controller
                         'content' => [
                             'heading' => 'Julian managed to wipe out his liabilities for a small percentage of his original balance, crossing the finish line much faster than if he had stuck to standard monthly minimums.',
                             'name' => 'Julian K., Logistics analyst, avid hiker',
-                            'image' => 'assets/images/attorney1.jpg',
+                            'image' => 'assets/images/julian-k.webp',
                             'starting_debt_label' => 'Initial Liabilities:',
                             'starting_debt' => '$58,320',
                             'savings_label' => 'Reduced by:',
@@ -444,7 +444,7 @@ class FrontendController extends Controller
             [
                 'name' => 'Raymond V.',
                 'slug' => 'raymond-v',
-                'image' => 'assets/images/attorney1.jpg',
+                'image' => 'assets/images/raymond-v.webp',
                 'description' => 'Rideshare operator, dedicated father',
                 'tabs' => [
                     [
@@ -486,7 +486,7 @@ class FrontendController extends Controller
                         'content' => [
                             'heading' => 'Raymond managed to wipe out his liabilities for a small percentage of his original balance, crossing the finish line much faster than if he had stuck to standard monthly minimums.',
                             'name' => 'Raymond V., Rideshare operator, dedicated father',
-                            'image' => 'assets/images/attorney1.jpg',
+                            'image' => 'assets/images/raymond-v.webp',
                             'starting_debt_label' => 'Initial Liabilities:',
                             'starting_debt' => '$31,650',
                             'savings_label' => 'Reduced by:',
@@ -524,7 +524,7 @@ class FrontendController extends Controller
             [
                 'name' => 'Valerie G.',
                 'slug' => 'valerie-g',
-                'image' => 'assets/images/attorney1.jpg',
+                'image' => 'assets/images/valerie-g.webp',
                 'description' => 'High school counselor',
                 'tabs' => [
                     [
@@ -566,7 +566,7 @@ class FrontendController extends Controller
                         'content' => [
                             'heading' => 'Valerie managed to wipe out his liabilities for a small percentage of his original balance, crossing the finish line much faster than if he had stuck to standard monthly minimums.',
                             'name' => 'Valerie G., High school counselor, parent of 2 energetic boys',
-                            'image' => 'assets/images/attorney1.jpg',
+                            'image' => 'assets/images/valerie-g.webp',
                             'starting_debt_label' => 'Initial Liabilities:',
                             'starting_debt' => '$64,250',
                             'savings_label' => 'Reduced by:',
@@ -604,7 +604,7 @@ class FrontendController extends Controller
             [
                 'name' => 'Elena M.',
                 'slug' => 'elena-m',
-                'image' => 'assets/images/attorney1.jpg',
+                'image' => 'assets/images/elena-m.webp',
                 'description' => 'Financial consultant',
                 'tabs' => [
                     [
@@ -646,7 +646,7 @@ class FrontendController extends Controller
                         'content' => [
                             'heading' => 'Elena managed to wipe out her liabilities for a small percentage of her original balance, crossing the finish line much faster than if she had stuck to standard monthly minimums.',
                             'name' => 'Elena M., Financial consultant, gardener, and baking enthusiast',
-                            'image' => 'assets/images/attorney1.jpg',
+                            'image' => 'assets/images/elena-m.webp',
                             'starting_debt_label' => 'Initial Liabilities:',
                             'starting_debt' => '$24,500',
                             'savings_label' => 'Reduced by:',
@@ -684,7 +684,7 @@ class FrontendController extends Controller
             [
                 'name' => 'Derek S.',
                 'slug' => 'derek-s',
-                'image' => 'assets/images/attorney1.jpg',
+                'image' => 'assets/images/derek-s.webp',
                 'description' => 'Commercial skipper',
                 'tabs' => [
                     [
@@ -726,7 +726,7 @@ class FrontendController extends Controller
                         'content' => [
                             'heading' => 'Derek managed to wipe out his liabilities for a small percentage of his original balance, crossing the finish line much faster than if he had stuck to standard monthly minimums.',
                             'name' => 'Derek S., Commercial skipper, loving partner',
-                            'image' => 'assets/images/attorney1.jpg',
+                            'image' => 'assets/images/derek-s.webp',
                             'starting_debt_label' => 'Initial Liabilities:',
                             'starting_debt' => '$42,850',
                             'savings_label' => 'Reduced by:',

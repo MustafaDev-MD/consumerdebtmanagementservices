@@ -21,15 +21,15 @@
     <section>
 
         <h2 class="dt-sc-hr-title mb-2"> Their Journeys Conclude Happily </h2>
-        <p class="aligncenter mb-3">“Connect with Consumer Debt Management Service to discover our debt-relief pathways. Armed with the proper resources and industry knowledge, we stand prepared to assist you in reaching your milestones immediately.”</p>
+        <!-- <p class="aligncenter mb-3">“Connect with Consumer Debt Management Service to discover our debt-relief pathways. Armed with the proper resources and industry knowledge, we stand prepared to assist you in reaching your milestones immediately.”</p>
         <div class="flex gap-20 mb-2">
             <div class="author">
-                <img src="{{ asset('assets/images/testimonial1.jpg') }}" alt="" title="">
+                <img src="{{ asset('assets/images/marcus-t.webp') }}" alt="" title="">
             </div>
             <div class="author-meta">
                 <p> Marcus T. </p>
             </div>
-        </div>
+        </div> -->
 
     </section>
 
@@ -63,7 +63,7 @@
                     <p>{{ $client['description'] }}</p>
 
                     <a href="{{ route('client-stories-detail', $client['slug']) }}"
-                        class="dt-sc-button alignright">
+                        class="dt-sc-button dt-sc-button-secondary alignright">
                         <span class="fa fa-user"></span>
                         Read Biography
                     </a>
@@ -148,16 +148,15 @@
         <div class="container">
 
             <div class="dt-sc-one-half column first">
-                <div class="dt-sc-hr-invisible-large"></div>
-                <h1 class="dt-sc-simple-hr-title"> A Remarkable Transformation Occurs Following Your Initial Strategy Session With Consumer Debt Management Service. </h1>
+                <h1 class="dt-sc-simple-hr-title"> A Remarkable Transformation Occurs<br><br> Following Your Initial Strategy Session<br><br> With Consumer Debt Management<br><br> Service. </h1>
                 <p>Clients immediately experience the confidence that comes with regaining complete authority over both their individual and career trajectories.</p>
-                <div class="alignleft">
+                <div class="alignleft mt-2">
                     <a class="dt-sc-bordered-button" href="tel:(855) 420-1988"> Get Started </a>
                 </div>
             </div>
 
             <div class="dt-sc-one-half column">
-                <a href="#"><img src="{{ asset('assets/images/our_practices_image4.jpg') }}" alt="" title=""></a>
+                <img src="{{ asset('assets/images/a-remarkable-transformation.webp') }}" alt="A Remarkable Transformation" title="A Remarkable Transformation">
             </div>
 
         </div>
@@ -199,11 +198,11 @@
                             </div>
                         </div>
                         <div class="author">
-                            <img src="{{ asset('assets/images/testimonial1.jpg') }}" alt="" title="">
+                            <img src="{{ asset('assets/images/leo-t.webp') }}" alt="" title="">
                         </div>
                         <div class="author-meta">
-                            <p> Mike Patton </p>
-                            <span>Leo T. Coffee enthusiast, <b>graphic designer</b> </span>
+                            <p> Leo T. </p>
+                            <span> Coffee enthusiast, <b>graphic designer</b> </span>
                         </div>
                     </div>
                 </div>
@@ -233,11 +232,11 @@
                             </div>
                         </div>
                         <div class="author">
-                            <img src="{{ asset('assets/images/testimonial2.jpg') }}" alt="" title="">
+                            <img src="{{ asset('assets/images/robert-s.webp') }}" alt="" title="">
                         </div>
                         <div class="author-meta">
-                            <p> Kurt Russel </p>
-                            <span>Robert S. Outdoor adventurer, <b>family man</b> </span>
+                            <p> Robert S. </p>
+                            <span> Outdoor adventurer, <b>family man</b> </span>
                         </div>
                     </div>
                 </div>

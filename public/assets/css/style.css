@@ -849,7 +849,8 @@ textarea {
 
 /* Stars */
 .nx-review-stars {
-	color: #8d1812;
+	/* color: #8d1812; */
+	color: #022444;
 	font-size: 20px;
 	/* letter-spacing: 3px; */
 	margin: 10px 0px;

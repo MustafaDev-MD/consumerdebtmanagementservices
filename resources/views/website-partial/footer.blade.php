@@ -5,9 +5,9 @@
         <div class="container">
             <div class="footer_top">
                 <p class="footer-logo">
-                    <a href="{{ route('home') }}"> When Truth &amp; </a>
+                    <a href="{{ route('home') }}"> Real Solutions & </a>
                     <a href="{{ route('home') }}"> <img src="{{ asset('assets/images/logo-footer-center.png') }}" alt="" title=""> </a>
-                    <a href="{{ route('home') }}"> Justice calls </a>
+                    <a href="{{ route('home') }}"> True relief </a>
                 </p>
                 <!-- <ul class="dt-sc-social-icons">
                     <li><a href="#" title="Facebook"><span class="fa fa-facebook"></span></a></li>
@@ -29,7 +29,6 @@
                     <span><i>It's all about Relief. </i></span>
                     <div class="dt-sc-hr-invisible-very-small"></div>
                     <p> Consumer Debt Management Service is a premier financial optimization platform built to resolve personal financial hardships. Whether you are seeking to establish path toward financial clarity or intending to restructure your existing accounts, Consumer Debt Management Service delivers every strategic resource you necessitate. </p>
-                    <!-- <a href="#"> <strong> Learn more about our Practices <span class="fa fa-angle-double-right"></span> </strong> </a> -->
                 </aside>
             </div>
 
@@ -79,12 +78,9 @@
         <div class="container">
             <div class="copyright-info">Consumer Debt Management Services © 2026 </a> All Rights Reserved. </div>
             <ul class="footer-links">
-                <!-- <li><a href="#"> Sitemap </a></li> -->
                 <li><a href="{{ route('privacy-policy') }}"> Privacy Policy </a></li>
                 <li><a href="{{ route('terms-of-use') }}"> Terms Of Use </a></li>
-                <!-- <li><a href="#"> Disclaimer </a></li> -->
             </ul>
-            <!-- <p> Design by <a href="http://themeforest.net/user/buddhathemes" target="_blank" title="">Buddha Themes</a> </p> -->
         </div>
     </div>
 </footer>
