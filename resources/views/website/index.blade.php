@@ -5,7 +5,7 @@
 <!--slider starts-->
 <div id="slider">
     <div id="layerslider_2" class="ls-wp-container" style="width:100%;height:660px;margin:0 auto;margin-bottom: 0px;">
-         <div class="ls-slide" data-ls=" transition2d: all;">
+        <div class="ls-slide" data-ls=" transition2d: all;">
             <img src="{{ asset('assets/images/layerslider-gallery/banner-main.webp') }}" class="ls-bg" alt="Slide background" />
             <h1 class="ls-l" style="top:285px;left:7px; font-size:35px; padding:15px 30px 15px 25px;white-space: nowrap;" data-ls="offsetxin:-40;delayin:500;skewxin:-40;"> Your Path to Financial Freedom </h1>
             <h2 class="ls-l caption-1" style="top:385px;left:7px; font-size:20px; padding:15px 30px 15px 25px;white-space: nowrap;" data-ls="offsetxin:-80;delayin:1000;skewxin:-80;"> Consumer Debt Management Service </h2>
@@ -72,7 +72,7 @@
 
         </div> -->
 
-        <div class="ls-slide" data-ls="slidedelay:8500; transition2d: all;">
+        <div class="ls-slide" data-ls="slidedelay:3000; transition2d: all;">
 
             <!-- Background -->
             <img src="{{ asset('assets/images/layerslider-gallery/banner-1.webp') }}" class="ls-bg" alt="Slide background" />
@@ -80,62 +80,62 @@
             <!-- Left Image -->
             <img class="ls-l"
                 style="top:140px;left:4px;width:390px !important;height:520px !important;"
-                data-ls="offsetxin:0;offsetyin:100;durationin:1800;delayin:500;scalexin:0.8;scaleyin:0.8;"
+                data-ls="offsetxin:0;offsetyin:100;durationin:500;delayin:100;scalexin:0.8;scaleyin:0.8;"
                 src="{{ asset('assets/images/layerslider-gallery/elena-m.webp') }}" alt="">
 
             <!-- Name -->
             <h3 class="ls-l"
                 style="top:120px;left:560px;font-family:'Domine', serif;font-weight:bold;font-size:26px;color:#ffffff;"
-                data-ls="delayin:1200;skewxin:80;">
+                data-ls="delayin:200;skewxin:80;">
                 Elena M.
             </h3>
 
             <!-- Heading -->
             <h2 class="ls-l"
                 style="top:550px;left:560px;font-family:'Domine', serif;font-weight:bold;font-size:17px;color:#ffffff;text-transform:uppercase;line-height:48px;"
-                data-ls="offsetxin:-80;delayin:1400;skewxin:-80;">
+                data-ls="offsetxin:-80;delayin:300;skewxin:-80;">
                 Elena reduced her obligations by 18%
             </h2>
 
             <!-- Testimonial -->
             <p class="ls-l"
                 style="top:160px;left:560px;font-family:'Domine', serif;font-size:16px;color:#ffffff;line-height:26px;width:420px;"
-                data-ls="offsetxin:0;delayin:2000;scalexin:0.8;scaleyin:0.8;">
+                data-ls="offsetxin:0;delayin:400;scalexin:0.8;scaleyin:0.8;">
                 Elena managed to wipe out her liabilities for a small percentage of her original balance, crossing the finish line much faster than if she had stuck to standard monthly minimums.
             </p>
 
             <!-- Stats -->
             <div class="ls-l caption-list"
                 style="top:325px;left:560px;font-family:'Domine', serif;font-size:16px;padding:10px 0 10px 20px;"
-                data-ls="delayin:3000;">
+                data-ls="delayin:500;">
                 <i class="fa fa-picture-o" style="margin-right:15px;"> </i>
                 Total Debt: <strong style="color:#f5c26b;">$24,500</strong>
             </div>
 
             <div class="ls-l caption-list"
                 style="top:385px;left:560px;font-family:'Domine', serif;font-size:16px;padding:10px 0 10px 20px;"
-                data-ls="delayin:3500;">
+                data-ls="delayin:600;">
                 <i class="fa fa-user" style="margin-right:10px;"></i>
                 Monthly Payment: <strong style="color:#f5c26b;">$510</strong>
             </div>
 
             <div class="ls-l caption-list"
                 style="top:445px;left:560px;font-family:'Domine', serif;font-size:16px;padding:10px 0 10px 20px;"
-                data-ls="delayin:4000;">
+                data-ls="delayin:700;">
                 <i class="fa fa-briefcase" style="margin-right:10px;"></i>
                 Program Length: <strong style="color:#f5c26b;">28 Months</strong>
             </div>
 
             <div class="ls-l caption-list"
                 style="top:505px;left:560px;font-family:'Domine', serif;font-size:16px;padding:10px 0 10px 20px;"
-                data-ls="delayin:4500;">
+                data-ls="delayin:800;">
                 <i class="fa fa-align-justify" style="margin-right:10px;"></i>
                 Total Savings: <strong style="color:#f5c26b;">$4,410</strong>
             </div>
 
         </div>
 
-        <div class="ls-slide" data-ls="slidedelay:8500; transition2d: all;">
+        <div class="ls-slide" data-ls="slidedelay:3000; transition2d: all;">
 
             <!-- Background -->
             <img src="{{ asset('assets/images/layerslider-gallery/banner-1.webp') }}" class="ls-bg" alt="Slide background" />
@@ -143,55 +143,55 @@
             <!-- Left Image -->
             <img class="ls-l"
                 style="top:140px;left:4px;width:390px !important;height:520px !important;"
-                data-ls="offsetxin:0;offsetyin:100;durationin:1800;delayin:500;scalexin:0.8;scaleyin:0.8;"
+                data-ls="offsetxin:0;offsetyin:100;durationin:500;delayin:100;scalexin:0.8;scaleyin:0.8;"
                 src="{{ asset('assets/images/layerslider-gallery/raymond-v.webp') }}" alt="">
 
             <!-- Name -->
             <h3 class="ls-l"
                 style="top:120px;left:560px;font-family:'Domine', serif;font-weight:bold;font-size:26px;color:#ffffff;"
-                data-ls="delayin:1200;skewxin:80;">
+                data-ls="delayin:200;skewxin:80;">
                 Raymond V.
             </h3>
 
             <!-- Heading -->
             <h2 class="ls-l"
                 style="top:550px;left:560px;font-family:'Domine', serif;font-weight:bold;font-size:17px;color:#ffffff;text-transform:uppercase;line-height:48px;"
-                data-ls="offsetxin:-80;delayin:1400;skewxin:-80;">
+                data-ls="offsetxin:-80;delayin:300;skewxin:-80;">
                 Raymond reduced his obligations by 34%
             </h2>
 
             <!-- Testimonial -->
             <p class="ls-l"
                 style="top:160px;left:560px;font-family:'Domine', serif;font-size:16px;color:#ffffff;line-height:26px;width:420px;"
-                data-ls="offsetxin:0;delayin:2000;scalexin:0.8;scaleyin:0.8;">
+                data-ls="offsetxin:0;delayin:400;scalexin:0.8;scaleyin:0.8;">
                 Raymond managed to wipe out his liabilities for a small percentage of his original balance, crossing the finish line much faster than if he had stuck to standard monthly minimums.
             </p>
 
             <!-- Stats -->
             <div class="ls-l caption-list"
                 style="top:325px;left:560px;font-family:'Domine', serif;font-size:16px;padding:10px 0 10px 20px;"
-                data-ls="delayin:3000;">
+                data-ls="delayin:500;">
                 <i class="fa fa-picture-o" style="margin-right:15px;"> </i>
                 Total Debt: <strong style="color:#f5c26b;">$31,650</strong>
             </div>
 
             <div class="ls-l caption-list"
                 style="top:385px;left:560px;font-family:'Domine', serif;font-size:16px;padding:10px 0 10px 20px;"
-                data-ls="delayin:3500;">
+                data-ls="delayin:600;">
                 <i class="fa fa-user" style="margin-right:10px;"></i>
                 Monthly Payment: <strong style="color:#f5c26b;">$1,340</strong>
             </div>
 
             <div class="ls-l caption-list"
                 style="top:445px;left:560px;font-family:'Domine', serif;font-size:16px;padding:10px 0 10px 20px;"
-                data-ls="delayin:4000;">
+                data-ls="delayin:700;">
                 <i class="fa fa-briefcase" style="margin-right:10px;"></i>
                 Program Length: <strong style="color:#f5c26b;">19 Months</strong>
             </div>
 
             <div class="ls-l caption-list"
                 style="top:505px;left:560px;font-family:'Domine', serif;font-size:16px;padding:10px 0 10px 20px;"
-                data-ls="delayin:4500;">
+                data-ls="delayin:800;">
                 <i class="fa fa-align-justify" style="margin-right:10px;"></i>
                 Total Savings: <strong style="color:#f5c26b;">$10,760</strong>
             </div>
