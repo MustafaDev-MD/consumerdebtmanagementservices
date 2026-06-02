@@ -446,7 +446,7 @@
             <p class="aligncenter">A sense of renewed hope often follows a client's very first consultation with us.<br> Regardless of your current financial landscape, Consumer Debt Management Service is here to provide the support you need.</p>
 
             <div class="aligncenter mt-3">
-                <a class="dt-sc-bordered-button dt-sc-bordered-button-secondary" href="{{ route('contact-us') }}"> Our Company Profile </a>
+                <a class="dt-sc-bordered-button dt-sc-bordered-button-secondary" href="{{ route('contact-us') }}"> Contact Us </a>
             </div>
 
             <!-- <div class="dt-sc-hr-invisible-medium"></div>
@@ -518,7 +518,7 @@
                         <div class="dt-sc-toggle-content">
                             <div class="dt-sc-block">
                                 Mutual trust is the foundation of every client partnership we build. We prioritize active listening to fully grasp your financial objectives and concerns, which allows us to engineer relief strategies specifically tailored to your unique circumstances.<br>
-                                <b>Our dedication to client success is unparalleled.</b> We operate with total transparency, fulfill our promises, and always prioritize your financial well-being. Consumer Debt Management Service is proud to maintain an A+ rating and full accreditation with the Better Business Bureau (BBB). We are consistently recognized as a premier debt resolution provider, supported by thousands of verified testimonials, including:<br>
+                                Our dedication to client success is unparalleled. We operate with total transparency, fulfill our promises, and always prioritize your financial well-being. Consumer Debt Management Service is proud to maintain an A+ rating and full accreditation with the Better Business Bureau (BBB). We are consistently recognized as a premier debt resolution provider, supported by thousands of verified testimonials, including:<br>
                                 <ul class="dt-sc-fancy-list ocean angle-double-right mt-1">
                                     <li><span>TopConsumerReviews: Premier Ranking</span></li>
                                     <li><span>TopTenReviews: Industry Leader</span></li>
@@ -527,7 +527,7 @@
                                     <li><span>61,000+ ConsumerAffairs reviews (4.9/5 rating)</span></li>
                                     <li><span>45,000+ Trustpilot reviews (4.8/5 rating)</span></li>
                                 </ul>
-                                <b>Our history of success is clear.</b> Every month, we guide thousands of new individuals toward financial recovery, having successfully resolved billions in consumer obligations. As authorities in the field, we are active, accredited members of the Association for Consumer Debt Relief (ACDR) and hold Platinum Accreditation with the IAPDA.<br>
+                                Our history of success is clear. Every month, we guide thousands of new individuals toward financial recovery, having successfully resolved billions in consumer obligations. As authorities in the field, we are active, accredited members of the Association for Consumer Debt Relief (ACDR) and hold Platinum Accreditation with the IAPDA.<br>
                                 We achieve meaningful outcomes with integrity.
 
                             </div>
@@ -535,29 +535,29 @@
                         <h5 class="dt-sc-toggle-accordion"> What specific solutions are available through your service? </h5>
                         <div class="dt-sc-toggle-content">
                             <div class="dt-sc-block">
-                                Our clients benefit from an extensive network of professional partners. This includes diverse options such as debt consolidation financing, expert credit counseling, bankruptcy legal referrals, and more. The specialists at<b> Consumer Debt Management Service</b> evaluate your specific financial landscape to provide a strategy that aligns with your location, hardship, and long-term objectives.
+                                Our clients benefit from an extensive network of professional partners. This includes diverse options such as debt consolidation financing, expert credit counseling, bankruptcy legal referrals, and more. The specialists at Consumer Debt Management Service evaluate your specific financial landscape to provide a strategy that aligns with your location, hardship, and long-term objectives.
                             </div>
                         </div>
                         <h5 class="dt-sc-toggle-accordion"> What is the mechanism behind debt resolution? </h5>
                         <div class="dt-sc-toggle-content">
                             <div class="dt-sc-block">
-                                <b>Our process is straightforward and transparent.</b> Instead of sending funds to your creditors, you will contribute a set monthly amount into a personal, FDIC-insured savings account that remains under your total control. As your balance grows, we initiate negotiations with your creditors to settle for a fraction of what you owe. (Creditors are often incentivized to accept a lower lump sum rather than risking no payment at all.) Once a settlement is reached, you authorize us to use your saved funds to pay the negotiated amount. As each account is resolved, it is reported with a zero balance.
+                                Our process is straightforward and transparent. Instead of sending funds to your creditors, you will contribute a set monthly amount into a personal, FDIC-insured savings account that remains under your total control. As your balance grows, we initiate negotiations with your creditors to settle for a fraction of what you owe. (Creditors are often incentivized to accept a lower lump sum rather than risking no payment at all.) Once a settlement is reached, you authorize us to use your saved funds to pay the negotiated amount. As each account is resolved, it is reported with a zero balance.
                             </div>
                         </div>
                         <h5 class="dt-sc-toggle-accordion"> Is this program financially viable for me? </h5>
                         <div class="dt-sc-toggle-content">
                             <div class="dt-sc-block">
-                                <b>Consumer Debt Management Service</b> does more than just ensure our fees are manageable—we conduct a deep dive into your monthly budget. Our goal is to ensure the proposed strategy effectively alleviates your financial stress rather than adding to it. Furthermore, you have the flexibility to adjust your deposit frequency, keeping you in the driver's seat throughout your journey to recovery.
+                                Consumer Debt Management Service does more than just ensure our fees are manageable—we conduct a deep dive into your monthly budget. Our goal is to ensure the proposed strategy effectively alleviates your financial stress rather than adding to it. Furthermore, you have the flexibility to adjust your deposit frequency, keeping you in the driver's seat throughout your journey to recovery.
                             </div>
                         </div>
                         <h5 class="dt-sc-toggle-accordion"> What is the investment for your services? </h5>
                         <div class="dt-sc-toggle-content">
                             <div class="dt-sc-block">
-                                <b>Consumer Debt Management Service</b> operates on a results-oriented fee structure. Unlike traditional programs, our model is strictly performance-based. We do not collect any service fees until we have successfully secured your settlements and you are satisfied with the realized savings.<br>
-                                Our service fees are determined by your state of residence and the total volume of your enrolled debt (typically capped at 25%). When compared to the compounding interest accrued by maintaining minimum payments on credit cards, the net savings achieved through <b>Consumer Debt Management Service</b> remain significant.<br>
+                                Consumer Debt Management Service operates on a results-oriented fee structure. Unlike traditional programs, our model is strictly performance-based. We do not collect any service fees until we have successfully secured your settlements and you are satisfied with the realized savings.<br>
+                                Our service fees are determined by your state of residence and the total volume of your enrolled debt (typically capped at 25%). When compared to the compounding interest accrued by maintaining minimum payments on credit cards, the net savings achieved through Consumer Debt Management Service remain significant.<br>
                                 While individual results vary, consider this recent client scenario:<br>
-                                “Sarah” joined our program with <b>$26,400</b> in combined high-interest debt, facing monthly obligations of approximately <b>$1,150</b>. After a shift in her financial circumstances, her primary goal was lowering her monthly overhead. She committed to a monthly deposit of <b>$415</b> over a <b>48-month</b> term to achieve total resolution.<br>
-                                Under the <b>Consumer Debt Management Service</b> strategy, “Sarah’s” obligations could be fully settled for roughly <b>$19,800</b>—a stark contrast to the estimated <b>$68,000</b> she would have paid by following traditional minimum payment schedules.
+                                “Sarah” joined our program with $26,400 in combined high-interest debt, facing monthly obligations of approximately $1,150. After a shift in her financial circumstances, her primary goal was lowering her monthly overhead. She committed to a monthly deposit of $415 over a 48-month term to achieve total resolution.<br>
+                                Under the Consumer Debt Management Service strategy, “Sarah’s” obligations could be fully settled for roughly $19,800—a stark contrast to the estimated $68,000 she would have paid by following traditional minimum payment schedules.
 
                             </div>
                         </div>

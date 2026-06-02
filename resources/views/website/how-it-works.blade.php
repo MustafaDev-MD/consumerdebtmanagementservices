@@ -256,7 +256,7 @@
                     <h5 class="dt-sc-toggle-accordion"> How will your program influence my credit rating? </h5>
                     <div class="dt-sc-toggle-content">
                         <div class="dt-sc-block">
-                            The effect on your credit profile depends on your individual history and whether you have already fallen behind on payments to your creditors. While debt resolution strategies can lead to a temporary decrease in credit scores, we focus on the long-term goal of total debt elimination. Please note that <b>Consumer Debt Management Service</b> is a debt negotiation entity and does not provide credit repair or legal advice on credit improvement.
+                            The effect on your credit profile depends on your individual history and whether you have already fallen behind on payments to your creditors. While debt resolution strategies can lead to a temporary decrease in credit scores, we focus on the long-term goal of total debt elimination. Please note that Consumer Debt Management Service is a debt negotiation entity and does not provide credit repair or legal advice on credit improvement.
                         </div>
                     </div>
                     <h5 class="dt-sc-toggle-accordion"> What is the specific criteria for your service fees? </h5>
